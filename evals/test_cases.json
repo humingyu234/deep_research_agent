@@ -1,0 +1,42 @@
+[
+  {
+    "id": "baseline-definition-llm",
+    "question": "什么是大语言模型的 Transformer 架构？",
+    "type": "definition",
+    "difficulty": "easy",
+    "main_target_module": "planner-search-summarizer",
+    "intent": "基准测试，检查系统在纯定义题上是否能稳定拆题、搜索和总结。"
+  },
+  {
+    "id": "driver-ai-agent-2026",
+    "question": "为什么 2026 年 AI Agent 会加速落地？",
+    "type": "driver",
+    "difficulty": "hard",
+    "main_target_module": "selector-reflector-summarizer",
+    "intent": "击穿因果类软肋，观察是否能找到真正解释驱动因素的材料。"
+  },
+  {
+    "id": "selector-noise-english-learning-app",
+    "question": "现在市面上最好的 AI 英语学习软件是哪个？",
+    "type": "high-noise-preference",
+    "difficulty": "hard",
+    "main_target_module": "search-selector-reporter",
+    "intent": "搜索结果天然高噪音，测试 selector 是否能压住营销稿和榜单软文。"
+  },
+  {
+    "id": "timeline-solid-state-battery",
+    "question": "过去五年固态电池的技术突破时间线是什么？",
+    "type": "timeline-trend",
+    "difficulty": "medium",
+    "main_target_module": "planner-summarizer-reporter",
+    "intent": "测试长跨度趋势题，观察 summary 会不会写成流水账。"
+  },
+  {
+    "id": "complex-ai-agent-employment",
+    "question": "AI Agent 普及对 2026 年中美两国的初级程序员就业分别有什么影响，有哪些应对策略？",
+    "type": "complex-comparison",
+    "difficulty": "hard",
+    "main_target_module": "planner-reporter",
+    "intent": "测试复合嵌套题，观察系统是否能拆解、对比并最后收束出不重复的总报告。"
+  }
+]

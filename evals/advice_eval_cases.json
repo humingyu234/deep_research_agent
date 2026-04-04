@@ -1,0 +1,61 @@
+[
+  {
+    "id": "advice-infp-partner-fit",
+    "question": "我是infp女生 我适合什么样子的男生做伴侣？",
+    "type": "advice-relationship",
+    "sample_answers": [
+      "深度理解和支持",
+      "探索世界的同时有稳定",
+      "职场初期"
+    ],
+    "expected_constraint_keywords": [
+      "理解",
+      "稳定",
+      "职场"
+    ]
+  },
+  {
+    "id": "advice-entp-partner-fit",
+    "question": "我是entp男生你觉得什么样子的性格的女生会适合我？",
+    "type": "advice-relationship",
+    "sample_answers": [
+      "轻松有趣的",
+      "都行",
+      "得是个人品好的人"
+    ],
+    "expected_constraint_keywords": [
+      "有趣",
+      "人品"
+    ]
+  },
+  {
+    "id": "advice-career-switch-anxiety",
+    "question": "我现在工作两年了，很焦虑，要不要转行去做AI应用开发？",
+    "type": "advice-career",
+    "sample_answers": [
+      "更看重长期发展",
+      "接受先降薪一段时间",
+      "希望风险别太大"
+    ],
+    "expected_constraint_keywords": [
+      "长期",
+      "降薪",
+      "风险"
+    ]
+  },
+  {
+    "id": "advice-toxic-boss",
+    "question": "怎么面对一个总是打压你的老板？我现在很内耗。",
+    "type": "advice-workplace",
+    "sample_answers": [
+      "先保护情绪和边界",
+      "短期先稳住工作",
+      "必要时准备离开"
+    ],
+    "expected_constraint_keywords": [
+      "边界",
+      "短期",
+      "离开"
+    ]
+  }
+]

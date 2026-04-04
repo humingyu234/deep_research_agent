@@ -1,0 +1,65 @@
+[
+  {
+    "id": "clarifier-preference-english-app",
+    "query": "现在市面上最好的 AI 英语学习软件是哪个？",
+    "expected_should_clarify": true,
+    "expected_reason": "preference_query",
+    "expected_question_keywords": ["目标", "预算", "场景"],
+    "sample_answers": ["更看重口语提升", "可以接受付费", "希望适合通勤碎片时间"],
+    "expected_clarified_keywords": ["更看重口语提升", "可以接受付费", "适合通勤碎片时间"]
+  },
+  {
+    "id": "clarifier-complex-comparison-employment",
+    "query": "AI Agent 普及对 2026 年中美两国的初级程序员就业分别有什么影响，有哪些应对策略？",
+    "expected_should_clarify": true,
+    "expected_reason": "complex_comparison",
+    "expected_question_keywords": ["差异", "短期", "建议"],
+    "sample_answers": ["更关心岗位需求和技能门槛", "更想看未来 2 到 3 年趋势", "最后更需要可执行建议"],
+    "expected_clarified_keywords": ["岗位需求和技能门槛", "未来 2 到 3 年趋势", "可执行建议"]
+  },
+  {
+    "id": "clarifier-broad-open-ended",
+    "query": "怎么获得财富自由？",
+    "expected_should_clarify": true,
+    "expected_reason": "broad_open_ended",
+    "expected_question_keywords": ["行动建议", "职业发展"],
+    "sample_answers": ["更偏行动建议", "更关心职业发展和长期生活方式"],
+    "expected_clarified_keywords": ["更偏行动建议", "更关心职业发展和长期生活方式"]
+  },
+  {
+    "id": "clarifier-broad-personal-strategy",
+    "query": "如果我想在 20 到 30 岁之间逐步靠近财务独立，我最该在意什么，又该怎么面对阶段性失败？",
+    "expected_should_clarify": true,
+    "expected_reason": "broad_open_ended",
+    "expected_question_keywords": ["行动建议", "职业发展", "普遍原则"],
+    "sample_answers": ["更想看阶段重点和行动建议", "更关心职业发展与资产积累", "希望先看普遍原则再结合个人阶段"],
+    "expected_clarified_keywords": ["阶段重点和行动建议", "职业发展与资产积累", "普遍原则再结合个人阶段"]
+  },
+  {
+    "id": "clarifier-broad-financial-freedom-stage",
+    "query": "如果我想实现财富自由 我在20-30岁之间应该在意什么？需要怎么面对失败？你觉得应该在意这个阶段能不能赚钱吗？",
+    "expected_should_clarify": true,
+    "expected_reason": "broad_open_ended",
+    "expected_question_keywords": ["行动建议", "赚钱路径", "个人阶段"],
+    "sample_answers": ["更想看阶段重点和行动建议", "更关心赚钱路径与资产积累", "希望更贴近我当下个人阶段"],
+    "expected_clarified_keywords": ["阶段重点和行动建议", "赚钱路径与资产积累", "贴近我当下个人阶段"]
+  },
+  {
+    "id": "clarifier-specific-definition",
+    "query": "什么是大语言模型的 Transformer 架构？",
+    "expected_should_clarify": false,
+    "expected_reason": "specific_enough",
+    "expected_question_keywords": [],
+    "sample_answers": [],
+    "expected_clarified_keywords": []
+  },
+  {
+    "id": "clarifier-specific-timeline",
+    "query": "过去五年固态电池的技术突破时间线是什么？",
+    "expected_should_clarify": false,
+    "expected_reason": "specific_enough",
+    "expected_question_keywords": [],
+    "sample_answers": [],
+    "expected_clarified_keywords": []
+  }
+]

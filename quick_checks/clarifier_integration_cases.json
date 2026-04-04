@@ -1,0 +1,29 @@
+[
+  {
+    "id": "clarifier-integration-english-app",
+    "query": "现在市面上最好的 AI 英语学习软件是哪个？",
+    "sample_answers": ["更看重口语提升", "可以接受付费", "希望适合通勤碎片时间"],
+    "expected_clarifier_reason": "preference_query",
+    "expected_planner_type": "recommendation",
+    "expected_subquestion_keywords": ["主流可选项", "评价维度", "综合建议"],
+    "expected_constraint_keywords": ["更看重口语提升", "可以接受付费", "希望适合通勤碎片时间"]
+  },
+  {
+    "id": "clarifier-integration-employment",
+    "query": "AI Agent 普及对 2026 年中美两国的初级程序员就业分别有什么影响，有哪些应对策略？",
+    "sample_answers": ["更关心岗位需求和技能门槛", "更想看未来 2 到 3 年趋势", "最后更需要可执行建议"],
+    "expected_clarifier_reason": "complex_comparison",
+    "expected_planner_type": "comparison",
+    "expected_subquestion_keywords": ["比较对象", "差异", "原因", "策略"],
+    "expected_constraint_keywords": ["岗位需求和技能门槛", "未来 2 到 3 年趋势", "可执行建议"]
+  },
+  {
+    "id": "clarifier-integration-wealth-freedom",
+    "query": "怎么获得财富自由？",
+    "sample_answers": ["更偏行动建议", "更关心个人层面"],
+    "expected_clarifier_reason": "broad_open_ended",
+    "expected_planner_type": "howto",
+    "expected_subquestion_keywords": ["具体步骤", "前提条件", "常见的问题"],
+    "expected_constraint_keywords": ["更偏行动建议", "更关心个人层面"]
+  }
+]

@@ -1,0 +1,306 @@
+{
+  "case": {
+    "id": "selector-noise-english-learning-app",
+    "question": "现在市面上最好的 AI 英语学习软件是哪个？",
+    "type": "high-noise-preference",
+    "difficulty": "hard",
+    "main_target_module": "search-selector-reporter",
+    "intent": "搜索结果天然高噪音，测试 selector 是否能压住营销稿和榜单软文。"
+  },
+  "sub_questions": [
+    {
+      "sub_question": "现在市面上最好的 AI 英语学习软件是哪个？ 当前主流可选项有哪些？",
+      "focus": "general",
+      "rounds": [
+        {
+          "round": 1,
+          "query": "现在市面上最好的 AI 英语学习软件是哪个？ 当前主流可选项有哪些？",
+          "raw_results": [
+            {
+              "title": "2025 Ai英语学习软件测评：免费与付费谁更值得？9款热门app深度对比",
+              "snippet": "总体评价段落 在AI英语学习软件领域，可栗口语无疑是一款革命性的产品。它不仅颠覆了传统的语言学习方式，更通过尖端AI技术和科学的学习方法，为用户打造了一个全方位、个性化的口语提升环境。作为全球首个接入 DeepSeek 的AI口语软件，可栗口语在技术创新上领先同行至少1-2年，其精准的语法 ...",
+              "source": "https://zhuanlan.zhihu.com/p/1944387639710056894"
+            },
+            {
+              "title": "2025年英语学习APP深度评测：10款主流工具对比与Ries.ai创新解析",
+              "snippet": "本文深度评测了2025年市面10款主流英语学习APP，从功能、价格、效果等多维度进行对比分析。文章重点介绍了Ries.ai的\"边界拓宽法\"理论基础，展现了其基于克拉申i+1假说的无痛学习创新方案，通过语言图谱技术实现个性化输入，为用户提供零意志力成本的融入式学习体验，与传统工具形成差异化竞争 ...",
+              "source": "https://ries.ai/zh/blog/technology/2025-best-english-learning-apps-comparison-ries-ai-review"
+            },
+            {
+              "title": "2025年免费AI英语学习软件TOP7评测：哪款真能碾压哑巴英语？",
+              "snippet": "今天，我将从真实用户视角，深度测评7款爆火的AI英语学习软件，为你揭晓哪款才是真正能让你从开口跪到侃侃而谈的封神级工具。综合考虑技术实力、学习效果、用户体验和性价比，我给可栗口语的评分是：FluencyFlo…",
+              "source": "https://www.sohu.com/a/932496395_121703433"
+            },
+            {
+              "title": "2025学英语AI应用排名出炉!十大神器颠覆认知，真实口碑全网实测_语言学习_什么值得买",
+              "snippet": "本文为大家呈现了2025学英语AI应用排名中的十大神器。 其中，咕噜口语凭借其接入顶尖技术、丰富多样的功能以及优质的用户体验，在众多应用中脱颖而出。 其他如EF Hello、Voscreen等应用也各有千秋，在课程设置、学习模式等方面为用户提供了不同的英语学习 ...",
+              "source": "https://post.smzdm.com/p/ak3zow4e/"
+            },
+            {
+              "title": "2025年度英语横评5款AI口语APP，我们做了一个'好用榜'给你参考|外教|语法|听力|英语口语|真实场景_网易订阅",
+              "snippet": "在当今数字化时代,英语学习需求日益增长,AI英语口语软件为大家带来了前所未有的便利。下面为大家测评对比5款市面上热门的AI英语口语软件,希望能帮助大家找到最适合自己的英语学习工具。 第1名:咕噜口语 咕噜口语是全球首 ...",
+              "source": "https://www.163.com/dy/article/K9GSCSRB0511VD5C.html"
+            }
+          ],
+          "selected_results": [
+            {
+              "title": "2025年英语学习APP深度评测：10款主流工具对比与Ries.ai创新解析",
+              "snippet": "本文深度评测了2025年市面10款主流英语学习APP，从功能、价格、效果等多维度进行对比分析。文章重点介绍了Ries.ai的\"边界拓宽法\"理论基础，展现了其基于克拉申i+1假说的无痛学习创新方案，通过语言图谱技术实现个性化输入，为用户提供零意志力成本的融入式学习体验，与传统工具形成差异化竞争 ...",
+              "source": "https://ries.ai/zh/blog/technology/2025-best-english-learning-apps-comparison-ries-ai-review"
+            },
+            {
+              "title": "2025学英语AI应用排名出炉!十大神器颠覆认知，真实口碑全网实测_语言学习_什么值得买",
+              "snippet": "本文为大家呈现了2025学英语AI应用排名中的十大神器。 其中，咕噜口语凭借其接入顶尖技术、丰富多样的功能以及优质的用户体验，在众多应用中脱颖而出。 其他如EF Hello、Voscreen等应用也各有千秋，在课程设置、学习模式等方面为用户提供了不同的英语学习 ...",
+              "source": "https://post.smzdm.com/p/ak3zow4e/"
+            },
+            {
+              "title": "2025 Ai英语学习软件测评：免费与付费谁更值得？9款热门app深度对比",
+              "snippet": "总体评价段落 在AI英语学习软件领域，可栗口语无疑是一款革命性的产品。它不仅颠覆了传统的语言学习方式，更通过尖端AI技术和科学的学习方法，为用户打造了一个全方位、个性化的口语提升环境。作为全球首个接入 DeepSeek 的AI口语软件，可栗口语在技术创新上领先同行至少1-2年，其精准的语法 ...",
+              "source": "https://zhuanlan.zhihu.com/p/1944387639710056894"
+            }
+          ],
+          "reflection": {
+            "status": "enough",
+            "reason": "当前结果不只是相关，而且已经较明确地回答了这道子问题，可以进入总结阶段。",
+            "suggestion": ""
+          }
+        }
+      ],
+      "final_status": "enough",
+      "final_reason": "当前结果不只是相关，而且已经较明确地回答了这道子问题，可以进入总结阶段。",
+      "final_suggestion": "",
+      "summary": "关于“现在市面上最好的 AI 英语学习软件是哪个？ 当前主流可选项有哪些？”，当前更可靠的判断是：这个问题更值得从企业对效率和生产力回报的需求会持续推动应用扩张这些方向来理解。\n\n支撑点：\n1. 本文深度评测了2025年市面10款主流英语学习APP，从功能、价格、效果等多维度进行对比分析。文章重点介绍了Ries.ai的\"边界拓宽法\"理论基础，展现了其基于克拉申i+1假说的无痛学习创新方案，通过语言图谱技术实现个性。\n2. 本文为大家呈现了2025学英语AI应用排名中的十大神器。 其中，咕噜口语凭借其接入顶尖技术、丰富多样的功能以及优质的用户体验，在众多应用中脱颖而出。 其他如EF Hello、Voscreen等应用也各有千秋，在课程设置。\n3. 总体评价段落 在AI英语学习软件领域，可栗口语无疑是一款革命性的产品。它不仅颠覆了传统的语言学习方式，更通过尖端AI技术和科学的学习方法，为用户打造了一个全方位、个性化的口语提升环境。作为全球首个接入 DeepSeek 。"
+    },
+    {
+      "sub_question": "现在市面上最好的 AI 英语学习软件是哪个？ 最值得参考的评价维度或选择标准是什么？",
+      "focus": "definition",
+      "rounds": [
+        {
+          "round": 1,
+          "query": "现在市面上最好的 AI 英语学习软件是哪个？ 最值得参考的评价维度或选择标准是什么？",
+          "raw_results": [
+            {
+              "title": "AI Reddits Daily | inAI",
+              "snippet": "Title:AIAgents Flop Hard on Real-World Desk Jobs in Latest Carnegie Mellon Study Description: A new benchmark from Carnegie Mellon shows that even ...",
+              "source": "https://site.server489.com/category/ai-reddits-daily/"
+            },
+            {
+              "title": "AI News Daily | inAI",
+              "snippet": "AINews Summary Title:AIRoundup: OpenAI Resets Strategy and Pursues IPO as Big Tech Rolls Out Agentic, Security, and EdgeAI—and Regulators Step ...",
+              "source": "https://site.server489.com/category/ai-news-daily/"
+            },
+            {
+              "title": "Vertex AI Platform | Google Cloud",
+              "snippet": "Enterprise ready, fully-managed, unifiedAIdevelopment platform. Access and utilize VertexAIStudio, Agent Builder, and 200+ foundation models.",
+              "source": "https://cloud.google.com/vertex-ai"
+            },
+            {
+              "title": "AI and Machine Learning Products and Services | Google Cloud",
+              "snippet": "Easy-to-use scalableAIofferings including VertexAIwith Gemini API, video and image analysis, speech recognition, and multi-language processing.",
+              "source": "https://cloud.google.com/products/ai"
+            },
+            {
+              "title": "Piloting the AI Leaders Micro-Credential – WordPress News",
+              "snippet": "Beginning in March 2026,AILeaders launches its first cohort of 80 students from Illinois and Louisiana, with University of Illinois Chicago (UIC ...",
+              "source": "https://wordpress.org/news/2026/02/ai-leaders-credential/"
+            }
+          ],
+          "selected_results": [
+            {
+              "title": "AI Reddits Daily | inAI",
+              "snippet": "Title:AIAgents Flop Hard on Real-World Desk Jobs in Latest Carnegie Mellon Study Description: A new benchmark from Carnegie Mellon shows that even ...",
+              "source": "https://site.server489.com/category/ai-reddits-daily/"
+            },
+            {
+              "title": "Piloting the AI Leaders Micro-Credential – WordPress News",
+              "snippet": "Beginning in March 2026,AILeaders launches its first cohort of 80 students from Illinois and Louisiana, with University of Illinois Chicago (UIC ...",
+              "source": "https://wordpress.org/news/2026/02/ai-leaders-credential/"
+            },
+            {
+              "title": "AI and Machine Learning Products and Services | Google Cloud",
+              "snippet": "Easy-to-use scalableAIofferings including VertexAIwith Gemini API, video and image analysis, speech recognition, and multi-language processing.",
+              "source": "https://cloud.google.com/products/ai"
+            }
+          ],
+          "reflection": {
+            "status": "enough",
+            "reason": "当前结果不只是相关，而且已经较明确地回答了这道子问题，可以进入总结阶段。",
+            "suggestion": ""
+          }
+        }
+      ],
+      "final_status": "enough",
+      "final_reason": "当前结果不只是相关，而且已经较明确地回答了这道子问题，可以进入总结阶段。",
+      "final_suggestion": "",
+      "summary": "关于“现在市面上最好的 AI 英语学习软件是哪个？ 最值得参考的评价维度或选择标准是什么？”，当前更可靠的判断是：现有材料已经能支持一个相对清晰的方向性判断。\n\n支撑点：\n1. Title:AIAgents Flop Hard on Real-World Desk Jobs in Latest Carnegie Mellon Study Description: A new benchmark 。\n2. Beginning in March 2026,AILeaders launches its first cohort of 80 students from Illinois and Louisiana, with U。\n3. Easy-to-use scalableAIofferings including VertexAIwith Gemini API, video and image analysis, speech recognitio。"
+    },
+    {
+      "sub_question": "现在市面上最好的 AI 英语学习软件是哪个？ 各主要选项的优缺点、适用人群或使用场景分别是什么？",
+      "focus": "definition",
+      "rounds": [
+        {
+          "round": 1,
+          "query": "现在市面上最好的 AI 英语学习软件是哪个？ 各主要选项的优缺点、适用人群或使用场景分别是什么？",
+          "raw_results": [
+            {
+              "title": "2025 Ai英语学习软件测评：免费与付费谁更值得？9款热门app深度对比",
+              "snippet": "总体评价段落 在AI英语学习软件领域，可栗口语无疑是一款革命性的产品。它不仅颠覆了传统的语言学习方式，更通过尖端AI技术和科学的学习方法，为用户打造了一个全方位、个性化的口语提升环境。作为全球首个接入 DeepSeek 的AI口语软件，可栗口语在技术创新上领先同行至少1-2年，其精准的语法 ...",
+              "source": "https://zhuanlan.zhihu.com/p/1944387639710056894"
+            },
+            {
+              "title": "2026最值得用的AI学英语工具实测:1500万用户验证,口语提升效率超传统方式3倍_场景_词汇量_模拟",
+              "snippet": "如果你想找一款不用约真人、随时随地都能练口语的AI工具,咕噜口语几乎是目前的最优解:它不仅有24小时在线的超自然AI陪练帮你克服\"不敢开口\"的心理障碍,还有全场景的模拟训练、音素级的精准纠错和个性化的学习路径…",
+              "source": "https://www.sohu.com/a/999148626_122560050"
+            },
+            {
+              "title": "2025年11款AI英语学习App评测：从传统填鸭到无痛接触的革新之路 - Ries.AI Blog",
+              "snippet": "本文深入分析了2025年11款主流英语学习App的特点与不足，提出了传统\"刻意学习\"模式的核心困境，并引入Ries.ai的\"无痛接触\"学习理念。通过克拉申i+1理论与现代AI技术的结合，文章详细阐述了如何通过\"边界拓宽法\"在日常浏览中创造自然习得环境，实现真正高效的语言学习。文章采用对比表格形式清晰 ...",
+              "source": "https://ries.ai/zh/blog/technology/ai-english-learning-apps-review-2025"
+            },
+            {
+              "title": "2025英语AI神器Top8实测：真人测评三个月流利，这结果太炸!_语言学习_什么值得买",
+              "snippet": "总结 在全球化进程不断加速的当下，英语学习的重要性愈发凸显。 本文介绍的2025英语AI神器Top8，各有千秋。 其中，咕噜口语凭借其AI外教、智能对话、精准纠错等全方位的优势，在众多英语学习APP中脱颖而出，无论是学习效果还是用户体验都堪称一流。",
+              "source": "https://post.smzdm.com/p/a0zz08q0/"
+            },
+            {
+              "title": "2025爆款AI学英语app软件排名：前三真实评测助你学习英文飙升!|语法|雅思|英语口语|真实场景|ai学英语_网易订阅",
+              "snippet": "在全球化的今天，英语作为一门通用语言，其重要性不言而喻。无论是为了职场晋升、出国留学，还是单纯提升个人素养，学好英语都是关键的一步。然而，很多人在英语学习的道路上困难重重，难以取得理想的效果。其实，英语学习提升的关键在于多方面的综合努力。 首先，词汇是基础，丰富的 ...",
+              "source": "https://www.163.com/dy/article/KEIHQR8A0556CHBV.html"
+            }
+          ],
+          "selected_results": [
+            {
+              "title": "2025年11款AI英语学习App评测：从传统填鸭到无痛接触的革新之路 - Ries.AI Blog",
+              "snippet": "本文深入分析了2025年11款主流英语学习App的特点与不足，提出了传统\"刻意学习\"模式的核心困境，并引入Ries.ai的\"无痛接触\"学习理念。通过克拉申i+1理论与现代AI技术的结合，文章详细阐述了如何通过\"边界拓宽法\"在日常浏览中创造自然习得环境，实现真正高效的语言学习。文章采用对比表格形式清晰 ...",
+              "source": "https://ries.ai/zh/blog/technology/ai-english-learning-apps-review-2025"
+            },
+            {
+              "title": "2025英语AI神器Top8实测：真人测评三个月流利，这结果太炸!_语言学习_什么值得买",
+              "snippet": "总结 在全球化进程不断加速的当下，英语学习的重要性愈发凸显。 本文介绍的2025英语AI神器Top8，各有千秋。 其中，咕噜口语凭借其AI外教、智能对话、精准纠错等全方位的优势，在众多英语学习APP中脱颖而出，无论是学习效果还是用户体验都堪称一流。",
+              "source": "https://post.smzdm.com/p/a0zz08q0/"
+            },
+            {
+              "title": "2025 Ai英语学习软件测评：免费与付费谁更值得？9款热门app深度对比",
+              "snippet": "总体评价段落 在AI英语学习软件领域，可栗口语无疑是一款革命性的产品。它不仅颠覆了传统的语言学习方式，更通过尖端AI技术和科学的学习方法，为用户打造了一个全方位、个性化的口语提升环境。作为全球首个接入 DeepSeek 的AI口语软件，可栗口语在技术创新上领先同行至少1-2年，其精准的语法 ...",
+              "source": "https://zhuanlan.zhihu.com/p/1944387639710056894"
+            }
+          ],
+          "reflection": {
+            "status": "enough",
+            "reason": "当前结果不只是相关，而且已经较明确地回答了这道子问题，可以进入总结阶段。",
+            "suggestion": ""
+          }
+        }
+      ],
+      "final_status": "enough",
+      "final_reason": "当前结果不只是相关，而且已经较明确地回答了这道子问题，可以进入总结阶段。",
+      "final_suggestion": "",
+      "summary": "关于“现在市面上最好的 AI 英语学习软件是哪个？ 各主要选项的优缺点、适用人群或使用场景分别是什么？”，当前更可靠的判断是：现有材料已经能支持一个相对清晰的方向性判断。\n\n支撑点：\n1. 本文深入分析了2025年11款主流英语学习App的特点与不足，提出了传统\"刻意学习\"模式的核心困境，并引入Ries.ai的\"无痛接触\"学习理念。通过克拉申i+1理论与现代AI技术的结合，文章详细阐述了如何通过\"边界拓宽法。\n2. 总结 在全球化进程不断加速的当下，英语学习的重要性愈发凸显。 本文介绍的2025英语AI神器Top8，各有千秋。 其中，咕噜口语凭借其AI外教、智能对话、精准纠错等全方位的优势，在众多英语学习APP中脱颖而出，无论是学习。\n3. 总体评价段落 在AI英语学习软件领域，可栗口语无疑是一款革命性的产品。它不仅颠覆了传统的语言学习方式，更通过尖端AI技术和科学的学习方法，为用户打造了一个全方位、个性化的口语提升环境。作为全球首个接入 DeepSeek 。"
+    },
+    {
+      "sub_question": "现在市面上最好的 AI 英语学习软件是哪个？ 在不同目标、预算或约束下，综合建议应该怎么给？",
+      "focus": "general",
+      "rounds": [
+        {
+          "round": 1,
+          "query": "现在市面上最好的 AI 英语学习软件是哪个？ 在不同目标、预算或约束下，综合建议应该怎么给？",
+          "raw_results": [
+            {
+              "title": "WWW.51TALK.COM英语学习怎么样？ 外教1对1深度实测",
+              "snippet": "WWW.51TALK.COM英语学习怎么样？ 外教1对1深度实测. 想学好英语，非得花大价钱请外教吗？但无论技术怎么变，真人互动带来的情感连接、即时反馈和语境化交流，依然是语言学习的核心，短期内AI无法完全替代。",
+              "source": "https://otmarebikes.com/m/blog/20260324-664.shtml"
+            },
+            {
+              "title": "北京信息科技大学学报(自然科学版)",
+              "snippet": "结束语应该以正文中的实验或考察得到的现象、数据的阐述分析为依据，完整、准确、简洁地指出以下内容： 1）由对研究对象进行考察或实验得到的结果所.文在理论上和实用上的意义及价值； 5）进一步深入研究本课题的建议。 参考文献：（四号黑体）.",
+              "source": "https://bjgy.cbpt.cnki.net/WKE/WebPublication/wkTextContent.aspx?contentID=c489edf7-f009-4089-8bcf-ac093d8bae5c"
+            },
+            {
+              "title": "人工智能（AI）令大学教育变好了吗？ - BBC News 中文",
+              "snippet": "人工智能（AI）令大学教育变好了吗？ ChatGPT应用程式出现在iPhone的主画面上.撰写过AI与教育相关文章的查尔斯·辛普森博士（Dr Charlie Simpson）表示，如今“几乎找不到一点不受AI影响的高等教育领域”。",
+              "source": "https://www.bbc.com/zhongwen/articles/cnv19dzz92ro/simp"
+            },
+            {
+              "title": "REAL-TIME FEED · 全网热点",
+              "snippet": "买球推荐软件app排名 关注 · 全新奥迪 A6L 正式上市：搭载华为乾崑智驾，起售价 32.29 万元 146.亚洲七久久之综合七久久 谷歌杀入AI音乐牌桌，实测一键生成3分钟歌曲，可精细控制段落 3.",
+              "source": "https://lf9-cdn-tos.bytcdntp.com/news/20250428/220632.html"
+            },
+            {
+              "title": "联想语音助手打不开_联想语音-联想社区",
+              "snippet": "AI终端.下载APP.联想语音助手打不开，然后重现下载还是打不开是怎么回事. 收藏 0 已收藏 0 点赞 0 已点赞 0 反对0.",
+              "source": "https://club.lenovo.com.cn/thread-7863859-1-1.html"
+            }
+          ],
+          "selected_results": [
+            {
+              "title": "北京信息科技大学学报(自然科学版)",
+              "snippet": "结束语应该以正文中的实验或考察得到的现象、数据的阐述分析为依据，完整、准确、简洁地指出以下内容： 1）由对研究对象进行考察或实验得到的结果所.文在理论上和实用上的意义及价值； 5）进一步深入研究本课题的建议。 参考文献：（四号黑体）.",
+              "source": "https://bjgy.cbpt.cnki.net/WKE/WebPublication/wkTextContent.aspx?contentID=c489edf7-f009-4089-8bcf-ac093d8bae5c"
+            }
+          ],
+          "reflection": {
+            "status": "insufficient",
+            "reason": "当前有效结果太少，信息覆盖面还不够。",
+            "suggestion": "请补充“现在市面上最好的 AI 英语学习软件是哪个？ 在不同目标、预算或约束下，综合建议应该怎么给？”的不同角度材料，比如报告、案例、对比分析或调查。"
+          }
+        },
+        {
+          "round": 2,
+          "query": "现在市面上最好的 AI 英语学习软件是哪个？ 在不同目标、预算或约束下，综合建议应该怎么给？ 原因 驱动因素 作用机制 技术机制 需求变化 约束 激励 成本结构 ROI adoption 渗透率 基础设施 政策 案例 对比分析 调查 报告 白皮书 研究",
+          "raw_results": [
+            {
+              "title": "2025 Ai英语学习软件测评：免费与付费谁更值得？9款热门app深度对比",
+              "snippet": "作为全球首个接入 DeepSeek 的AI口语软件，可栗口语在技术创新上领先同行至少1-2年，其精准的语法润色优化和毫秒级能力追踪系统，让学习效果看得见、摸得着。 400万用户的共同选择，见证了这款由清华北大团队倾力打造的产品在AI英语学习领域的卓越表现。",
+              "source": "https://zhuanlan.zhihu.com/p/1944387639710056894"
+            },
+            {
+              "title": "2025年11款AI英语学习App评测：从传统填鸭到无痛接触的革新之路 - Ries.AI Blog",
+              "snippet": "2025年11款AI英语学习App评测：从传统填鸭到无痛接触的革新之路 在过去，学习英语往往意味着购买大量参考书，反复练习阅读和语法，死记硬背单词。但随着科技的发展，如今有众多开发商设计了手机用的英语学习App，除了能看例句和词汇外，也有能够模拟会话或通过游戏练习的款式，其中甚至还有 ...",
+              "source": "https://ries.ai/zh/blog/technology/ai-english-learning-apps-review-2025"
+            },
+            {
+              "title": "2025 Ai英语学习软件黑马榜!9款深度对比，这款免费神器好用到哭",
+              "snippet": "2025年，AI英语学习软件的爆发式发展，正在彻底改变这一现状。 今天，我将通过亲身使用体验，为你深度测评9款热门AI英语学习软件，帮你发现zui适合自己的'开口神器'。 可栗口语: 让你从哑巴英语到流利表达的神器",
+              "source": "https://www.sohu.com/a/937293560_121716020"
+            },
+            {
+              "title": "2025真实评测!3款ai学英语良心推荐 - 网易",
+              "snippet": "在口语练习上，强大的AI可实时纠错并提供发音建议，仿佛有位专属外教随时指导。 还能模拟不同场景对话，让学习者在实践中提升英语交流能力，为学习英文的AI应用增添助力。 总结：本文介绍的三款AI学英语应用各有特色。",
+              "source": "https://www.163.com/dy/article/KE41DM4B0556CHBV.html"
+            },
+            {
+              "title": "2025 AI 英文學習 App 推薦（口說、價格、免費試用）：深度比較 Toko、ChatGPT 語音、Replika",
+              "snippet": "2025AI英文學習 App 比較分析：我實測 Toko、ChatGPT 語音、Replika 的功能、口說體驗與價格方案，並提供免費試用與台灣付款方式說明，幫助你快速選擇最適合的工具。",
+              "source": "https://www.tokotutor.com/blog/ai英文-app-推薦"
+            }
+          ],
+          "selected_results": [
+            {
+              "title": "2025 Ai英语学习软件黑马榜!9款深度对比，这款免费神器好用到哭",
+              "snippet": "2025年，AI英语学习软件的爆发式发展，正在彻底改变这一现状。 今天，我将通过亲身使用体验，为你深度测评9款热门AI英语学习软件，帮你发现zui适合自己的'开口神器'。 可栗口语: 让你从哑巴英语到流利表达的神器",
+              "source": "https://www.sohu.com/a/937293560_121716020"
+            },
+            {
+              "title": "2025 AI 英文學習 App 推薦（口說、價格、免費試用）：深度比較 Toko、ChatGPT 語音、Replika",
+              "snippet": "2025AI英文學習 App 比較分析：我實測 Toko、ChatGPT 語音、Replika 的功能、口說體驗與價格方案，並提供免費試用與台灣付款方式說明，幫助你快速選擇最適合的工具。",
+              "source": "https://www.tokotutor.com/blog/ai英文-app-推薦"
+            }
+          ],
+          "reflection": {
+            "status": "enough",
+            "reason": "当前结果不只是相关，而且已经较明确地回答了这道子问题，可以进入总结阶段。",
+            "suggestion": ""
+          }
+        }
+      ],
+      "final_status": "enough",
+      "final_reason": "当前结果不只是相关，而且已经较明确地回答了这道子问题，可以进入总结阶段。",
+      "final_suggestion": "",
+      "summary": "关于“现在市面上最好的 AI 英语学习软件是哪个？ 在不同目标、预算或约束下，综合建议应该怎么给？”，当前更可靠的判断是：现有材料已经能支持一个相对清晰的方向性判断。\n\n支撑点：\n1. 2025年，AI英语学习软件的爆发式发展，正在彻底改变这一现状。 今天，我将通过亲身使用体验，为你深度测评9款热门AI英语学习软件，帮你发现zui适合自己的'开口神器'。 可栗口语: 让你从哑巴英语到流利表达的神器\n2. 2025AI英文學習 App 比較分析：我實測 Toko、ChatGPT 語音、Replika 的功能、口說體驗與價格方案，並提供免費試用與台灣付款方式說明，幫助你快速選擇最適合的工具"
+    }
+  ],
+  "report": "研究问题：现在市面上最好的 AI 英语学习软件是哪个？\n\n【子问题状态概览】\n- 子问题总数：4\n- 已形成较稳定结论：4\n- 仍需谨慎看待：0\n- 题型分布：definition=2, general=2\n\n【整体结论】\n围绕“现在市面上最好的 AI 英语学习软件是哪个？”，当前更高层的判断是：这个主题的发展重点已经不只是“有没有”，而是“能不能稳定落地并形成真实价值”，这意味着工程化与可持续应用会比单点能力展示更重要。\n\n具体来看：\n1. 从趋势层面看，研究对象正在从概念热度走向更可落地的结构变化，这说明它的发展重点已经不只是“有没有”，而是“能不能稳定落地”。\n2. 从驱动与变化层面看，当前更像是现象层描述，真正的因果解释和机制链条还需要继续补强。\n3. 从限制与风险层面看，当前风险信息还不算充分，但治理、可靠性与落地成本已经开始成为不可回避的话题。\n\n【当前最值得保留的主线】\n- 当前材料支持保留方向性判断，但主线还需要更多高质量证据来压实。\n\n【需要保留的谨慎点】\n需要注意的是，当前结果更适合作为相对稳定的阶段性研究判断，而不是无需再验证的绝对结论。\n\n【结论性质】\n这份结果当前更适合作为：\n相对稳定的阶段性结论\n而不是：\n不需要继续验证的绝对判断",
+  "failure_tags": [
+    "no_obvious_failure"
+  ]
+}

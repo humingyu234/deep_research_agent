@@ -1,0 +1,46 @@
+[
+  {
+    "id": "rewriter-trend-agent-employment",
+    "sub_question": "随着Agent技术的渗透，未来一年就业市场在结构上可能发生哪些宏观层面的调整和改变？",
+    "round_num": 2,
+    "reflection": {
+      "status": "insufficient",
+      "suggestion": "请补充未来演进方向、阶段变化、结构转向与就业市场影响相关的研究材料。"
+    },
+    "must_include": ["研究报告", "就业结构", "劳动力市场", "招聘趋势"],
+    "must_exclude": []
+  },
+  {
+    "id": "rewriter-trend-agent-macro-adoption",
+    "sub_question": "基于2026年Agent技术的发展现状，未来一年内，Agent技术将如何驱动各行业发生普遍性的宏观变革？",
+    "round_num": 2,
+    "reflection": {
+      "status": "insufficient",
+      "suggestion": "请补充跨行业 adoption、应用模式与企业采纳相关的趋势材料。"
+    },
+    "must_include": ["研究报告", "宏观分析", "跨行业", "企业采纳"],
+    "must_exclude": []
+  },
+  {
+    "id": "rewriter-comparison-no-recommendation-leak",
+    "sub_question": "到2026年，中国和美国市场对初级软件工程师的岗位需求和技能门槛会有哪些不同？",
+    "round_num": 2,
+    "reflection": {
+      "status": "insufficient",
+      "suggestion": "请补充差异、驱动因素与跨国比较相关的材料。"
+    },
+    "must_include": ["比较分析", "跨国比较"],
+    "must_exclude": ["适用人群", "推荐"]
+  },
+  {
+    "id": "rewriter-timeline-no-roi-leak",
+    "sub_question": "近五年固态电池从实验室推进到量产前夜，关键技术和产业里程碑有哪些？",
+    "round_num": 2,
+    "reflection": {
+      "status": "insufficient",
+      "suggestion": "请补充时间线、产业化与里程碑相关的材料。"
+    },
+    "must_include": ["时间线", "里程碑", "产业化"],
+    "must_exclude": ["ROI", "适用人群"]
+  }
+]

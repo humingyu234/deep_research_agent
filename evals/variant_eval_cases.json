@@ -1,0 +1,42 @@
+[
+  {
+    "id": "variant-definition-transformer-importance",
+    "question": "Transformer 在大语言模型里为什么重要，它和早期序列模型的核心区别是什么？",
+    "type": "definition",
+    "difficulty": "easy",
+    "main_target_module": "planner-search-summarizer",
+    "intent": "定义题变体，检查系统是否不仅会回答“是什么”，也能稳定覆盖原理、区别和意义。"
+  },
+  {
+    "id": "variant-driver-enterprise-agent-adoption",
+    "question": "为什么企业会在 2026 年更快部署 AI Agent，背后的关键驱动因素是什么？",
+    "type": "driver",
+    "difficulty": "hard",
+    "main_target_module": "selector-reflector-summarizer",
+    "intent": "驱动题变体，检查系统是否能稳定找到更偏机制解释的材料，而不是只说趋势很热。"
+  },
+  {
+    "id": "variant-preference-speaking-english-tools",
+    "question": "如果目标是提升英语口语和听力，现在哪款 AI 学习工具最值得优先尝试？",
+    "type": "high-noise-preference",
+    "difficulty": "hard",
+    "main_target_module": "search-selector-reporter",
+    "intent": "高噪音推荐题变体，检查系统能否在更具体目标下仍然给出贴题建议。"
+  },
+  {
+    "id": "variant-timeline-solid-state-commercialization",
+    "question": "近五年固态电池从实验室推进到量产前夜，关键技术和产业里程碑有哪些？",
+    "type": "timeline-trend",
+    "difficulty": "medium",
+    "main_target_module": "planner-summarizer-reporter",
+    "intent": "时间线题变体，检查系统是否能在“技术+产业”混合表述下仍保持时间线和演进逻辑。"
+  },
+  {
+    "id": "variant-comparison-junior-swe-demand",
+    "question": "到 2026 年，AI Agent 对中国和美国初级软件工程师的岗位需求、技能门槛和应对路径会有哪些不同？",
+    "type": "complex-comparison",
+    "difficulty": "hard",
+    "main_target_module": "planner-reporter",
+    "intent": "复杂比较题变体，继续压测当前 V1 最容易失真的“差异原因/约束”场景。"
+  }
+]

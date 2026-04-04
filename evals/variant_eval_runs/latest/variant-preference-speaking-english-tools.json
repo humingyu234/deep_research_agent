@@ -1,0 +1,364 @@
+{
+  "case": {
+    "id": "variant-preference-speaking-english-tools",
+    "question": "如果目标是提升英语口语和听力，现在哪款 AI 学习工具最值得优先尝试？",
+    "type": "high-noise-preference",
+    "difficulty": "hard",
+    "main_target_module": "search-selector-reporter",
+    "intent": "高噪音推荐题变体，检查系统能否在更具体目标下仍然给出贴题建议。"
+  },
+  "sub_questions": [
+    {
+      "sub_question": "如果目标是提升英语口语和听力，现在哪款 AI 学习工具最值得优先尝试？ 当前有哪些主流可选项，分别最适合什么目标或使用场景？",
+      "focus": "general",
+      "rounds": [
+        {
+          "round": 1,
+          "query": "如果目标是提升英语口语和听力，现在哪款 AI 学习工具最值得优先尝试？ 当前有哪些主流可选项，分别最适合什么目标或使用场景？",
+          "raw_results": [
+            {
+              "title": "[PDF] AI 跨域教師培育示範與教學資源共享之研討",
+              "snippet": "以有效選用AI 工具備課或教學，也因與同儕能力差距而削弱實踐之自信。此外，目前 執行摘要 3 AI 工具多源自於英語系國家之資料庫，可能隱含偏見，教師需具備數位識讀能力以審 慎應用。實務導向的AI 培訓與識讀課程，可增強教師自信與應用能力，加速AI 融入 教學之推動。 3.學生誤用科技及課堂管理為教學現場一大挑戰 科技融入教學之隱憂包含學生誤用科技，如侵犯隱私、抄襲等及使用數位載具導 致分心之情形，部分教師也因此對數位工具採取保守態度。教師應制定數位載具及生 成式AI 的使用規範，引導學生正確操作，並對誤用行為即時辨別與指導。 4.教師須改變傳統評量方式 傳統評量難以全面反映學生的學習歷程與成",
+              "source": "https://p028.wzu.edu.tw/datas/upload/Pictures/572-2024-19ai%E8%B7%A8%E5%9F%9F%E6%95%99%E5%B8%AB%E5%9F%B9%E8%82%B2%E7%A4%BA%E7%AF%84%E8%88%87%E6%95%99%E5%AD%B8%E8%B3%87%E6%BA%90%E5%85%B1%E4%BA%AB%E4%B9%8B%E6%8E%A2%E8%A8%8E.pdf",
+              "domain": "p028.wzu.edu.tw",
+              "domain_trust": "high",
+              "source_score": 105
+            },
+            {
+              "title": "2025 年面向英语学习者的5 款最佳人工智能工具 - Sonix",
+              "snippet": "移动可访问性和离线功能可确保在不同的学习环境和情况下始终如一地获得语言学习支持。 ### 成本和教育价值 教育定价和学生折扣可以让有预算意识的学习者使用专业级人工智能工具。根据您的具体学习需求，评估每项功能的成本，并考虑高级功能是否值得额外支出。 免费试用期允许您在做出财务承诺之前，使用实际学术内容对多个平台进行测试。 ## 最适合英语学习者的人工智能工具：可视化比较 | 工具 | 转录准确性 | 翻译质量 | 学术重点 | 教育定价 | 整合 | 总分 | --- --- --- | Sonix | 9.5/10 | 9.0/10 | 9.5/10 | 9.0/10 | 9.0/10 | 9",
+              "source": "https://sonix.ai/ai/zh/%E6%9C%80%E9%80%82%E5%90%88%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0%E8%80%85%E7%9A%84-ai/",
+              "domain": "sonix.ai",
+              "domain_trust": "unknown",
+              "source_score": 45
+            },
+            {
+              "title": "英语智能口语- English Ai实用助学，AI聊天对话- Google Play 上的应用",
+              "snippet": "## 类似应用 arrow\\_forward 缩略图 AI Grammar 英语语法检查改错分析 智能英文作文批改 HelloTalk Limited 3.5star 缩略图 italki：学习任一语言 ITALKI HK LIMITED 4.4star 缩略图 Lingbe：练习语言 lingbe 4.1star 缩略图 学美国英语，说美国英语：全新语言学习法，轻松成为美国英语达人 Mondly by Pearson 4.6star 缩略图 Speaky-练习外语吧 Speaky Team 2.4star 缩略图 EF Hello 英孚成人英语：在线学习英语语法听力口语单词 Signum I",
+              "source": "https://play.google.com/store/apps/details?id=com.hellotalk.helloenglish&hl=zh",
+              "domain": "play.google.com",
+              "domain_trust": "unknown",
+              "source_score": 45
+            },
+            {
+              "title": "[PDF] 本期主題數位教學之政策與檢討 - 臺灣教育評論學會",
+              "snippet": "模型、音效、音樂及語 音等多媒體類型。尤其是OpenAI 於2022 年11 月基於GPT-3.5 演算法推出的 ChatGPT 產品，讓AI 在全世界受到前所未有的關注，其應用也發展至日常生活 中的各個層面 。 GPT （Generative Pre-trained Transformer） 屬於大型語言模型 （Large Language Model，LLM） ，能夠表現出類似人類認知領域的多種能力，包括記憶、 理解、應用、分析、創造與評鑑（Masia & Bloom, 1964） 。此外，OpenAI 在2021 年發布的DALL-E 模型，以及其後於2024 年推出的能夠基於文字描述生",
+              "source": "http://www.ater.org.tw/journal/article/13-5/all.pdf",
+              "domain": "ater.org.tw",
+              "domain_trust": "unknown",
+              "source_score": 45
+            },
+            {
+              "title": "[PDF] 全景透视AIGC的法律挑战与合规路径 - 中伦律师事务所",
+              "snippet": "论可参见笔者《ChatGPT的著作权规制》一文），并将以此为基点展开后文 讨论。简言之，AIGC生成内容可能产生著作权等知识产权权益，值得严肃 对待。 / P A R T 0 0 2 数据内容的授权合规 1、数据内容的风险 当前，部分数据内容的收集欠缺相关制度规范，处于野蛮生长阶段，大量 数据内容在权利人不知情的情况下被机械爬取、复制进入数据集。此类爬取和 复制行为处于民事侵权乃至刑事犯罪的灰色地带，以至于最终形成的数据集在 来源合规方面也存在较高风险。例如，某些数据集可能完整复制了某作者在某 网站上发布的文章、某艺术家发布并禁止转载的画作、某社交软件用户在交谈 中透露的个人信息等。这些数据内",
+              "source": "https://www.zhonglun.com/upload/file/20240122/1705919179136022778.pdf",
+              "domain": "zhonglun.com",
+              "domain_trust": "unknown",
+              "source_score": 45
+            }
+          ],
+          "selected_results": [
+            {
+              "title": "[PDF] 本期主題數位教學之政策與檢討 - 臺灣教育評論學會",
+              "snippet": "模型、音效、音樂及語 音等多媒體類型。尤其是OpenAI 於2022 年11 月基於GPT-3.5 演算法推出的 ChatGPT 產品，讓AI 在全世界受到前所未有的關注，其應用也發展至日常生活 中的各個層面 。 GPT （Generative Pre-trained Transformer） 屬於大型語言模型 （Large Language Model，LLM） ，能夠表現出類似人類認知領域的多種能力，包括記憶、 理解、應用、分析、創造與評鑑（Masia & Bloom, 1964） 。此外，OpenAI 在2021 年發布的DALL-E 模型，以及其後於2024 年推出的能夠基於文字描述生",
+              "source": "http://www.ater.org.tw/journal/article/13-5/all.pdf",
+              "domain": "ater.org.tw",
+              "domain_trust": "unknown",
+              "source_score": 45
+            },
+            {
+              "title": "英语智能口语- English Ai实用助学，AI聊天对话- Google Play 上的应用",
+              "snippet": "## 类似应用 arrow\\_forward 缩略图 AI Grammar 英语语法检查改错分析 智能英文作文批改 HelloTalk Limited 3.5star 缩略图 italki：学习任一语言 ITALKI HK LIMITED 4.4star 缩略图 Lingbe：练习语言 lingbe 4.1star 缩略图 学美国英语，说美国英语：全新语言学习法，轻松成为美国英语达人 Mondly by Pearson 4.6star 缩略图 Speaky-练习外语吧 Speaky Team 2.4star 缩略图 EF Hello 英孚成人英语：在线学习英语语法听力口语单词 Signum I",
+              "source": "https://play.google.com/store/apps/details?id=com.hellotalk.helloenglish&hl=zh",
+              "domain": "play.google.com",
+              "domain_trust": "unknown",
+              "source_score": 45
+            },
+            {
+              "title": "[PDF] AI 跨域教師培育示範與教學資源共享之研討",
+              "snippet": "以有效選用AI 工具備課或教學，也因與同儕能力差距而削弱實踐之自信。此外，目前 執行摘要 3 AI 工具多源自於英語系國家之資料庫，可能隱含偏見，教師需具備數位識讀能力以審 慎應用。實務導向的AI 培訓與識讀課程，可增強教師自信與應用能力，加速AI 融入 教學之推動。 3.學生誤用科技及課堂管理為教學現場一大挑戰 科技融入教學之隱憂包含學生誤用科技，如侵犯隱私、抄襲等及使用數位載具導 致分心之情形，部分教師也因此對數位工具採取保守態度。教師應制定數位載具及生 成式AI 的使用規範，引導學生正確操作，並對誤用行為即時辨別與指導。 4.教師須改變傳統評量方式 傳統評量難以全面反映學生的學習歷程與成",
+              "source": "https://p028.wzu.edu.tw/datas/upload/Pictures/572-2024-19ai%E8%B7%A8%E5%9F%9F%E6%95%99%E5%B8%AB%E5%9F%B9%E8%82%B2%E7%A4%BA%E7%AF%84%E8%88%87%E6%95%99%E5%AD%B8%E8%B3%87%E6%BA%90%E5%85%B1%E4%BA%AB%E4%B9%8B%E6%8E%A2%E8%A8%8E.pdf",
+              "domain": "p028.wzu.edu.tw",
+              "domain_trust": "high",
+              "source_score": 105
+            }
+          ],
+          "reflection": {
+            "status": "enough",
+            "reason": "当前结果不只是相关，而且已经较明确地回答了这道子问题，可以进入总结阶段。",
+            "suggestion": ""
+          }
+        }
+      ],
+      "final_status": "enough",
+      "final_reason": "当前结果不只是相关，而且已经较明确地回答了这道子问题，可以进入总结阶段。",
+      "final_suggestion": "",
+      "summary": "关于“如果目标是提升英语口语和听力，现在哪款 AI 学习工具最值得优先尝试？ 当前有哪些主流可选项，分别最适合什么目标或使用场景？”，当前更可靠的判断是：如果目标是提升英语口语和听力，现在哪款 AI 学习工具最值得优先尝试各主要选项的优缺点、适用人群和使用场景，主要可以从 模型、音效、音樂及語 音等多媒體類型。尤其是OpenAI 於2022 年11 月基於GPT-3.5 演算法推出的 ChatGPT 產品，讓AI 在全世界受到前所未有的關注，其應用也發展至日常生活 中的。；## 类似应用 arrow\\_forward 缩略图 AI Grammar 英语语法检查改错分析 智能英文作文批改 HelloTalk Limited 3.5star 缩略图 italki：学习任一语。 这些方面来归纳。\n\n支撑点：\n1. 模型、音效、音樂及語 音等多媒體類型。尤其是OpenAI 於2022 年11 月基於GPT-3.5 演算法推出的 ChatGPT 產品，讓AI 在全世界受到前所未有的關注，其應用也發展至日常生活 中的。\n2. ## 类似应用 arrow\\_forward 缩略图 AI Grammar 英语语法检查改错分析 智能英文作文批改 HelloTalk Limited 3.5star 缩略图 italki：学习任一语。\n3. 以有效選用AI 工具備課或教學，也因與同儕能力差距而削弱實踐之自信。此外，目前 執行摘要 3 AI 工具多源自於英語系國家之資料庫，可能隱含偏見，教師需具備數位識讀能力以審 慎應用。實務導向的AI 培。"
+    },
+    {
+      "sub_question": "判断 如果目标是提升英语口语和听力，现在哪款 AI 学习工具最值得优先尝试？ 时，最关键的评价维度或选择标准有哪些？",
+      "focus": "general",
+      "rounds": [
+        {
+          "round": 1,
+          "query": "判断 如果目标是提升英语口语和听力，现在哪款 AI 学习工具最值得优先尝试？ 时，最关键的评价维度或选择标准有哪些？",
+          "raw_results": [
+            {
+              "title": "[PDF] AI 跨域教師培育示範與教學資源共享之研討",
+              "snippet": "以有效選用AI 工具備課或教學，也因與同儕能力差距而削弱實踐之自信。此外，目前 執行摘要 3 AI 工具多源自於英語系國家之資料庫，可能隱含偏見，教師需具備數位識讀能力以審 慎應用。實務導向的AI 培訓與識讀課程，可增強教師自信與應用能力，加速AI 融入 教學之推動。 3.學生誤用科技及課堂管理為教學現場一大挑戰 科技融入教學之隱憂包含學生誤用科技，如侵犯隱私、抄襲等及使用數位載具導 致分心之情形，部分教師也因此對數位工具採取保守態度。教師應制定數位載具及生 成式AI 的使用規範，引導學生正確操作，並對誤用行為即時辨別與指導。 4.教師須改變傳統評量方式 傳統評量難以全面反映學生的學習歷程與成",
+              "source": "https://p028.wzu.edu.tw/datas/upload/Pictures/572-2024-19ai%E8%B7%A8%E5%9F%9F%E6%95%99%E5%B8%AB%E5%9F%B9%E8%82%B2%E7%A4%BA%E7%AF%84%E8%88%87%E6%95%99%E5%AD%B8%E8%B3%87%E6%BA%90%E5%85%B1%E4%BA%AB%E4%B9%8B%E6%8E%A2%E8%A8%8E.pdf",
+              "domain": "p028.wzu.edu.tw",
+              "domain_trust": "high",
+              "source_score": 105
+            },
+            {
+              "title": "2025 年面向英语学习者的5 款最佳人工智能工具 - Sonix",
+              "snippet": "移动可访问性和离线功能可确保在不同的学习环境和情况下始终如一地获得语言学习支持。 ### 成本和教育价值 教育定价和学生折扣可以让有预算意识的学习者使用专业级人工智能工具。根据您的具体学习需求，评估每项功能的成本，并考虑高级功能是否值得额外支出。 免费试用期允许您在做出财务承诺之前，使用实际学术内容对多个平台进行测试。 ## 最适合英语学习者的人工智能工具：可视化比较 | 工具 | 转录准确性 | 翻译质量 | 学术重点 | 教育定价 | 整合 | 总分 | --- --- --- | Sonix | 9.5/10 | 9.0/10 | 9.5/10 | 9.0/10 | 9.0/10 | 9",
+              "source": "https://sonix.ai/ai/zh/%E6%9C%80%E9%80%82%E5%90%88%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0%E8%80%85%E7%9A%84-ai/",
+              "domain": "sonix.ai",
+              "domain_trust": "unknown",
+              "source_score": 45
+            },
+            {
+              "title": "英语智能口语- English Ai实用助学，AI聊天对话- Google Play 上的应用",
+              "snippet": "## 类似应用 arrow\\_forward 缩略图 AI Grammar 英语语法检查改错分析 智能英文作文批改 HelloTalk Limited 3.5star 缩略图 italki：学习任一语言 ITALKI HK LIMITED 4.4star 缩略图 Lingbe：练习语言 lingbe 4.1star 缩略图 学美国英语，说美国英语：全新语言学习法，轻松成为美国英语达人 Mondly by Pearson 4.6star 缩略图 Speaky-练习外语吧 Speaky Team 2.4star 缩略图 EF Hello 英孚成人英语：在线学习英语语法听力口语单词 Signum I",
+              "source": "https://play.google.com/store/apps/details?id=com.hellotalk.helloenglish&hl=zh",
+              "domain": "play.google.com",
+              "domain_trust": "unknown",
+              "source_score": 45
+            },
+            {
+              "title": "[PDF] 本期主題數位教學之政策與檢討 - 臺灣教育評論學會",
+              "snippet": "模型、音效、音樂及語 音等多媒體類型。尤其是OpenAI 於2022 年11 月基於GPT-3.5 演算法推出的 ChatGPT 產品，讓AI 在全世界受到前所未有的關注，其應用也發展至日常生活 中的各個層面 。 GPT （Generative Pre-trained Transformer） 屬於大型語言模型 （Large Language Model，LLM） ，能夠表現出類似人類認知領域的多種能力，包括記憶、 理解、應用、分析、創造與評鑑（Masia & Bloom, 1964） 。此外，OpenAI 在2021 年發布的DALL-E 模型，以及其後於2024 年推出的能夠基於文字描述生",
+              "source": "http://www.ater.org.tw/journal/article/13-5/all.pdf",
+              "domain": "ater.org.tw",
+              "domain_trust": "unknown",
+              "source_score": 45
+            },
+            {
+              "title": "[PDF] 全景透视AIGC的法律挑战与合规路径 - 中伦律师事务所",
+              "snippet": "论可参见笔者《ChatGPT的著作权规制》一文），并将以此为基点展开后文 讨论。简言之，AIGC生成内容可能产生著作权等知识产权权益，值得严肃 对待。 / P A R T 0 0 2 数据内容的授权合规 1、数据内容的风险 当前，部分数据内容的收集欠缺相关制度规范，处于野蛮生长阶段，大量 数据内容在权利人不知情的情况下被机械爬取、复制进入数据集。此类爬取和 复制行为处于民事侵权乃至刑事犯罪的灰色地带，以至于最终形成的数据集在 来源合规方面也存在较高风险。例如，某些数据集可能完整复制了某作者在某 网站上发布的文章、某艺术家发布并禁止转载的画作、某社交软件用户在交谈 中透露的个人信息等。这些数据内",
+              "source": "https://www.zhonglun.com/upload/file/20240122/1705919179136022778.pdf",
+              "domain": "zhonglun.com",
+              "domain_trust": "unknown",
+              "source_score": 45
+            }
+          ],
+          "selected_results": [
+            {
+              "title": "[PDF] 本期主題數位教學之政策與檢討 - 臺灣教育評論學會",
+              "snippet": "模型、音效、音樂及語 音等多媒體類型。尤其是OpenAI 於2022 年11 月基於GPT-3.5 演算法推出的 ChatGPT 產品，讓AI 在全世界受到前所未有的關注，其應用也發展至日常生活 中的各個層面 。 GPT （Generative Pre-trained Transformer） 屬於大型語言模型 （Large Language Model，LLM） ，能夠表現出類似人類認知領域的多種能力，包括記憶、 理解、應用、分析、創造與評鑑（Masia & Bloom, 1964） 。此外，OpenAI 在2021 年發布的DALL-E 模型，以及其後於2024 年推出的能夠基於文字描述生",
+              "source": "http://www.ater.org.tw/journal/article/13-5/all.pdf",
+              "domain": "ater.org.tw",
+              "domain_trust": "unknown",
+              "source_score": 45
+            },
+            {
+              "title": "英语智能口语- English Ai实用助学，AI聊天对话- Google Play 上的应用",
+              "snippet": "## 类似应用 arrow\\_forward 缩略图 AI Grammar 英语语法检查改错分析 智能英文作文批改 HelloTalk Limited 3.5star 缩略图 italki：学习任一语言 ITALKI HK LIMITED 4.4star 缩略图 Lingbe：练习语言 lingbe 4.1star 缩略图 学美国英语，说美国英语：全新语言学习法，轻松成为美国英语达人 Mondly by Pearson 4.6star 缩略图 Speaky-练习外语吧 Speaky Team 2.4star 缩略图 EF Hello 英孚成人英语：在线学习英语语法听力口语单词 Signum I",
+              "source": "https://play.google.com/store/apps/details?id=com.hellotalk.helloenglish&hl=zh",
+              "domain": "play.google.com",
+              "domain_trust": "unknown",
+              "source_score": 45
+            },
+            {
+              "title": "[PDF] AI 跨域教師培育示範與教學資源共享之研討",
+              "snippet": "以有效選用AI 工具備課或教學，也因與同儕能力差距而削弱實踐之自信。此外，目前 執行摘要 3 AI 工具多源自於英語系國家之資料庫，可能隱含偏見，教師需具備數位識讀能力以審 慎應用。實務導向的AI 培訓與識讀課程，可增強教師自信與應用能力，加速AI 融入 教學之推動。 3.學生誤用科技及課堂管理為教學現場一大挑戰 科技融入教學之隱憂包含學生誤用科技，如侵犯隱私、抄襲等及使用數位載具導 致分心之情形，部分教師也因此對數位工具採取保守態度。教師應制定數位載具及生 成式AI 的使用規範，引導學生正確操作，並對誤用行為即時辨別與指導。 4.教師須改變傳統評量方式 傳統評量難以全面反映學生的學習歷程與成",
+              "source": "https://p028.wzu.edu.tw/datas/upload/Pictures/572-2024-19ai%E8%B7%A8%E5%9F%9F%E6%95%99%E5%B8%AB%E5%9F%B9%E8%82%B2%E7%A4%BA%E7%AF%84%E8%88%87%E6%95%99%E5%AD%B8%E8%B3%87%E6%BA%90%E5%85%B1%E4%BA%AB%E4%B9%8B%E6%8E%A2%E8%A8%8E.pdf",
+              "domain": "p028.wzu.edu.tw",
+              "domain_trust": "high",
+              "source_score": 105
+            }
+          ],
+          "reflection": {
+            "status": "enough",
+            "reason": "当前结果不只是相关，而且已经较明确地回答了这道子问题，可以进入总结阶段。",
+            "suggestion": ""
+          }
+        }
+      ],
+      "final_status": "enough",
+      "final_reason": "当前结果不只是相关，而且已经较明确地回答了这道子问题，可以进入总结阶段。",
+      "final_suggestion": "",
+      "summary": "关于“判断 如果目标是提升英语口语和听力，现在哪款 AI 学习工具最值得优先尝试？ 时，最关键的评价维度或选择标准有哪些？”，当前更可靠的判断是：判断 如果目标是提升英语口语和听力，现在哪款 AI 学习工具最值得优先尝试最值得参考的评价维度或选择标准，主要可以从 模型、音效、音樂及語 音等多媒體類型。尤其是OpenAI 於2022 年11 月基於GPT-3.5 演算法推出的 ChatGPT 產品，讓AI 在全世界受到前所未有的關注，其應用也發展至日常生活 中的。；## 类似应用 arrow\\_forward 缩略图 AI Grammar 英语语法检查改错分析 智能英文作文批改 HelloTalk Limited 3.5star 缩略图 italki：学习任一语。 这些方面来展开。\n\n支撑点：\n1. 模型、音效、音樂及語 音等多媒體類型。尤其是OpenAI 於2022 年11 月基於GPT-3.5 演算法推出的 ChatGPT 產品，讓AI 在全世界受到前所未有的關注，其應用也發展至日常生活 中的。\n2. ## 类似应用 arrow\\_forward 缩略图 AI Grammar 英语语法检查改错分析 智能英文作文批改 HelloTalk Limited 3.5star 缩略图 italki：学习任一语。\n3. 以有效選用AI 工具備課或教學，也因與同儕能力差距而削弱實踐之自信。此外，目前 執行摘要 3 AI 工具多源自於英語系國家之資料庫，可能隱含偏見，教師需具備數位識讀能力以審 慎應用。實務導向的AI 培。"
+    },
+    {
+      "sub_question": "如果目标是提升英语口语和听力，现在哪款 AI 学习工具最值得优先尝试？ 里几类代表性工具各自的优缺点、限制和适用人群有什么不同？",
+      "focus": "risk",
+      "rounds": [
+        {
+          "round": 1,
+          "query": "如果目标是提升英语口语和听力，现在哪款 AI 学习工具最值得优先尝试？ 里几类代表性工具各自的优缺点、限制和适用人群有什么不同？",
+          "raw_results": [
+            {
+              "title": "[PDF] AI 跨域教師培育示範與教學資源共享之研討",
+              "snippet": "以有效選用AI 工具備課或教學，也因與同儕能力差距而削弱實踐之自信。此外，目前 執行摘要 3 AI 工具多源自於英語系國家之資料庫，可能隱含偏見，教師需具備數位識讀能力以審 慎應用。實務導向的AI 培訓與識讀課程，可增強教師自信與應用能力，加速AI 融入 教學之推動。 3.學生誤用科技及課堂管理為教學現場一大挑戰 科技融入教學之隱憂包含學生誤用科技，如侵犯隱私、抄襲等及使用數位載具導 致分心之情形，部分教師也因此對數位工具採取保守態度。教師應制定數位載具及生 成式AI 的使用規範，引導學生正確操作，並對誤用行為即時辨別與指導。 4.教師須改變傳統評量方式 傳統評量難以全面反映學生的學習歷程與成",
+              "source": "https://p028.wzu.edu.tw/datas/upload/Pictures/572-2024-19ai%E8%B7%A8%E5%9F%9F%E6%95%99%E5%B8%AB%E5%9F%B9%E8%82%B2%E7%A4%BA%E7%AF%84%E8%88%87%E6%95%99%E5%AD%B8%E8%B3%87%E6%BA%90%E5%85%B1%E4%BA%AB%E4%B9%8B%E6%8E%A2%E8%A8%8E.pdf",
+              "domain": "p028.wzu.edu.tw",
+              "domain_trust": "high",
+              "source_score": 105
+            },
+            {
+              "title": "2025 年面向英语学习者的5 款最佳人工智能工具 - Sonix",
+              "snippet": "移动可访问性和离线功能可确保在不同的学习环境和情况下始终如一地获得语言学习支持。 ### 成本和教育价值 教育定价和学生折扣可以让有预算意识的学习者使用专业级人工智能工具。根据您的具体学习需求，评估每项功能的成本，并考虑高级功能是否值得额外支出。 免费试用期允许您在做出财务承诺之前，使用实际学术内容对多个平台进行测试。 ## 最适合英语学习者的人工智能工具：可视化比较 | 工具 | 转录准确性 | 翻译质量 | 学术重点 | 教育定价 | 整合 | 总分 | --- --- --- | Sonix | 9.5/10 | 9.0/10 | 9.5/10 | 9.0/10 | 9.0/10 | 9",
+              "source": "https://sonix.ai/ai/zh/%E6%9C%80%E9%80%82%E5%90%88%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0%E8%80%85%E7%9A%84-ai/",
+              "domain": "sonix.ai",
+              "domain_trust": "unknown",
+              "source_score": 45
+            },
+            {
+              "title": "英语智能口语- English Ai实用助学，AI聊天对话- Google Play 上的应用",
+              "snippet": "## 类似应用 arrow\\_forward 缩略图 AI Grammar 英语语法检查改错分析 智能英文作文批改 HelloTalk Limited 3.5star 缩略图 italki：学习任一语言 ITALKI HK LIMITED 4.4star 缩略图 Lingbe：练习语言 lingbe 4.1star 缩略图 学美国英语，说美国英语：全新语言学习法，轻松成为美国英语达人 Mondly by Pearson 4.6star 缩略图 Speaky-练习外语吧 Speaky Team 2.4star 缩略图 EF Hello 英孚成人英语：在线学习英语语法听力口语单词 Signum I",
+              "source": "https://play.google.com/store/apps/details?id=com.hellotalk.helloenglish&hl=zh",
+              "domain": "play.google.com",
+              "domain_trust": "unknown",
+              "source_score": 45
+            },
+            {
+              "title": "[PDF] 本期主題數位教學之政策與檢討 - 臺灣教育評論學會",
+              "snippet": "模型、音效、音樂及語 音等多媒體類型。尤其是OpenAI 於2022 年11 月基於GPT-3.5 演算法推出的 ChatGPT 產品，讓AI 在全世界受到前所未有的關注，其應用也發展至日常生活 中的各個層面 。 GPT （Generative Pre-trained Transformer） 屬於大型語言模型 （Large Language Model，LLM） ，能夠表現出類似人類認知領域的多種能力，包括記憶、 理解、應用、分析、創造與評鑑（Masia & Bloom, 1964） 。此外，OpenAI 在2021 年發布的DALL-E 模型，以及其後於2024 年推出的能夠基於文字描述生",
+              "source": "http://www.ater.org.tw/journal/article/13-5/all.pdf",
+              "domain": "ater.org.tw",
+              "domain_trust": "unknown",
+              "source_score": 45
+            },
+            {
+              "title": "[PDF] 全景透视AIGC的法律挑战与合规路径 - 中伦律师事务所",
+              "snippet": "论可参见笔者《ChatGPT的著作权规制》一文），并将以此为基点展开后文 讨论。简言之，AIGC生成内容可能产生著作权等知识产权权益，值得严肃 对待。 / P A R T 0 0 2 数据内容的授权合规 1、数据内容的风险 当前，部分数据内容的收集欠缺相关制度规范，处于野蛮生长阶段，大量 数据内容在权利人不知情的情况下被机械爬取、复制进入数据集。此类爬取和 复制行为处于民事侵权乃至刑事犯罪的灰色地带，以至于最终形成的数据集在 来源合规方面也存在较高风险。例如，某些数据集可能完整复制了某作者在某 网站上发布的文章、某艺术家发布并禁止转载的画作、某社交软件用户在交谈 中透露的个人信息等。这些数据内",
+              "source": "https://www.zhonglun.com/upload/file/20240122/1705919179136022778.pdf",
+              "domain": "zhonglun.com",
+              "domain_trust": "unknown",
+              "source_score": 45
+            }
+          ],
+          "selected_results": [
+            {
+              "title": "[PDF] 本期主題數位教學之政策與檢討 - 臺灣教育評論學會",
+              "snippet": "模型、音效、音樂及語 音等多媒體類型。尤其是OpenAI 於2022 年11 月基於GPT-3.5 演算法推出的 ChatGPT 產品，讓AI 在全世界受到前所未有的關注，其應用也發展至日常生活 中的各個層面 。 GPT （Generative Pre-trained Transformer） 屬於大型語言模型 （Large Language Model，LLM） ，能夠表現出類似人類認知領域的多種能力，包括記憶、 理解、應用、分析、創造與評鑑（Masia & Bloom, 1964） 。此外，OpenAI 在2021 年發布的DALL-E 模型，以及其後於2024 年推出的能夠基於文字描述生",
+              "source": "http://www.ater.org.tw/journal/article/13-5/all.pdf",
+              "domain": "ater.org.tw",
+              "domain_trust": "unknown",
+              "source_score": 45
+            },
+            {
+              "title": "[PDF] AI 跨域教師培育示範與教學資源共享之研討",
+              "snippet": "以有效選用AI 工具備課或教學，也因與同儕能力差距而削弱實踐之自信。此外，目前 執行摘要 3 AI 工具多源自於英語系國家之資料庫，可能隱含偏見，教師需具備數位識讀能力以審 慎應用。實務導向的AI 培訓與識讀課程，可增強教師自信與應用能力，加速AI 融入 教學之推動。 3.學生誤用科技及課堂管理為教學現場一大挑戰 科技融入教學之隱憂包含學生誤用科技，如侵犯隱私、抄襲等及使用數位載具導 致分心之情形，部分教師也因此對數位工具採取保守態度。教師應制定數位載具及生 成式AI 的使用規範，引導學生正確操作，並對誤用行為即時辨別與指導。 4.教師須改變傳統評量方式 傳統評量難以全面反映學生的學習歷程與成",
+              "source": "https://p028.wzu.edu.tw/datas/upload/Pictures/572-2024-19ai%E8%B7%A8%E5%9F%9F%E6%95%99%E5%B8%AB%E5%9F%B9%E8%82%B2%E7%A4%BA%E7%AF%84%E8%88%87%E6%95%99%E5%AD%B8%E8%B3%87%E6%BA%90%E5%85%B1%E4%BA%AB%E4%B9%8B%E6%8E%A2%E8%A8%8E.pdf",
+              "domain": "p028.wzu.edu.tw",
+              "domain_trust": "high",
+              "source_score": 105
+            },
+            {
+              "title": "[PDF] 全景透视AIGC的法律挑战与合规路径 - 中伦律师事务所",
+              "snippet": "论可参见笔者《ChatGPT的著作权规制》一文），并将以此为基点展开后文 讨论。简言之，AIGC生成内容可能产生著作权等知识产权权益，值得严肃 对待。 / P A R T 0 0 2 数据内容的授权合规 1、数据内容的风险 当前，部分数据内容的收集欠缺相关制度规范，处于野蛮生长阶段，大量 数据内容在权利人不知情的情况下被机械爬取、复制进入数据集。此类爬取和 复制行为处于民事侵权乃至刑事犯罪的灰色地带，以至于最终形成的数据集在 来源合规方面也存在较高风险。例如，某些数据集可能完整复制了某作者在某 网站上发布的文章、某艺术家发布并禁止转载的画作、某社交软件用户在交谈 中透露的个人信息等。这些数据内",
+              "source": "https://www.zhonglun.com/upload/file/20240122/1705919179136022778.pdf",
+              "domain": "zhonglun.com",
+              "domain_trust": "unknown",
+              "source_score": 45
+            }
+          ],
+          "reflection": {
+            "status": "enough",
+            "reason": "当前结果不只是相关，而且已经较明确地回答了这道子问题，可以进入总结阶段。",
+            "suggestion": ""
+          }
+        }
+      ],
+      "final_status": "enough",
+      "final_reason": "当前结果不只是相关，而且已经较明确地回答了这道子问题，可以进入总结阶段。",
+      "final_suggestion": "",
+      "summary": "关于“如果目标是提升英语口语和听力，现在哪款 AI 学习工具最值得优先尝试？ 里几类代表性工具各自的优缺点、限制和适用人群有什么不同？”，当前更可靠的判断是：如果目标是提升英语口语和听力，现在哪款 AI 学习工具最值得优先尝试各主要选项的优缺点、适用人群和使用场景，主要可以从 模型、音效、音樂及語 音等多媒體類型。尤其是OpenAI 於2022 年11 月基於GPT-3.5 演算法推出的 ChatGPT 產品，讓AI 在全世界受到前所未有的關注，其應用也發展至日常生活 中的。；以有效選用AI 工具備課或教學，也因與同儕能力差距而削弱實踐之自信。此外，目前 執行摘要 3 AI 工具多源自於英語系國家之資料庫，可能隱含偏見，教師需具備數位識讀能力以審 慎應用。實務導向的AI 培。 这些方面来归纳。\n\n支撑点：\n1. 模型、音效、音樂及語 音等多媒體類型。尤其是OpenAI 於2022 年11 月基於GPT-3.5 演算法推出的 ChatGPT 產品，讓AI 在全世界受到前所未有的關注，其應用也發展至日常生活 中的。\n2. 以有效選用AI 工具備課或教學，也因與同儕能力差距而削弱實踐之自信。此外，目前 執行摘要 3 AI 工具多源自於英語系國家之資料庫，可能隱含偏見，教師需具備數位識讀能力以審 慎應用。實務導向的AI 培。\n3. 论可参见笔者《ChatGPT的著作权规制》一文），并将以此为基点展开后文 讨论。简言之，AIGC生成内容可能产生著作权等知识产权权益，值得严肃 对待。 / P A R T 0 0 2 数据内容的授权合。"
+    },
+    {
+      "sub_question": "如果目标明确且时间有限，如果目标是提升英语口语和听力，现在哪款 AI 学习工具最值得优先尝试？ 最值得优先尝试的综合建议是什么？",
+      "focus": "definition",
+      "rounds": [
+        {
+          "round": 1,
+          "query": "如果目标明确且时间有限，如果目标是提升英语口语和听力，现在哪款 AI 学习工具最值得优先尝试？ 最值得优先尝试的综合建议是什么？",
+          "raw_results": [
+            {
+              "title": "[PDF] AI 跨域教師培育示範與教學資源共享之研討",
+              "snippet": "以有效選用AI 工具備課或教學，也因與同儕能力差距而削弱實踐之自信。此外，目前 執行摘要 3 AI 工具多源自於英語系國家之資料庫，可能隱含偏見，教師需具備數位識讀能力以審 慎應用。實務導向的AI 培訓與識讀課程，可增強教師自信與應用能力，加速AI 融入 教學之推動。 3.學生誤用科技及課堂管理為教學現場一大挑戰 科技融入教學之隱憂包含學生誤用科技，如侵犯隱私、抄襲等及使用數位載具導 致分心之情形，部分教師也因此對數位工具採取保守態度。教師應制定數位載具及生 成式AI 的使用規範，引導學生正確操作，並對誤用行為即時辨別與指導。 4.教師須改變傳統評量方式 傳統評量難以全面反映學生的學習歷程與成",
+              "source": "https://p028.wzu.edu.tw/datas/upload/Pictures/572-2024-19ai%E8%B7%A8%E5%9F%9F%E6%95%99%E5%B8%AB%E5%9F%B9%E8%82%B2%E7%A4%BA%E7%AF%84%E8%88%87%E6%95%99%E5%AD%B8%E8%B3%87%E6%BA%90%E5%85%B1%E4%BA%AB%E4%B9%8B%E6%8E%A2%E8%A8%8E.pdf",
+              "domain": "p028.wzu.edu.tw",
+              "domain_trust": "high",
+              "source_score": 105
+            },
+            {
+              "title": "2025 年面向英语学习者的5 款最佳人工智能工具 - Sonix",
+              "snippet": "移动可访问性和离线功能可确保在不同的学习环境和情况下始终如一地获得语言学习支持。 ### 成本和教育价值 教育定价和学生折扣可以让有预算意识的学习者使用专业级人工智能工具。根据您的具体学习需求，评估每项功能的成本，并考虑高级功能是否值得额外支出。 免费试用期允许您在做出财务承诺之前，使用实际学术内容对多个平台进行测试。 ## 最适合英语学习者的人工智能工具：可视化比较 | 工具 | 转录准确性 | 翻译质量 | 学术重点 | 教育定价 | 整合 | 总分 | --- --- --- | Sonix | 9.5/10 | 9.0/10 | 9.5/10 | 9.0/10 | 9.0/10 | 9",
+              "source": "https://sonix.ai/ai/zh/%E6%9C%80%E9%80%82%E5%90%88%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0%E8%80%85%E7%9A%84-ai/",
+              "domain": "sonix.ai",
+              "domain_trust": "unknown",
+              "source_score": 45
+            },
+            {
+              "title": "英语智能口语- English Ai实用助学，AI聊天对话- Google Play 上的应用",
+              "snippet": "## 类似应用 arrow\\_forward 缩略图 AI Grammar 英语语法检查改错分析 智能英文作文批改 HelloTalk Limited 3.5star 缩略图 italki：学习任一语言 ITALKI HK LIMITED 4.4star 缩略图 Lingbe：练习语言 lingbe 4.1star 缩略图 学美国英语，说美国英语：全新语言学习法，轻松成为美国英语达人 Mondly by Pearson 4.6star 缩略图 Speaky-练习外语吧 Speaky Team 2.4star 缩略图 EF Hello 英孚成人英语：在线学习英语语法听力口语单词 Signum I",
+              "source": "https://play.google.com/store/apps/details?id=com.hellotalk.helloenglish&hl=zh",
+              "domain": "play.google.com",
+              "domain_trust": "unknown",
+              "source_score": 45
+            },
+            {
+              "title": "[PDF] 本期主題數位教學之政策與檢討 - 臺灣教育評論學會",
+              "snippet": "模型、音效、音樂及語 音等多媒體類型。尤其是OpenAI 於2022 年11 月基於GPT-3.5 演算法推出的 ChatGPT 產品，讓AI 在全世界受到前所未有的關注，其應用也發展至日常生活 中的各個層面 。 GPT （Generative Pre-trained Transformer） 屬於大型語言模型 （Large Language Model，LLM） ，能夠表現出類似人類認知領域的多種能力，包括記憶、 理解、應用、分析、創造與評鑑（Masia & Bloom, 1964） 。此外，OpenAI 在2021 年發布的DALL-E 模型，以及其後於2024 年推出的能夠基於文字描述生",
+              "source": "http://www.ater.org.tw/journal/article/13-5/all.pdf",
+              "domain": "ater.org.tw",
+              "domain_trust": "unknown",
+              "source_score": 45
+            },
+            {
+              "title": "[PDF] 全景透视AIGC的法律挑战与合规路径 - 中伦律师事务所",
+              "snippet": "论可参见笔者《ChatGPT的著作权规制》一文），并将以此为基点展开后文 讨论。简言之，AIGC生成内容可能产生著作权等知识产权权益，值得严肃 对待。 / P A R T 0 0 2 数据内容的授权合规 1、数据内容的风险 当前，部分数据内容的收集欠缺相关制度规范，处于野蛮生长阶段，大量 数据内容在权利人不知情的情况下被机械爬取、复制进入数据集。此类爬取和 复制行为处于民事侵权乃至刑事犯罪的灰色地带，以至于最终形成的数据集在 来源合规方面也存在较高风险。例如，某些数据集可能完整复制了某作者在某 网站上发布的文章、某艺术家发布并禁止转载的画作、某社交软件用户在交谈 中透露的个人信息等。这些数据内",
+              "source": "https://www.zhonglun.com/upload/file/20240122/1705919179136022778.pdf",
+              "domain": "zhonglun.com",
+              "domain_trust": "unknown",
+              "source_score": 45
+            }
+          ],
+          "selected_results": [
+            {
+              "title": "[PDF] 本期主題數位教學之政策與檢討 - 臺灣教育評論學會",
+              "snippet": "模型、音效、音樂及語 音等多媒體類型。尤其是OpenAI 於2022 年11 月基於GPT-3.5 演算法推出的 ChatGPT 產品，讓AI 在全世界受到前所未有的關注，其應用也發展至日常生活 中的各個層面 。 GPT （Generative Pre-trained Transformer） 屬於大型語言模型 （Large Language Model，LLM） ，能夠表現出類似人類認知領域的多種能力，包括記憶、 理解、應用、分析、創造與評鑑（Masia & Bloom, 1964） 。此外，OpenAI 在2021 年發布的DALL-E 模型，以及其後於2024 年推出的能夠基於文字描述生",
+              "source": "http://www.ater.org.tw/journal/article/13-5/all.pdf",
+              "domain": "ater.org.tw",
+              "domain_trust": "unknown",
+              "source_score": 45
+            },
+            {
+              "title": "[PDF] AI 跨域教師培育示範與教學資源共享之研討",
+              "snippet": "以有效選用AI 工具備課或教學，也因與同儕能力差距而削弱實踐之自信。此外，目前 執行摘要 3 AI 工具多源自於英語系國家之資料庫，可能隱含偏見，教師需具備數位識讀能力以審 慎應用。實務導向的AI 培訓與識讀課程，可增強教師自信與應用能力，加速AI 融入 教學之推動。 3.學生誤用科技及課堂管理為教學現場一大挑戰 科技融入教學之隱憂包含學生誤用科技，如侵犯隱私、抄襲等及使用數位載具導 致分心之情形，部分教師也因此對數位工具採取保守態度。教師應制定數位載具及生 成式AI 的使用規範，引導學生正確操作，並對誤用行為即時辨別與指導。 4.教師須改變傳統評量方式 傳統評量難以全面反映學生的學習歷程與成",
+              "source": "https://p028.wzu.edu.tw/datas/upload/Pictures/572-2024-19ai%E8%B7%A8%E5%9F%9F%E6%95%99%E5%B8%AB%E5%9F%B9%E8%82%B2%E7%A4%BA%E7%AF%84%E8%88%87%E6%95%99%E5%AD%B8%E8%B3%87%E6%BA%90%E5%85%B1%E4%BA%AB%E4%B9%8B%E6%8E%A2%E8%A8%8E.pdf",
+              "domain": "p028.wzu.edu.tw",
+              "domain_trust": "high",
+              "source_score": 105
+            },
+            {
+              "title": "英语智能口语- English Ai实用助学，AI聊天对话- Google Play 上的应用",
+              "snippet": "## 类似应用 arrow\\_forward 缩略图 AI Grammar 英语语法检查改错分析 智能英文作文批改 HelloTalk Limited 3.5star 缩略图 italki：学习任一语言 ITALKI HK LIMITED 4.4star 缩略图 Lingbe：练习语言 lingbe 4.1star 缩略图 学美国英语，说美国英语：全新语言学习法，轻松成为美国英语达人 Mondly by Pearson 4.6star 缩略图 Speaky-练习外语吧 Speaky Team 2.4star 缩略图 EF Hello 英孚成人英语：在线学习英语语法听力口语单词 Signum I",
+              "source": "https://play.google.com/store/apps/details?id=com.hellotalk.helloenglish&hl=zh",
+              "domain": "play.google.com",
+              "domain_trust": "unknown",
+              "source_score": 45
+            }
+          ],
+          "reflection": {
+            "status": "enough",
+            "reason": "当前结果不只是相关，而且已经较明确地回答了这道子问题，可以进入总结阶段。",
+            "suggestion": ""
+          }
+        }
+      ],
+      "final_status": "enough",
+      "final_reason": "当前结果不只是相关，而且已经较明确地回答了这道子问题，可以进入总结阶段。",
+      "final_suggestion": "",
+      "summary": "关于“如果目标明确且时间有限，如果目标是提升英语口语和听力，现在哪款 AI 学习工具最值得优先尝试？ 最值得优先尝试的综合建议是什么？”，当前更可靠的判断是：如果目标明确且时间有限，如果目标是提升英语口语和听力，现在哪款 AI 学习工具最值得优先尝试在不同目标、预算或约束下的综合建议，主要可以结合 模型、音效、音樂及語 音等多媒體類型。尤其是OpenAI 於2022 年11 月基於GPT-3.5 演算法推出的 ChatGPT 產品，讓AI 在全世界受到前所未有的關注，其應用也發展至日常生活 中的。；以有效選用AI 工具備課或教學，也因與同儕能力差距而削弱實踐之自信。此外，目前 執行摘要 3 AI 工具多源自於英語系國家之資料庫，可能隱含偏見，教師需具備數位識讀能力以審 慎應用。實務導向的AI 培。 这些线索来给出。\n\n支撑点：\n1. 模型、音效、音樂及語 音等多媒體類型。尤其是OpenAI 於2022 年11 月基於GPT-3.5 演算法推出的 ChatGPT 產品，讓AI 在全世界受到前所未有的關注，其應用也發展至日常生活 中的。\n2. 以有效選用AI 工具備課或教學，也因與同儕能力差距而削弱實踐之自信。此外，目前 執行摘要 3 AI 工具多源自於英語系國家之資料庫，可能隱含偏見，教師需具備數位識讀能力以審 慎應用。實務導向的AI 培。\n3. ## 类似应用 arrow\\_forward 缩略图 AI Grammar 英语语法检查改错分析 智能英文作文批改 HelloTalk Limited 3.5star 缩略图 italki：学习任一语。"
+    }
+  ],
+  "report": "研究问题：如果目标是提升英语口语和听力，现在哪款 AI 学习工具最值得优先尝试？\n\n【子问题状态概览】\n- 子问题总数：4\n- 已形成较稳定结论：4\n- 仍需谨慎看待：0\n- 题型分布：preference=4\n\n【整体结论】\n围绕“如果目标是提升英语口语和听力，现在哪款 AI 学习工具最值得优先尝试？”，当前更高层的判断是：这个主题的发展重点已经不只是“有没有”，而是“能不能稳定落地并形成真实价值”，这意味着工程化与可持续应用会比单点能力展示更重要。\n\n具体来看：\n1. 从趋势层面看，当前材料对整体方向的覆盖仍有限，但结构化落地的迹象已经开始出现。\n2. 从驱动与变化层面看，当前更像是现象层描述，真正的因果解释和机制链条还需要继续补强。\n3. 从限制与风险层面看，当前风险信息还不算充分，但治理、可靠性与落地成本已经开始成为不可回避的话题。\n\n【当前最值得保留的主线】\n- 当前材料支持保留方向性判断，但主线还需要更多高质量证据来压实。\n\n【需要保留的谨慎点】\n需要注意的是，当前结果更适合作为相对稳定的阶段性研究判断，而不是无需再验证的绝对结论。\n\n【结论性质】\n这份结果当前更适合作为：\n相对稳定的阶段性结论\n而不是：\n不需要继续验证的绝对判断",
+  "failure_tags": [
+    "no_obvious_failure"
+  ]
+}

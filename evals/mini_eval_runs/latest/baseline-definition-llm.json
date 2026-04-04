@@ -1,0 +1,296 @@
+{
+  "case": {
+    "id": "baseline-definition-llm",
+    "question": "什么是大语言模型的 Transformer 架构？",
+    "type": "definition",
+    "difficulty": "easy",
+    "main_target_module": "planner-search-summarizer",
+    "intent": "基准测试，检查系统在纯定义题上是否能稳定拆题、搜索和总结。"
+  },
+  "sub_questions": [
+    {
+      "sub_question": "什么是大语言模型的 Transformer 架构？ 的定义或基本含义是什么？",
+      "focus": "definition",
+      "rounds": [
+        {
+          "round": 1,
+          "query": "什么是大语言模型的 Transformer 架构？ 的定义或基本含义是什么？",
+          "raw_results": [
+            {
+              "title": "大模型入门指南 - Transformer:一文读懂Transformer的模型架构和底层...",
+              "snippet": "Transformer模型的出现标志着自然语言处理（NLP）技术的一次重大进步。 这个概念最初是针对机器翻译等任务而提出的，Transformer后来被拓展成各种形式——每种形式都针对特定的应用，包括原始的编码器-解码器（en…",
+              "source": "https://zhuanlan.zhihu.com/p/1921572108242236396"
+            },
+            {
+              "title": "【干货】Transformer全解析：大语言模型的基石架构与数据流动详解！_t...",
+              "snippet": "Nov 4, 2025 ·Transformer是奠定现代人工智能（尤其是大语言模型,例如: CHATGPT,DeepSeek等）的基石 架构 ，也是引爆这一轮AI技术革命的奇点。 所以理解这个架构是非常必要的！",
+              "source": "https://blog.csdn.net/m0_74942241/article/details/154388333"
+            },
+            {
+              "title": "详细介绍：大语言模型原理（Transformer架构） - wzzkaifa - 博客园",
+              "snippet": "Aug 25, 2025 ·详细介绍：大语言模型原理（Transformer架构） 一、概览 1.1定义大语言模型（LLM）是基于深度学习和神经网络的自然语言处理技能，目前主要通过Transformer架构和大规模数据训练来理解和生成语言。 GPT不同架构的训练参数： GPT-1 (2018)：1.17亿参数 GPT-2 (2018)：15亿参数",
+              "source": "https://www.cnblogs.com/wzzkaifa/p/19056621"
+            },
+            {
+              "title": "万字长文讲透LLM核心：Transformer架构原理解析-腾讯云开发者社区-腾...",
+              "snippet": "Dec 24, 2025 ·本系列的文章由浅入深介绍 LLM 的基础知识，从大模型的使用，到原理解析，再到LLM系统实战。 这篇深入浅出的文章旨在解析大型语言模型（LLM）的智能来源，核心聚焦于其基础架构——Transformer的原理与构造。",
+              "source": "https://cloud.tencent.com/developer/article/2608139"
+            },
+            {
+              "title": "大语言模型鼻祖Transformer的模型架构和底层原理_nlp_Zilliz_InfoQ写...",
+              "snippet": "Transformer模型的出现标志着现代自然语言处理（NLP）技术的一次重大进步。 这个概念最初是针对机器翻译等任务而提出的，Transformer后来被拓展成各种形式——每种形式都针对特定的应用",
+              "source": "https://xie.infoq.cn/article/7bd87fe95e8e952199ef4a090"
+            }
+          ],
+          "selected_results": [
+            {
+              "title": "详细介绍：大语言模型原理（Transformer架构） - wzzkaifa - 博客园",
+              "snippet": "Aug 25, 2025 ·详细介绍：大语言模型原理（Transformer架构） 一、概览 1.1定义大语言模型（LLM）是基于深度学习和神经网络的自然语言处理技能，目前主要通过Transformer架构和大规模数据训练来理解和生成语言。 GPT不同架构的训练参数： GPT-1 (2018)：1.17亿参数 GPT-2 (2018)：15亿参数",
+              "source": "https://www.cnblogs.com/wzzkaifa/p/19056621"
+            },
+            {
+              "title": "万字长文讲透LLM核心：Transformer架构原理解析-腾讯云开发者社区-腾...",
+              "snippet": "Dec 24, 2025 ·本系列的文章由浅入深介绍 LLM 的基础知识，从大模型的使用，到原理解析，再到LLM系统实战。 这篇深入浅出的文章旨在解析大型语言模型（LLM）的智能来源，核心聚焦于其基础架构——Transformer的原理与构造。",
+              "source": "https://cloud.tencent.com/developer/article/2608139"
+            },
+            {
+              "title": "大语言模型鼻祖Transformer的模型架构和底层原理_nlp_Zilliz_InfoQ写...",
+              "snippet": "Transformer模型的出现标志着现代自然语言处理（NLP）技术的一次重大进步。 这个概念最初是针对机器翻译等任务而提出的，Transformer后来被拓展成各种形式——每种形式都针对特定的应用",
+              "source": "https://xie.infoq.cn/article/7bd87fe95e8e952199ef4a090"
+            }
+          ],
+          "reflection": {
+            "status": "enough",
+            "reason": "当前结果不只是相关，而且已经较明确地回答了这道子问题，可以进入总结阶段。",
+            "suggestion": ""
+          }
+        }
+      ],
+      "final_status": "enough",
+      "final_reason": "当前结果不只是相关，而且已经较明确地回答了这道子问题，可以进入总结阶段。",
+      "final_suggestion": "",
+      "summary": "关于“什么是大语言模型的 Transformer 架构？ 的定义或基本含义是什么？”，当前更可靠的判断是：什么是大语言模型的 Transformer 架构的基本含义和关键特征，主要可以从 Aug 25, 2025 ·详细介绍：大语言模型原理（Transformer架构） 一、概览 1.1定义大语言模型（LLM）是基于深度学习和神经网络的自然语言处理技能，目前主要通过Transforme。；Dec 24, 2025 ·本系列的文章由浅入深介绍 LLM 的基础知识，从大模型的使用，到原理解析，再到LLM系统实战。 这篇深入浅出的文章旨在解析大型语言模型（LLM）的智能来源，核心聚焦于其基础。 这些线索来把握。\n\n支撑点：\n1. Aug 25, 2025 ·详细介绍：大语言模型原理（Transformer架构） 一、概览 1.1定义大语言模型（LLM）是基于深度学习和神经网络的自然语言处理技能，目前主要通过Transforme。\n2. Dec 24, 2025 ·本系列的文章由浅入深介绍 LLM 的基础知识，从大模型的使用，到原理解析，再到LLM系统实战。 这篇深入浅出的文章旨在解析大型语言模型（LLM）的智能来源，核心聚焦于其基础。\n3. Transformer模型的出现标志着现代自然语言处理（NLP）技术的一次重大进步。 这个概念最初是针对机器翻译等任务而提出的，Transformer后来被拓展成各种形式——每种形式都针对特定的应用"
+    },
+    {
+      "sub_question": "什么是大语言模型的 Transformer 架构？ 的核心组成、关键机制或工作原理是什么？",
+      "focus": "definition",
+      "rounds": [
+        {
+          "round": 1,
+          "query": "什么是大语言模型的 Transformer 架构？ 的核心组成、关键机制或工作原理是什么？",
+          "raw_results": [
+            {
+              "title": "Transformer架构深度解析 - 注意力机制的革命性突破 | 一介布衣",
+              "snippet": "Transformer架构深度解析 - 注意力机制的革命性突破.核心组件： Multi-Head Self-Attention：多头自注意力机制. Position-wise Feed-Forward：位置相关的前馈网络.",
+              "source": "https://yijiebuyi.com/blog/llm-02-transformer-architecture"
+            },
+            {
+              "title": "transformer.ipynb - Colab",
+              "snippet": "transformer架构:width: 500px :label: fig_transformer. 图 :numref: fig_transformer中概述了Transformer的架构。",
+              "source": "https://colab.research.google.com/github/d2l-ai/d2l-zh-tensorflow-colab/blob/master/chapter_attention-mechanisms/transformer.ipynb"
+            },
+            {
+              "title": "AI:Attention的本质：从Self到Cross，彻底读懂Transformer...",
+              "snippet": "第一章：Attention是什么？ 它改变了什么？ “深度学习的发展史，其实就是模型越来越‘懂得注意’的过程。” 在你还没接触Transformer之前，RNN是自然语言处理的主力军。",
+              "source": "https://blog.csdn.net/zhuhelong520/article/details/147881132"
+            },
+            {
+              "title": "五倍吞吐量，性能全面包围Transformer：新架构Mamba引爆AI圈_AIHub",
+              "snippet": "一个很明显的缺陷是：Transformer模型中自注意力机制的计算量会随着上下文长度的增加呈平方级增长，比如上下文增加 32 倍时，计算量可能会增长 1000 倍，计算效.",
+              "source": "https://www.kuxai.com/article/1709"
+            },
+            {
+              "title": "探索ChatGPT的内在神经网络结构1.背景介绍 人工智能（AI...",
+              "snippet": "2.1Transformer架构.Transformer是一种新颖的神经网络架构，由Vaswani等人在2017年的论文《Attention is all you need》中提出。",
+              "source": "https://juejin.cn/post/7315458897941872649"
+            }
+          ],
+          "selected_results": [
+            {
+              "title": "transformer.ipynb - Colab",
+              "snippet": "transformer架构:width: 500px :label: fig_transformer. 图 :numref: fig_transformer中概述了Transformer的架构。",
+              "source": "https://colab.research.google.com/github/d2l-ai/d2l-zh-tensorflow-colab/blob/master/chapter_attention-mechanisms/transformer.ipynb"
+            }
+          ],
+          "reflection": {
+            "status": "insufficient",
+            "reason": "当前有效结果太少，信息覆盖面还不够。",
+            "suggestion": "请补充“什么是大语言模型的 Transformer 架构？ 的核心组成、关键机制或工作原理是什么？”的不同角度材料，比如报告、案例、对比分析或调查。"
+          }
+        },
+        {
+          "round": 2,
+          "query": "什么是大语言模型的 Transformer 架构？ 的核心组成、关键机制或工作原理是什么？ 原因 驱动因素 作用机制 技术机制 需求变化 约束 激励 成本结构 ROI adoption 渗透率 基础设施 政策 案例 对比分析 调查 报告 白皮书 研究",
+          "raw_results": [
+            {
+              "title": "大模型开发：什么是Transformer架构及其重要性？ -阿里云开发者社区",
+              "snippet": "大型语言模型（LLM）的架构设计是其性能的核心决定因素。本文将全面探讨LLM基础架构的设计原理，深入分析Transformer的核心机制，详细介绍稀疏注意力、MoE等创新架构，并展望未来架构发展方向。",
+              "source": "https://developer.aliyun.com/article/1466981"
+            },
+            {
+              "title": "五倍吞吐量，性能全面包围Transformer：新架构Mamba引爆AI圈_AIHub",
+              "snippet": "上述变化对模型的计算提出了技术挑战。选择性 SSM 以及 Mamba架构的扩展是完全递归模型，几个关键特性使其适合作为在序列上运行的通用基础模型的骨干： 高质量：选择性为语言和基因组学等密集模型带来了强大的性能。",
+              "source": "https://www.kuxai.com/article/1709"
+            },
+            {
+              "title": "Vue3+NestJS 全栈开发企业级管理后台 - Go语言中文网 - Golang...",
+              "snippet": "本文将从开发效率、维护成本、基础设施成本及人才生态四个维度，深入剖析全栈技术选型如何直接决定企业的运营成本。8java版的上门家政系统和PHP版的上门家政有什么区别？",
+              "source": "https://studygolang.com/articles/60937"
+            },
+            {
+              "title": "一文彻底搞懂大模型- 人工神经网络与贝叶斯网络 - 53AI-AI...",
+              "snippet": "大语言模型. 一、大模型与人工神经网络的关系.什么是人工神经网络（ANN）？它由一个有向无环图（Directed Acyclic Graph，DAG）和条件概率表（Conditional Probability Table，CPT）组成。",
+              "source": "https://www.53ai.com/news/LargeLanguageModel/2024090364271.html"
+            },
+            {
+              "title": "Alma by Olivares.AI: 赋予您的AI 持久化记忆、身份和灵魂",
+              "snippet": "型安全的Node.js & TypeScript 客户端 05 ——模型您的智能选择 由 Anthropic的Claude模型独家驱动的3 个智能层级。AI聊天机器人 AI客服 AI智能体 AI助手大语言模型LLMs.",
+              "source": "https://www.toolify.ai/zh/tool/alma-by-olivares-ai"
+            }
+          ],
+          "selected_results": [
+            {
+              "title": "大模型开发：什么是Transformer架构及其重要性？ -阿里云开发者社区",
+              "snippet": "大型语言模型（LLM）的架构设计是其性能的核心决定因素。本文将全面探讨LLM基础架构的设计原理，深入分析Transformer的核心机制，详细介绍稀疏注意力、MoE等创新架构，并展望未来架构发展方向。",
+              "source": "https://developer.aliyun.com/article/1466981"
+            },
+            {
+              "title": "transformer.ipynb - Colab",
+              "snippet": "transformer架构:width: 500px :label: fig_transformer. 图 :numref: fig_transformer中概述了Transformer的架构。",
+              "source": "https://colab.research.google.com/github/d2l-ai/d2l-zh-tensorflow-colab/blob/master/chapter_attention-mechanisms/transformer.ipynb"
+            }
+          ],
+          "reflection": {
+            "status": "enough",
+            "reason": "当前结果不只是相关，而且已经较明确地回答了这道子问题，可以进入总结阶段。",
+            "suggestion": ""
+          }
+        }
+      ],
+      "final_status": "enough",
+      "final_reason": "当前结果不只是相关，而且已经较明确地回答了这道子问题，可以进入总结阶段。",
+      "final_suggestion": "",
+      "summary": "关于“什么是大语言模型的 Transformer 架构？ 的核心组成、关键机制或工作原理是什么？”，当前更可靠的判断是：什么是大语言模型的 Transformer 架构背后的主要原因、驱动因素或关键变量，当前材料主要指向 大型语言模型（LLM）的架构设计是其性能的核心决定因素。本文将全面探讨LLM基础架构的设计原理，深入分析Transformer的核心机制，详细介绍稀疏注意力、MoE等创新架构，并展望未来架构发展方向 这些方面。\n\n支撑点：\n1. 大型语言模型（LLM）的架构设计是其性能的核心决定因素。本文将全面探讨LLM基础架构的设计原理，深入分析Transformer的核心机制，详细介绍稀疏注意力、MoE等创新架构，并展望未来架构发展方向"
+    },
+    {
+      "sub_question": "什么是大语言模型的 Transformer 架构？ 容易和哪些相关概念混淆，它们的区别是什么？",
+      "focus": "definition",
+      "rounds": [
+        {
+          "round": 1,
+          "query": "什么是大语言模型的 Transformer 架构？ 容易和哪些相关概念混淆，它们的区别是什么？",
+          "raw_results": [
+            {
+              "title": "Transformers - Hammond Mfg.",
+              "snippet": "Transformers...Transformer& Choke Cross References ... Looking for Dry-Type ElectricalTransformers? Click here.",
+              "source": "https://www.hammfg.com/electronics/transformers"
+            },
+            {
+              "title": "Models compatible with the Transformers.js library – Hugging",
+              "snippet": "Explore machine learning models. ...Transformers... sentence-transformers... Active filters:transformers.js",
+              "source": "https://huggingface.co/models?library=transformers.js"
+            },
+            {
+              "title": "Light has been transformed into a ‘supersolid’ for the",
+              "snippet": "Supersolids are strange materials that behave like both a solid and a fluid due to quantum effects – and now researchers have created an intriguing ...",
+              "source": "https://www.newscientist.com/article/2470908-light-has-been-transformed-into-a-supersolid-for-the-first-time/"
+            },
+            {
+              "title": "Transformative Justice Law Project of IL",
+              "snippet": "transformative justice principles as ... We believe in transformative justice as a necessary alternative to the current carceral legal system.",
+              "source": "https://www.tjlp.org/"
+            },
+            {
+              "title": "Record Flooding Transforms Snoqualmie Falls - Videos from The",
+              "snippet": "However, days of relentless rain from an atmospheric river have transformed the popular waterfall into a roaring monster.",
+              "source": "https://weather.com/news/weather/video/rain-flooding-snoqualmie-falls-before-after"
+            }
+          ],
+          "selected_results": [
+            {
+              "title": "Transformers - Hammond Mfg.",
+              "snippet": "Transformers...Transformer& Choke Cross References ... Looking for Dry-Type ElectricalTransformers? Click here.",
+              "source": "https://www.hammfg.com/electronics/transformers"
+            },
+            {
+              "title": "Light has been transformed into a ‘supersolid’ for the",
+              "snippet": "Supersolids are strange materials that behave like both a solid and a fluid due to quantum effects – and now researchers have created an intriguing ...",
+              "source": "https://www.newscientist.com/article/2470908-light-has-been-transformed-into-a-supersolid-for-the-first-time/"
+            }
+          ],
+          "reflection": {
+            "status": "enough",
+            "reason": "当前结果不只是相关，而且已经较明确地回答了这道子问题，可以进入总结阶段。",
+            "suggestion": ""
+          }
+        }
+      ],
+      "final_status": "enough",
+      "final_reason": "当前结果不只是相关，而且已经较明确地回答了这道子问题，可以进入总结阶段。",
+      "final_suggestion": "",
+      "summary": "关于“什么是大语言模型的 Transformer 架构？ 容易和哪些相关概念混淆，它们的区别是什么？”，当前更可靠的判断是：什么是大语言模型的 Transformer 架构与相关概念容易混淆的地方及其区别，主要可以从 Transformers...Transformer& Choke Cross References ... Looking for Dry-Type ElectricalTransformers?。；Supersolids are strange materials that behave like both a solid and a fluid due to quantum effects –。 这些方面来分开。\n\n支撑点：\n1. Transformers...Transformer& Choke Cross References ... Looking for Dry-Type ElectricalTransformers?。\n2. Supersolids are strange materials that behave like both a solid and a fluid due to quantum effects –。"
+    },
+    {
+      "sub_question": "什么是大语言模型的 Transformer 架构？ 为什么值得关注，当前常见应用或代表场景有哪些？",
+      "focus": "general",
+      "rounds": [
+        {
+          "round": 1,
+          "query": "什么是大语言模型的 Transformer 架构？ 为什么值得关注，当前常见应用或代表场景有哪些？",
+          "raw_results": [
+            {
+              "title": "大模型开发：什么是Transformer架构及其重要性？ -阿里云开发者社区",
+              "snippet": "简介：Transformer模型革新了NLP，以其高效的并行计算和自注意力机制解决了长距离依赖问题。本文将全面探讨LLM基础架构的设计原理，深入分析Transformer的核心机制，详细介绍稀疏注意力、MoE等创新架构，并展望未来架构发展方向。",
+              "source": "https://developer.aliyun.com/article/1466981"
+            },
+            {
+              "title": "Transformers的设计理念 · Hugging Face",
+              "snippet": "如果要基于Transformers扩展或搭建新项目，请使用常规的Python或者 PyTorch模块，并从Transformers的基类继承以重用模型加载和保存等功能。 如果想了解更多有关我们的模型代码的设计理念，请查看我们的重复自己博文。",
+              "source": "https://huggingface.co/docs/transformers/zh/philosophy"
+            },
+            {
+              "title": "juejin.cn/post/7438130986929356834",
+              "snippet": "对于以Transformer为架构的大模型而言，模型的最后两层往往是全连接层（线性层）和Softmax 层。 这两层的作用分别是将特征转换为分数以及将分数进行归一化得到概率分布，最终模型会根据概率从词表中选择对应的词作为输出。",
+              "source": "https://juejin.cn/post/7438130986929356834"
+            },
+            {
+              "title": "一文彻底搞懂大模型- 人工神经网络与贝叶斯网络 - 53AI-AI...",
+              "snippet": "53AI知识库. 学习大模型的前沿技术与行业应用场景.大语言模型. 一、大模型与人工神经网络的关系.什么是人工神经网络（ANN）？",
+              "source": "https://www.53ai.com/news/LargeLanguageModel/2024090364271.html"
+            },
+            {
+              "title": "大模型多任务微调（Multitask Tuning... | AwesomeML",
+              "snippet": "大模型多任务微调（Multitask Tuning）详解、代码实现与应用. 2026年3月24日. 1. 简介. 你是否曾好奇，为什么像ChatGPT这样的大语言模型能理解并执行各种不同任务？为什么FLAN-T5如此有效？",
+              "source": "https://awesomeml.com/multitask-tuning/"
+            }
+          ],
+          "selected_results": [
+            {
+              "title": "大模型开发：什么是Transformer架构及其重要性？ -阿里云开发者社区",
+              "snippet": "简介：Transformer模型革新了NLP，以其高效的并行计算和自注意力机制解决了长距离依赖问题。本文将全面探讨LLM基础架构的设计原理，深入分析Transformer的核心机制，详细介绍稀疏注意力、MoE等创新架构，并展望未来架构发展方向。",
+              "source": "https://developer.aliyun.com/article/1466981"
+            },
+            {
+              "title": "juejin.cn/post/7438130986929356834",
+              "snippet": "对于以Transformer为架构的大模型而言，模型的最后两层往往是全连接层（线性层）和Softmax 层。 这两层的作用分别是将特征转换为分数以及将分数进行归一化得到概率分布，最终模型会根据概率从词表中选择对应的词作为输出。",
+              "source": "https://juejin.cn/post/7438130986929356834"
+            }
+          ],
+          "reflection": {
+            "status": "enough",
+            "reason": "当前结果不只是相关，而且已经较明确地回答了这道子问题，可以进入总结阶段。",
+            "suggestion": ""
+          }
+        }
+      ],
+      "final_status": "enough",
+      "final_reason": "当前结果不只是相关，而且已经较明确地回答了这道子问题，可以进入总结阶段。",
+      "final_suggestion": "",
+      "summary": "关于“什么是大语言模型的 Transformer 架构？ 为什么值得关注，当前常见应用或代表场景有哪些？”，当前更可靠的判断是：什么是大语言模型的 Transformer 架构当前最值得关注的核心问题，主要可以从 简介：Transformer模型革新了NLP，以其高效的并行计算和自注意力机制解决了长距离依赖问题。本文将全面探讨LLM基础架构的设计原理，深入分析Transformer的核心机制，详细介绍稀疏注意力。；对于以Transformer为架构的大模型而言，模型的最后两层往往是全连接层（线性层）和Softmax 层。 这两层的作用分别是将特征转换为分数以及将分数进行归一化得到概率分布，最终模型会根据概率从词。 这些方面来把握。\n\n支撑点：\n1. 简介：Transformer模型革新了NLP，以其高效的并行计算和自注意力机制解决了长距离依赖问题。本文将全面探讨LLM基础架构的设计原理，深入分析Transformer的核心机制，详细介绍稀疏注意力。\n2. 对于以Transformer为架构的大模型而言，模型的最后两层往往是全连接层（线性层）和Softmax 层。 这两层的作用分别是将特征转换为分数以及将分数进行归一化得到概率分布，最终模型会根据概率从词。"
+    }
+  ],
+  "report": "研究问题：什么是大语言模型的 Transformer 架构？\n\n【子问题状态概览】\n- 子问题总数：4\n- 已形成较稳定结论：4\n- 仍需谨慎看待：0\n- 题型分布：definition=3, driver=1\n\n【整体结论】\n围绕“什么是大语言模型的 Transformer 架构？”，当前更高层的判断是：这个主题的发展重点已经不只是“有没有”，而是“能不能稳定落地并形成真实价值”，这意味着工程化与可持续应用会比单点能力展示更重要。\n\n具体来看：\n1. 从趋势层面看，当前材料对整体方向的覆盖仍有限，但结构化落地的迹象已经开始出现。\n2. 从驱动与变化层面看，当前材料已经支持一个初步判断：这轮变化并不只是技术热度推动，还与效率需求、业务落地压力和基础设施成熟有关。\n3. 从限制与风险层面看，当前风险信息还不算充分，但治理、可靠性与落地成本已经开始成为不可回避的话题。\n\n【当前最值得保留的主线】\n- 当前材料支持保留方向性判断，但主线还需要更多高质量证据来压实。\n\n【需要保留的谨慎点】\n需要注意的是，当前结果更适合作为相对稳定的阶段性研究判断，而不是无需再验证的绝对结论。\n\n【结论性质】\n这份结果当前更适合作为：\n相对稳定的阶段性结论\n而不是：\n不需要继续验证的绝对判断",
+  "failure_tags": [
+    "no_obvious_failure"
+  ]
+}

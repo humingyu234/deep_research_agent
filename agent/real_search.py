@@ -1,14 +1,17 @@
 from ddgs import DDGS
 
-def real_search(query: str, max_results: int = 5):
+
+def real_search(query: str, max_results: int = 5) -> list[dict]:
     results = []
 
     with DDGS() as ddgs:
-        for r in ddgs.text(query, max_results=max_results):
-            results.append({
-                "title": r.get("title", ""),
-                "snippet": r.get("body", ""),  # DDGS 用 body
-                "url": r.get("href", "")
-            })
+        for item in ddgs.text(query, max_results=max_results):
+            results.append(
+                {
+                    "title": item.get("title", ""),
+                    "snippet": item.get("body", ""),
+                    "url": item.get("href", ""),
+                }
+            )
 
     return results

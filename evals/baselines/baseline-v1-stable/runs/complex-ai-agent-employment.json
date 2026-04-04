@@ -1,0 +1,321 @@
+{
+  "case": {
+    "id": "complex-ai-agent-employment",
+    "question": "AI Agent 普及对 2026 年中美两国的初级程序员就业分别有什么影响，有哪些应对策略？",
+    "type": "complex-comparison",
+    "difficulty": "hard",
+    "main_target_module": "planner-reporter",
+    "intent": "测试复合嵌套题，观察系统是否能拆解、对比并最后收束出不重复的总报告。"
+  },
+  "sub_questions": [
+    {
+      "sub_question": "AI Agent 普及对 2026 年中美两国的初级程序员就业分别有什么影响，有哪些应对策略？ 涉及的主要比较对象分别是什么表现？",
+      "focus": "definition",
+      "rounds": [
+        {
+          "round": 1,
+          "query": "AI Agent 普及对 2026 年中美两国的初级程序员就业分别有什么影响，有哪些应对策略？ 涉及的主要比较对象分别是什么表现？",
+          "raw_results": [
+            {
+              "title": "2025–2026年AI...",
+              "snippet": "20. 根据 Anthropic2026年3 月发布的《AI对劳动力市场影响》报告，受AI影响风险最高的10 个职业（按观测暴露度 Observed Exposure从高到低）如下：计算机程序员：74.5%客户服务代表：当aiagent普及以后，利好有关系能拉到活的人，利空除了能力啥也没有的人。",
+              "source": "https://post.smzdm.com/p/anvwpq2v/"
+            },
+            {
+              "title": "rfi.fr/cn/政治/20260326...",
+              "snippet": "特朗普周四（3月26日）宣布，将对伊朗的最后通牒延长至4月6日，以便在可能对伊朗电力设施进行打击前继续谈判，他还称与德黑兰的讨论“非常顺利”。 同时他声称这是“伊朗政府的要求”，不过他并未说明在此之前需要满足哪些具体条件。",
+              "source": "https://www.rfi.fr/cn/政治/20260326-特朗普又将对伊朗的最后通牒延长至4月6日，称这是-伊朗政府的要求"
+            },
+            {
+              "title": "大模型时代，断言还管用吗？AI...",
+              "snippet": "AI系统测试为什么是一个新问题 当前企业系统越来越多接入： 大模型能力 RAG 知识检索Agent决策逻辑 MCP 工具调用 测试对象已经不再是单一规则系统。 而是：",
+              "source": "https://developer.aliyun.com/article/1720630"
+            },
+            {
+              "title": "V2EX",
+              "snippet": "2026年， node 写后端你用的nestjs, fastify, honojs 还是其他？Kimi 2.5 说自己是Claude，一个由 Anthropic 开发的AI助手.程序员• xaxb • 1 小时 5分钟前 • 最后回复来自 terence4444.",
+              "source": "https://v2ex.com/"
+            },
+            {
+              "title": "药价与美国医疗政策的新变化 - SWI swissinfo.ch",
+              "snippet": "热门新闻.2026年3月23日，瓦莱州教育局长克里斯朵夫·达尔伯雷(Christophe Darbellay)接受媒体采访。拉低美国市场价格。 如果没有其他国家的定价，美国就没有可供比较的对象。” 财政紧缩的影响.",
+              "source": "https://www.swissinfo.ch/chi/药品获取/特朗普改革药品定价规则，制药商重新评估欧洲市场/91141764"
+            }
+          ],
+          "selected_results": [
+            {
+              "title": "2025–2026年AI...",
+              "snippet": "20. 根据 Anthropic2026年3 月发布的《AI对劳动力市场影响》报告，受AI影响风险最高的10 个职业（按观测暴露度 Observed Exposure从高到低）如下：计算机程序员：74.5%客户服务代表：当aiagent普及以后，利好有关系能拉到活的人，利空除了能力啥也没有的人。",
+              "source": "https://post.smzdm.com/p/anvwpq2v/"
+            },
+            {
+              "title": "V2EX",
+              "snippet": "2026年， node 写后端你用的nestjs, fastify, honojs 还是其他？Kimi 2.5 说自己是Claude，一个由 Anthropic 开发的AI助手.程序员• xaxb • 1 小时 5分钟前 • 最后回复来自 terence4444.",
+              "source": "https://v2ex.com/"
+            },
+            {
+              "title": "大模型时代，断言还管用吗？AI...",
+              "snippet": "AI系统测试为什么是一个新问题 当前企业系统越来越多接入： 大模型能力 RAG 知识检索Agent决策逻辑 MCP 工具调用 测试对象已经不再是单一规则系统。 而是：",
+              "source": "https://developer.aliyun.com/article/1720630"
+            }
+          ],
+          "reflection": {
+            "status": "enough",
+            "reason": "当前结果不只是相关，而且已经较明确地回答了这道子问题，可以进入总结阶段。",
+            "suggestion": ""
+          }
+        }
+      ],
+      "final_status": "enough",
+      "final_reason": "当前结果不只是相关，而且已经较明确地回答了这道子问题，可以进入总结阶段。",
+      "final_suggestion": "",
+      "summary": "关于“AI Agent 普及对 2026 年中美两国的初级程序员就业分别有什么影响，有哪些应对策略？ 涉及的主要比较对象分别是什么表现？”，当前更可靠的判断是：这个问题更值得从从概念验证走向企业级落地和规模化应用这些方向来理解。\n\n支撑点：\n1. 20. 根据 Anthropic2026年3 月发布的《AI对劳动力市场影响》报告，受AI影响风险最高的10 个职业（按观测暴露度 Observed Exposure从高到低）如下：计算机程序员：74.5%客户服务代表：。\n2. 2026年， node 写后端你用的nestjs, fastify, honojs 还是其他？Kimi 2.5 说自己是Claude，一个由 Anthropic 开发的AI助手.程序员• xaxb • 1 小时 5分钟前。\n3. AI系统测试为什么是一个新问题 当前企业系统越来越多接入： 大模型能力 RAG 知识检索Agent决策逻辑 MCP 工具调用 测试对象已经不再是单一规则系统。 而是："
+    },
+    {
+      "sub_question": "AI Agent 普及对 2026 年中美两国的初级程序员就业分别有什么影响，有哪些应对策略？ 它们之间最关键的差异体现在哪些维度？",
+      "focus": "general",
+      "rounds": [
+        {
+          "round": 1,
+          "query": "AI Agent 普及对 2026 年中美两国的初级程序员就业分别有什么影响，有哪些应对策略？ 它们之间最关键的差异体现在哪些维度？",
+          "raw_results": [
+            {
+              "title": "2026AI Agent六大趋势，编程热潮后谁是下一个风口？_腾讯新闻",
+              "snippet": "美国风投数据机构CB Insights最近发布了一份69页的重磅报告《AI Agent圣经：颠覆性智能体终极指南》，全面讲述了AIAgent的生态图景。 这份报告包括了 ...",
+              "source": "https://news.qq.com/rain/a/20251021A07YSI00"
+            },
+            {
+              "title": "2026AI Agent六大趋势，编程热潮后谁是下一个风口？",
+              "snippet": "这份报告包括了对2026年的6大预言、AI Agent生态全图（看懂\"江湖\"势力）、独家披露头部Agent初创的营收梯度，以及AIAgent深入企业工作流，行业专属应用加速落地等等。 文中的一些趋势和案例，非常令人大开眼界，展现了无限可能的未来。",
+              "source": "https://zhuanlan.zhihu.com/p/81794198043"
+            },
+            {
+              "title": "2026AI Agent六大趋势，编程热潮后谁是下一个风口？ - 36氪",
+              "snippet": "CB Insights报告：AI Agent爆发，2026年六大趋势 美国风投数据机构CB Insights最近发布了一份69页的重磅报告《AIAgent圣 经：颠覆性智能体终极指南》，全面 ...",
+              "source": "https://www.36kr.com/p/3518938465770373"
+            },
+            {
+              "title": "硅谷最新调研：2026年，AI Agent到底会走向哪？_澎湃号·湃客_澎湃新闻-The Paper",
+              "snippet": "2026，智能体的故事也就不再是概念与想象，而是会落到更具体的产业结果上：软件交付周期缩短、客服与运营成本结构改变、数据分析与报表生产方式重写，以及一批围绕安全、合规、集成与治理的新供应链机会加速成形。 2026，AI 或将成为真正的生产力，而智能体，是企业把这种生产力装进生产 ...",
+              "source": "https://www.thepaper.cn/newsDetail_forward_32488689"
+            },
+            {
+              "title": "AI Agent 2026 指南 | 超智諮詢 - meta-intelligence.tech",
+              "snippet": "【2026最新】AIAgent不再只是聊天機器人——BrowserAgent自動操作網頁、CodingAgent獨立寫程式、多Agent團隊協作完成複雜任務。完整解析技術架構、主流框架比較與企業導入策略。",
+              "source": "https://www.meta-intelligence.tech/insight-ai-agent-landscape-2026"
+            }
+          ],
+          "selected_results": [
+            {
+              "title": "硅谷最新调研：2026年，AI Agent到底会走向哪？_澎湃号·湃客_澎湃新闻-The Paper",
+              "snippet": "2026，智能体的故事也就不再是概念与想象，而是会落到更具体的产业结果上：软件交付周期缩短、客服与运营成本结构改变、数据分析与报表生产方式重写，以及一批围绕安全、合规、集成与治理的新供应链机会加速成形。 2026，AI 或将成为真正的生产力，而智能体，是企业把这种生产力装进生产 ...",
+              "source": "https://www.thepaper.cn/newsDetail_forward_32488689"
+            },
+            {
+              "title": "2026AI Agent六大趋势，编程热潮后谁是下一个风口？ - 36氪",
+              "snippet": "CB Insights报告：AI Agent爆发，2026年六大趋势 美国风投数据机构CB Insights最近发布了一份69页的重磅报告《AIAgent圣 经：颠覆性智能体终极指南》，全面 ...",
+              "source": "https://www.36kr.com/p/3518938465770373"
+            },
+            {
+              "title": "2026AI Agent六大趋势，编程热潮后谁是下一个风口？_腾讯新闻",
+              "snippet": "美国风投数据机构CB Insights最近发布了一份69页的重磅报告《AI Agent圣经：颠覆性智能体终极指南》，全面讲述了AIAgent的生态图景。 这份报告包括了 ...",
+              "source": "https://news.qq.com/rain/a/20251021A07YSI00"
+            }
+          ],
+          "reflection": {
+            "status": "enough",
+            "reason": "当前结果不只是相关，而且已经较明确地回答了这道子问题，可以进入总结阶段。",
+            "suggestion": ""
+          }
+        }
+      ],
+      "final_status": "enough",
+      "final_reason": "当前结果不只是相关，而且已经较明确地回答了这道子问题，可以进入总结阶段。",
+      "final_suggestion": "",
+      "summary": "关于“AI Agent 普及对 2026 年中美两国的初级程序员就业分别有什么影响，有哪些应对策略？ 它们之间最关键的差异体现在哪些维度？”，当前更可靠的判断是：这个问题更值得从从概念验证走向企业级落地和规模化应用，治理、安全与合规会从配角变成核心要求，以及企业对效率和生产力回报的需求会持续推动应用扩张这些方向来理解。\n\n支撑点：\n1. 2026，智能体的故事也就不再是概念与想象，而是会落到更具体的产业结果上：软件交付周期缩短、客服与运营成本结构改变、数据分析与报表生产方式重写，以及一批围绕安全、合规、集成与治理的新供应链机会加速成形。 2026，AI 。\n2. CB Insights报告：AI Agent爆发，2026年六大趋势 美国风投数据机构CB Insights最近发布了一份69页的重磅报告《AIAgent圣 经：颠覆性智能体终极指南》，全面 ...\n3. 美国风投数据机构CB Insights最近发布了一份69页的重磅报告《AI Agent圣经：颠覆性智能体终极指南》，全面讲述了AIAgent的生态图景。 这份报告包括了 ..."
+    },
+    {
+      "sub_question": "AI Agent 普及对 2026 年中美两国的初级程序员就业分别有什么影响，有哪些应对策略？ 这些差异背后的主要原因或约束是什么？",
+      "focus": "driver",
+      "rounds": [
+        {
+          "round": 1,
+          "query": "AI Agent 普及对 2026 年中美两国的初级程序员就业分别有什么影响，有哪些应对策略？ 这些差异背后的主要原因或约束是什么？",
+          "raw_results": [
+            {
+              "title": "硅谷最新调研：2026年，AI Agent到底会走向哪？",
+              "snippet": "Jan 29,2026·2026，智能体的故事也就不再是概念与想象，而是会落到更具体的产业结果上：软件交付周期缩短、客服与运营成本结构改变、数据分析与报表生产方式重写，以及一批围绕安全、合规、集成与治理的新供应链机会加速成形。",
+              "source": "https://m.thepaper.cn/newsDetail_forward_32488689"
+            },
+            {
+              "title": "深度解析：2026年AI Agent三大趋势，62%企业已入局，你准备好了吗？",
+              "snippet": "深度解析：2026年AIAgent三大趋势，62%企业已入局，你准备好了吗？ 基于36氪对30个顶级AIAgent产品的深度分析，结合一线实践经验，为你拆解这场正在发生的生产力革命。",
+              "source": "https://zhuanlan.zhihu.com/p/2011247693264076923"
+            },
+            {
+              "title": "AI Agent 2026 指南 | 超智諮詢 - meta-intelligence.tech",
+              "snippet": "Feb 25,2026·【2026最新】AIAgent不再只是聊天機器人——Browser Agent 自動操作網頁、Coding Agent 獨立寫程式、多 Agent 團隊協作完成複雜任務。 完整解析技術架構、主流框架比較與企業導入策略。",
+              "source": "https://www.meta-intelligence.tech/insight-ai-agent-landscape-2026"
+            },
+            {
+              "title": "计算机行业深度报告：AI Agent拐点已至，2B+2C星辰大海-研究报告正文 ...",
+              "snippet": "Dec 25, 2024 ·谷歌推出商用AIAgent市场AIAgentSpace，已提供19款解决方案，并计划在未来几个月内增加“数百个人工智能代理”产品。 同时海外科技公司AIAgent产品的盈利弹性也在初步释放，如Salesforce第三季度已销售200多份Agentforce订单，并计划第四季度招聘1400名AE销售Agentforce。",
+              "source": "https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202412251641423417"
+            },
+            {
+              "title": "AI: Work partnerships between people, agents, and robots ...",
+              "snippet": "Nov 25, 2025 ·Learn howAIis transforming work, focusing on the collaboration between humans,agents, and robots.",
+              "source": "https://www.mckinsey.com/mgi/our-research/agents-robots-and-us-skill-partnerships-in-the-age-of-ai"
+            }
+          ],
+          "selected_results": [
+            {
+              "title": "计算机行业深度报告：AI Agent拐点已至，2B+2C星辰大海-研究报告正文 ...",
+              "snippet": "Dec 25, 2024 ·谷歌推出商用AIAgent市场AIAgentSpace，已提供19款解决方案，并计划在未来几个月内增加“数百个人工智能代理”产品。 同时海外科技公司AIAgent产品的盈利弹性也在初步释放，如Salesforce第三季度已销售200多份Agentforce订单，并计划第四季度招聘1400名AE销售Agentforce。",
+              "source": "https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202412251641423417"
+            },
+            {
+              "title": "深度解析：2026年AI Agent三大趋势，62%企业已入局，你准备好了吗？",
+              "snippet": "深度解析：2026年AIAgent三大趋势，62%企业已入局，你准备好了吗？ 基于36氪对30个顶级AIAgent产品的深度分析，结合一线实践经验，为你拆解这场正在发生的生产力革命。",
+              "source": "https://zhuanlan.zhihu.com/p/2011247693264076923"
+            },
+            {
+              "title": "硅谷最新调研：2026年，AI Agent到底会走向哪？",
+              "snippet": "Jan 29,2026·2026，智能体的故事也就不再是概念与想象，而是会落到更具体的产业结果上：软件交付周期缩短、客服与运营成本结构改变、数据分析与报表生产方式重写，以及一批围绕安全、合规、集成与治理的新供应链机会加速成形。",
+              "source": "https://m.thepaper.cn/newsDetail_forward_32488689"
+            }
+          ],
+          "reflection": {
+            "status": "insufficient",
+            "reason": "当前材料更多是在描述趋势现象，还没有充分解释背后的驱动因素或作用机制。",
+            "suggestion": "请更聚焦地搜索“AI Agent 普及对 2026 年中美两国的初级程序员就业分别有什么影响，有哪些应对策略？ 这些差异背后的主要原因或约束是什么？”背后的原因、推动因素、需求变化或技术机制。"
+          }
+        },
+        {
+          "round": 2,
+          "query": "AI Agent 普及对 2026 年中美两国的初级程序员就业分别有什么影响，有哪些应对策略？ 这些差异背后的主要原因或约束是什么？ 原因 驱动因素 作用机制 技术机制 需求变化 约束 激励 成本结构 ROI adoption 渗透率 基础设施 政策",
+          "raw_results": [
+            {
+              "title": "Manus「撤出」中国，昔日AIAgent新星为何仓促离场？ -36氪",
+              "snippet": "据《智百道》分析，有两方面因素或许是让Manus“迁离”的主要原因：例如金融、制造等行业开始使用定制Agent工具，国内AIAgent的参与者们也继续在这些细分领域加速布局。",
+              "source": "https://36kr.com/p/3378894641076609"
+            },
+            {
+              "title": "[AgenticAI] 从智者到行者——AgenticAI的范式革命与技术架构",
+              "snippet": "这两个例子对我的触动蛮大的，原因是它体现了一种非常根本的使用AI的思路的变化，如果我们看上古时期的AI产品，比如一年前的ChatGPT和Claude的话，它的使.用模式是“我问你答”——我们有什么不知道的东西会去咨询它。",
+              "source": "https://yage.ai/agentic-ai.html"
+            },
+            {
+              "title": "中美人工智能竞赛AI鼻祖称白宫可以更淡定 - BBC News中文",
+              "snippet": "人工智能（AI）领域的美、中博弈升温，成为中美贸易战背后的驱动因素之一。",
+              "source": "https://www.bbc.com/zhongwen/simp/science-50390427"
+            },
+            {
+              "title": "Google",
+              "snippet": "©2026- Конфиденциальность - Условия.",
+              "source": "https://www.google.com/"
+            },
+            {
+              "title": "DeepSeek改变AI未来——最应该关注的十大走向 - 21经济网",
+              "snippet": "它究竟改变了什么？哪些底层逻辑正在重构？ 还有什么是外界尚未看到，但终将发生的？高盛分析师测算，若DeepSeek模式普及，全球AI基础设施投资需求可能缩减40%-60%，星际之门这类超级项目的经济合理性将遭遇根本性质疑。",
+              "source": "https://www.21jingji.com/article/20250206/herald/234f701605400f2638db595945c7185b.html"
+            }
+          ],
+          "selected_results": [
+            {
+              "title": "Manus「撤出」中国，昔日AIAgent新星为何仓促离场？ -36氪",
+              "snippet": "据《智百道》分析，有两方面因素或许是让Manus“迁离”的主要原因：例如金融、制造等行业开始使用定制Agent工具，国内AIAgent的参与者们也继续在这些细分领域加速布局。",
+              "source": "https://36kr.com/p/3378894641076609"
+            },
+            {
+              "title": "计算机行业深度报告：AI Agent拐点已至，2B+2C星辰大海-研究报告正文 ...",
+              "snippet": "Dec 25, 2024 ·谷歌推出商用AIAgent市场AIAgentSpace，已提供19款解决方案，并计划在未来几个月内增加“数百个人工智能代理”产品。 同时海外科技公司AIAgent产品的盈利弹性也在初步释放，如Salesforce第三季度已销售200多份Agentforce订单，并计划第四季度招聘1400名AE销售Agentforce。",
+              "source": "https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202412251641423417"
+            },
+            {
+              "title": "深度解析：2026年AI Agent三大趋势，62%企业已入局，你准备好了吗？",
+              "snippet": "深度解析：2026年AIAgent三大趋势，62%企业已入局，你准备好了吗？ 基于36氪对30个顶级AIAgent产品的深度分析，结合一线实践经验，为你拆解这场正在发生的生产力革命。",
+              "source": "https://zhuanlan.zhihu.com/p/2011247693264076923"
+            }
+          ],
+          "reflection": {
+            "status": "enough",
+            "reason": "当前结果不只是相关，而且已经较明确地回答了这道子问题，可以进入总结阶段。",
+            "suggestion": ""
+          }
+        }
+      ],
+      "final_status": "enough",
+      "final_reason": "当前结果不只是相关，而且已经较明确地回答了这道子问题，可以进入总结阶段。",
+      "final_suggestion": "",
+      "summary": "关于“AI Agent 普及对 2026 年中美两国的初级程序员就业分别有什么影响，有哪些应对策略？ 这些差异背后的主要原因或约束是什么？”，当前更可靠的判断是：推动这一轮变化的核心因素，主要来自从概念验证走向企业级落地和规模化应用，以及企业对效率和生产力回报的需求会持续推动应用扩张。\n\n支撑点：\n1. 据《智百道》分析，有两方面因素或许是让Manus“迁离”的主要原因：例如金融、制造等行业开始使用定制Agent工具，国内AIAgent的参与者们也继续在这些细分领域加速布局\n2. Dec 25, 2024 ·谷歌推出商用AIAgent市场AIAgentSpace，已提供19款解决方案，并计划在未来几个月内增加“数百个人工智能代理”产品。 同时海外科技公司AIAgent产品的盈利弹性也在初步释放，如。\n3. 深度解析：2026年AIAgent三大趋势，62%企业已入局，你准备好了吗？ 基于36氪对30个顶级AIAgent产品的深度分析，结合一线实践经验，为你拆解这场正在发生的生产力革命"
+    },
+    {
+      "sub_question": "AI Agent 普及对 2026 年中美两国的初级程序员就业分别有什么影响，有哪些应对策略？ 基于这些差异，可以得出什么判断、选择建议或应对策略？",
+      "focus": "general",
+      "rounds": [
+        {
+          "round": 1,
+          "query": "AI Agent 普及对 2026 年中美两国的初级程序员就业分别有什么影响，有哪些应对策略？ 基于这些差异，可以得出什么判断、选择建议或应对策略？",
+          "raw_results": [
+            {
+              "title": "2026AI Agent六大趋势，编程热潮后谁是下一个风口？",
+              "snippet": "这份报告包括了对2026年的6大预言、AI Agent生态全图（看懂\"江湖\"势力）、独家披露头部Agent初创的营收梯度，以及AIAgent深入企业工作流，行业专属应用加速落地等等。 文中的一些趋势和案例，非常令人大开眼界，展现了无限可能的未来。",
+              "source": "https://zhuanlan.zhihu.com/p/81794198043"
+            },
+            {
+              "title": "2026AI Agent六大趋势，编程热潮后谁是下一个风口？_腾讯新闻",
+              "snippet": "美国风投数据机构CB Insights最近发布了一份69页的重磅报告《AI Agent圣经：颠覆性智能体终极指南》，全面讲述了AIAgent的生态图景。 这份报告包括了 ...",
+              "source": "https://news.qq.com/rain/a/20251021A07YSI00"
+            },
+            {
+              "title": "2026AI Agent六大趋势，编程热潮后谁是下一个风口？ - 36氪",
+              "snippet": "CB Insights报告：AI Agent爆发，2026年六大趋势 美国风投数据机构CB Insights最近发布了一份69页的重磅报告《AIAgent圣 经：颠覆性智能体终极指南》，全面 ...",
+              "source": "https://www.36kr.com/p/3518938465770373"
+            },
+            {
+              "title": "AI Agent 2026 指南 | 超智諮詢 - meta-intelligence.tech",
+              "snippet": "【2026最新】AIAgent不再只是聊天機器人——BrowserAgent自動操作網頁、CodingAgent獨立寫程式、多Agent團隊協作完成複雜任務。完整解析技術架構、主流框架比較與企業導入策略。",
+              "source": "https://www.meta-intelligence.tech/insight-ai-agent-landscape-2026"
+            },
+            {
+              "title": "PDFAI agent trends 2026",
+              "snippet": "In this report, we explore five keyAIagenttrends shaping business in2026. Unlocking the value of these trends requires more than simply adopting new tools. It also demands that leaders question old assumptions and drive the cultural change necessary to thrive in this new, agenticAIera.",
+              "source": "https://services.google.com/fh/files/misc/google_cloud_ai_agent_trends_2026_report.pdf"
+            }
+          ],
+          "selected_results": [
+            {
+              "title": "PDFAI agent trends 2026",
+              "snippet": "In this report, we explore five keyAIagenttrends shaping business in2026. Unlocking the value of these trends requires more than simply adopting new tools. It also demands that leaders question old assumptions and drive the cultural change necessary to thrive in this new, agenticAIera.",
+              "source": "https://services.google.com/fh/files/misc/google_cloud_ai_agent_trends_2026_report.pdf"
+            },
+            {
+              "title": "2026AI Agent六大趋势，编程热潮后谁是下一个风口？ - 36氪",
+              "snippet": "CB Insights报告：AI Agent爆发，2026年六大趋势 美国风投数据机构CB Insights最近发布了一份69页的重磅报告《AIAgent圣 经：颠覆性智能体终极指南》，全面 ...",
+              "source": "https://www.36kr.com/p/3518938465770373"
+            },
+            {
+              "title": "2026AI Agent六大趋势，编程热潮后谁是下一个风口？_腾讯新闻",
+              "snippet": "美国风投数据机构CB Insights最近发布了一份69页的重磅报告《AI Agent圣经：颠覆性智能体终极指南》，全面讲述了AIAgent的生态图景。 这份报告包括了 ...",
+              "source": "https://news.qq.com/rain/a/20251021A07YSI00"
+            }
+          ],
+          "reflection": {
+            "status": "enough",
+            "reason": "当前结果不只是相关，而且已经较明确地回答了这道子问题，可以进入总结阶段。",
+            "suggestion": ""
+          }
+        }
+      ],
+      "final_status": "enough",
+      "final_reason": "当前结果不只是相关，而且已经较明确地回答了这道子问题，可以进入总结阶段。",
+      "final_suggestion": "",
+      "summary": "关于“AI Agent 普及对 2026 年中美两国的初级程序员就业分别有什么影响，有哪些应对策略？ 基于这些差异，可以得出什么判断、选择建议或应对策略？”，当前更可靠的判断是：这个问题更值得从从辅助工具走向更强的自主执行这些方向来理解。\n\n支撑点：\n1. In this report, we explore five keyAIagenttrends shaping business in2026. Unlocking the value of these trends 。\n2. CB Insights报告：AI Agent爆发，2026年六大趋势 美国风投数据机构CB Insights最近发布了一份69页的重磅报告《AIAgent圣 经：颠覆性智能体终极指南》，全面 ...\n3. 美国风投数据机构CB Insights最近发布了一份69页的重磅报告《AI Agent圣经：颠覆性智能体终极指南》，全面讲述了AIAgent的生态图景。 这份报告包括了 ..."
+    }
+  ],
+  "report": "研究问题：AI Agent 普及对 2026 年中美两国的初级程序员就业分别有什么影响，有哪些应对策略？\n\n【子问题状态概览】\n- 子问题总数：4\n- 已形成较稳定结论：4\n- 仍需谨慎看待：0\n- 题型分布：definition=1, driver=1, general=2\n\n【整体结论】\n围绕“AI Agent 普及对 2026 年中美两国的初级程序员就业分别有什么影响，有哪些应对策略？”，当前更高层的判断是：这个主题的发展重点已经不只是“有没有”，而是“能不能稳定落地并形成真实价值”，这意味着工程化与可持续应用会比单点能力展示更重要。\n\n具体来看：\n1. 从趋势层面看，研究对象正在从概念热度走向更可落地的结构变化，这说明它的发展重点已经不只是“有没有”，而是“能不能稳定落地”。\n2. 从驱动与变化层面看，当前材料已经支持一个初步判断：这轮变化并不只是技术热度推动，还与效率需求、业务落地压力和基础设施成熟有关。\n3. 从限制与风险层面看，当前风险信息还不算充分，但治理、可靠性与落地成本已经开始成为不可回避的话题。\n\n【当前最值得保留的主线】\n- 从概念验证走向企业级落地和规模化应用。\n- 从辅助工具走向更强的自主执行与工作流整合。\n- 治理、安全、合规与可靠性正在从配角变成核心约束。\n\n【需要保留的谨慎点】\n需要注意的是，当前结果更适合作为相对稳定的阶段性研究判断，而不是无需再验证的绝对结论。\n\n【结论性质】\n这份结果当前更适合作为：\n相对稳定的阶段性结论\n而不是：\n不需要继续验证的绝对判断",
+  "failure_tags": [
+    "no_obvious_failure"
+  ]
+}

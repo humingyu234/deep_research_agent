@@ -1,0 +1,20 @@
+[
+  {
+    "id": "router-research-solid-state-battery",
+    "query": "近五年固态电池从实验室推进到量产前夜，关键技术和产业里程碑有哪些？",
+    "expected_task_type": "RESEARCH",
+    "expected_needs_clarification": false
+  },
+  {
+    "id": "router-advice-entp-partner",
+    "query": "我是entp男生你觉得什么样子的性格的女生会适合我？",
+    "expected_task_type": "ADVICE",
+    "expected_needs_clarification": true
+  },
+  {
+    "id": "router-quick-answer-france-capital",
+    "query": "法国的首都是什么？",
+    "expected_task_type": "QUICK_ANSWER",
+    "expected_needs_clarification": false
+  }
+]

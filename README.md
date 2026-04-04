@@ -1,213 +1,144 @@
 # Deep Research Agent
 
-一个面向研究型问答场景的 Agent 原型项目。
+一个正在持续迭代的研究型 Agent 系统原型。
 
-它的核心目标不是“把搜索结果堆出来”，而是把研究流程拆成更清楚的几层：
+它的目标不是“把搜索结果堆出来”，而是把复杂问题拆成更清楚的处理流程，并用评估闭环不断收紧质量。
 
-```text
-Planner -> Search -> Selector -> Reflect -> Summarizer -> Reporter
+当前项目已经从“单条 research 主链”升级到：
+
+`Task Router -> Multi-Workflow System`
+
+也就是先判断问题类型，再决定走哪条 workflow。
+
+## 当前工作流
+
+### 1. `RESEARCH`
+适合：
+- 客观、事实性、需要证据支持的问题
+- 比较、时间线、驱动因素、趋势分析这类题
+
+当前链路：
+
+`Clarifier -> Planner -> Search -> Selector -> Reflector -> Rewriter -> Summarizer -> Reporter`
+
+### 2. `ADVICE`
+适合：
+- 个人建议
+- 关系建议
+- 职业选择
+- 人生决策
+- 主观偏好类问题
+
+当前链路：
+
+`Clarifier -> light advice workflow`
+
+说明：
+- 这条链当前优先保证“贴题、克制、不离谱”
+- 默认不再把开放网页搜索结果直接喂进最终建议
+
+### 3. `QUICK_ANSWER`
+适合：
+- 简单事实
+- 轻解释
+- 直接问答
+
+当前链路：
+
+`light search -> quick answer synthesis`
+
+### 4. `UNSUPPORTED`
+适合：
+- 输入极度混乱
+- 当前系统不适合处理的问题
+
+当前行为：
+- 轻降级输出
+
+## 核心模块
+
+位于 [agent](/c:/Users/Administrator/Desktop/deep_research_agent/agent)：
+
+- [router.py](/c:/Users/Administrator/Desktop/deep_research_agent/agent/router.py)：任务路由，决定问题走哪条 workflow
+- [clarifier.py](/c:/Users/Administrator/Desktop/deep_research_agent/agent/clarifier.py)：需求澄清，补边界、目标、偏好
+- [planner.py](/c:/Users/Administrator/Desktop/deep_research_agent/agent/planner.py)：研究题拆题
+- [search.py](/c:/Users/Administrator/Desktop/deep_research_agent/agent/search.py)：搜索与缓存
+- [selector.py](/c:/Users/Administrator/Desktop/deep_research_agent/agent/selector.py)：结果筛选
+- [reflector.py](/c:/Users/Administrator/Desktop/deep_research_agent/agent/reflector.py)：证据是否足够
+- [rewriter.py](/c:/Users/Administrator/Desktop/deep_research_agent/agent/rewriter.py)：不够时改写 query
+- [summarizer.py](/c:/Users/Administrator/Desktop/deep_research_agent/agent/summarizer.py)：子问题总结
+- [reporter.py](/c:/Users/Administrator/Desktop/deep_research_agent/agent/reporter.py)：最终报告收束
+- [light_answer.py](/c:/Users/Administrator/Desktop/deep_research_agent/agent/light_answer.py)：Advice / Quick Answer 轻链生成
+- [scratchpad.py](/c:/Users/Administrator/Desktop/deep_research_agent/agent/scratchpad.py)：中央草稿、来源索引
+- [tasks.py](/c:/Users/Administrator/Desktop/deep_research_agent/agent/tasks.py)：任务状态与持久化
+- [state.py](/c:/Users/Administrator/Desktop/deep_research_agent/agent/state.py)：运行时状态
+- [env_loader.py](/c:/Users/Administrator/Desktop/deep_research_agent/agent/env_loader.py)：读取 `.env.local / .env`
+
+入口位于 [main.py](/c:/Users/Administrator/Desktop/deep_research_agent/app/main.py)。
+
+## 目录分层
+
+### 源码
+- [agent](/c:/Users/Administrator/Desktop/deep_research_agent/agent)：核心逻辑
+- [app](/c:/Users/Administrator/Desktop/deep_research_agent/app)：入口
+- [models](/c:/Users/Administrator/Desktop/deep_research_agent/models)：结构定义
+
+### 验证
+- [quick_checks](/c:/Users/Administrator/Desktop/deep_research_agent/quick_checks)：模块级快验证
+- [evals](/c:/Users/Administrator/Desktop/deep_research_agent/evals)：慢速回归、基线、变体题
+
+### 运行产物
+- [outputs](/c:/Users/Administrator/Desktop/deep_research_agent/outputs)：任务、报告、日志
+- `.cache/`：缓存
+
+### 项目文档
+- [PROJECT_LOG.md](/c:/Users/Administrator/Desktop/deep_research_agent/PROJECT_LOG.md)：完整开发历史
+- [PROJECT_STATE.md](/c:/Users/Administrator/Desktop/deep_research_agent/PROJECT_STATE.md)：当前状态总览
+
+## 当前结构纪律
+
+项目从现在开始遵守这几条：
+
+1. 不再为了局部短期优化，损害整体架构。
+2. 不允许为了固定题好看而刷题。
+3. 不轻易增加新模块名，优先做已有模块成熟化。
+4. 不轻易增加新目录，优先放进现有分层。
+5. 任何模块只有在“固定评估面 + 真实手测 + 新样本抽查”都过关后，才可以说接近稳定。
+
+## 当前阶段判断
+
+当前不是“继续加模块”的阶段，而是：
+
+- 路由正确性
+- workflow 边界
+- 模块成熟度
+- 真实手测体验
+
+也就是说，项目现在最重要的不是“再长功能名”，而是“让已有系统真正做对”。
+
+## 本地配置
+
+项目支持自动读取：
+- `.env.local`
+- `.env`
+
+参考模板见：
+- [\.env.example](/c:/Users/Administrator/Desktop/deep_research_agent/.env.example)
+
+## 运行
+
+```powershell
+.\.venv\Scripts\python.exe .\app\main.py
 ```
 
-你可以把它理解成一个会先列提纲、再查资料、再筛资料、最后写小结和总报告的研究助手。
+## 快速检查
 
-## 项目目标
-
-这个项目当前想解决的是：
-
-1. 用户先输入一个大问题
-2. 系统把大问题拆成更适合搜索的子问题
-3. 系统搜索资料，并先筛掉杂乱结果
-4. 系统判断信息是否足够，不够就继续改写 query 再搜
-5. 最后输出每个子问题的小结，以及一份整体研究报告
-
-它现在更像一个持续迭代中的原型系统，而不是已经完工的成品。
-
-## 当前核心链路
-
-### Planner
-
-文件：
-
-- `agent/planner.py`
-
-作用：
-
-- 根据用户原始问题判断 query 类型
-- 按类型拆成更适合搜索的子问题
-
-当前支持的 query 类型：
-
-- `definition`
-- `trend`
-- `preference`
-- `howto`
-- `general`
-
-### Search
-
-文件：
-
-- `agent/search.py`
-
-作用：
-
-- 根据当前 query 执行检索
-- 返回标题、摘要、来源等基础搜索结果
-
-### Selector
-
-文件：
-
-- `agent/selector.py`
-
-作用：
-
-- 对搜索结果做“编辑台式”的清洗和筛选
-
-当前重点能力：
-
-- 去掉明显营销稿
-- 去掉重复转述
-- 过滤低质量来源
-- 优先保留更像报告、调研、研究、框架类的内容
-- 最终只保留 Top-K 结果给后续总结模块
-
-### Reflect
-
-文件：
-
-- `agent/reflector.py`
-
-作用：
-
-- 判断当前筛选后的结果，是否已经足够回答子问题
-
-当前会检查的方向包括：
-
-- 是否有足够可用结果
-- 结果来源是否过于单一
-- 是否缺少研究型内容
-- 子问题如果问“驱动因素 / 风险 / 限制”，结果里是否真的出现相应信号
-- 是否只是泛泛趋势话术重复
-
-### Summarizer
-
-文件：
-
-- `agent/summarizer.py`
-
-作用：
-
-- 把筛选后的结果压缩成更像研究小结的结构
-
-当前输出结构为：
-
-1. 一句话结论
-2. 2 到 3 条支撑点
-3. 必要时补一句不确定性
-
-### Reporter
-
-文件：
-
-- `agent/reporter.py`
-
-作用：
-
-- 把所有子问题的小结收束成一份最终报告
-- 尝试形成一个更高层的整体判断
-
-## 当前主流程
-
-项目主入口：
-
-- `app/main.py`
-
-当前执行顺序：
-
-1. 用户输入研究问题
-2. Planner 拆子问题
-3. Search 搜索资料
-4. Selector 清洗并选出 Top-K 结果
-5. Reflect 判断这些结果够不够
-6. 如果不够，Rewriter 改写 query 继续搜索
-7. Summarizer 输出子问题小结
-8. Reporter 合成整体报告
-
-## 当前目录结构
-
-```text
-deep_research_agent/
-├─ agent/
-│  ├─ planner.py
-│  ├─ search.py
-│  ├─ selector.py
-│  ├─ reflector.py
-│  ├─ rewriter.py
-│  ├─ summarizer.py
-│  ├─ reporter.py
-│  └─ state.py
-├─ app/
-│  ├─ __init__.py
-│  └─ main.py
-├─ models/
-│  └─ schema.py
-├─ PROJECT_STATE.md
-├─ PROJECT_LOG.md
-└─ README.md
+```powershell
+.\.venv\Scripts\python.exe .\quick_checks\run_quick_checks.py
 ```
 
-## 如何运行
+也可以只跑某一套：
 
-在项目根目录执行：
-
-```bash
-python -m app.main
+```powershell
+.\.venv\Scripts\python.exe .\quick_checks\run_quick_checks.py --suite router
 ```
-
-如果你使用虚拟环境，也可以先激活 `.venv` 再运行。
-
-## 当前项目状态
-
-这个项目当前处于“原型增强阶段”。
-
-已经完成的方向：
-
-- 主链路已跑通
-- Planner 已从固定模板升级为按 query 类型拆题
-- Selector 已进入第二轮增强，开始更严格筛结果
-- Summarizer 已从“摘要拼盘”升级为“结论 + 支撑点 + 不确定性”
-- Reflect 已开始收紧，不再轻易 `enough`
-- Reporter 已开始从 summary 拼接器转向整体结论合成器
-
-还可以继续优化的方向：
-
-- 统一编码与终端显示
-- 统一搜索结果的数据结构
-- 提高 Summarizer 的抽象提炼能力
-- 让 Reporter 给出更像研究总述的高层判断
-- 增加测试与配置管理
-
-## 项目文档
-
-- `PROJECT_STATE.md`
-  - 记录当前目标、架构、约束和下一步
-- `PROJECT_LOG.md`
-  - 记录改动历史、设计决策、验证情况和后续建议
-
-## 后续计划
-
-下一阶段更值得继续打磨的方向：
-
-1. 继续增强 Selector，让进入 Summarizer 的结果更干净
-2. 继续提升 Summarizer 的提炼能力，而不只是压缩摘要
-3. 继续收紧 Reflect，减少“过早 enough”
-4. 继续增强 Reporter，让整体结论更像研究报告里的总述
-
-## 项目定位说明
-
-这个仓库当前最重要的价值，不在于功能很多，而在于：
-
-- 各模块职责越来越清楚
-- 每次升级都围绕主链路质量
-- 结构适合继续一步一步长成更成熟的系统

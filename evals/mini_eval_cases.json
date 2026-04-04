@@ -1,0 +1,26 @@
+[
+  {
+    "id": "baseline-definition-llm",
+    "question": "什么是大语言模型的 Transformer 架构？",
+    "type": "definition",
+    "difficulty": "easy",
+    "main_target_module": "planner-search-summarizer",
+    "intent": "基准测试，检查系统在纯定义题上是否能稳定拆题、搜索和总结。"
+  },
+  {
+    "id": "selector-noise-english-learning-app",
+    "question": "现在市面上最好的 AI 英语学习软件是哪个？",
+    "type": "high-noise-preference",
+    "difficulty": "hard",
+    "main_target_module": "search-selector-reporter",
+    "intent": "高噪音推荐题，专门用于观察 selector 和 reporter 是否稳定。"
+  },
+  {
+    "id": "complex-ai-agent-employment",
+    "question": "AI Agent 普及对 2026 年中美两国的初级程序员就业分别有什么影响，有哪些应对策略？",
+    "type": "complex-comparison",
+    "difficulty": "hard",
+    "main_target_module": "planner-reporter",
+    "intent": "复杂比较题，覆盖当前 V1 最容易失真的深层因果解释场景。"
+  }
+]

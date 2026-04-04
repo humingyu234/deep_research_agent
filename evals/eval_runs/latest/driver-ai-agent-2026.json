@@ -1,0 +1,450 @@
+{
+  "case": {
+    "id": "driver-ai-agent-2026",
+    "question": "为什么 2026 年 AI Agent 会加速落地？",
+    "type": "driver",
+    "difficulty": "hard",
+    "main_target_module": "selector-reflector-summarizer",
+    "intent": "击穿因果类软肋，观察是否能找到真正解释驱动因素的材料。"
+  },
+  "sub_questions": [
+    {
+      "sub_question": "为什么 2026 年 AI Agent 会加速落地？ 当前最值得关注的核心问题是什么？",
+      "focus": "definition",
+      "rounds": [
+        {
+          "round": 1,
+          "query": "为什么 2026 年 AI Agent 会加速落地？ 当前最值得关注的核心问题是什么？",
+          "raw_results": [
+            {
+              "title": "野球解説AI Agentを開発してみた - 2026/02/27",
+              "snippet": "AIAgentを開発してみた -2026/02/27 LayerX社内LT会資料 ...AIAgentを支える技術の全容（ NotebookLM ...",
+              "source": "https://speakerdeck.com/shinyorke/27-layerxshe-nei-lthui-zi-liao"
+            },
+            {
+              "title": "US AI agents in 2026: what to automate vs keep human - ase/anup",
+              "snippet": "By2026,AIagents— autonomous systems combining large language models, retrieval systems, tool connectors, and business logic — are ...",
+              "source": "https://aseanup.com/us-ai-agents-2026/"
+            },
+            {
+              "title": "AI Agents Trends 2026 - ITTech",
+              "snippet": "AIAgentsTrends2026... This report provides key insights for business leaders to shape theirAIagentstrategy for2026and beyond.",
+              "source": "https://ittech-news.com/ai-agents-trends-2026/"
+            },
+            {
+              "title": "Agentic AI Explained (2026): How Autonomous AI Agents Think,",
+              "snippet": "By2026,AIagentswill evolve from assistants to co-workers — planning, learning, and executing tasks autonomously.” — Sam Altman, CEO, OpenAI ...",
+              "source": "https://swikblog.com/agentic-ai-autonomous-ai-agents-explained-2026/"
+            },
+            {
+              "title": "AI Agent & Copilot Summit 2026 Speakers & Sessions",
+              "snippet": "Cloud Wars and Dynamic Communities announceAIAgent& Copilot Summit keynote, main stage, and masterclass speakers and sessions for the2026...",
+              "source": "https://cloudwars.com/ai/ai-agent-copilot-summit-2026-speakers-sessions-released/"
+            }
+          ],
+          "selected_results": [
+            {
+              "title": "AI Agents Trends 2026 - ITTech",
+              "snippet": "AIAgentsTrends2026... This report provides key insights for business leaders to shape theirAIagentstrategy for2026and beyond.",
+              "source": "https://ittech-news.com/ai-agents-trends-2026/"
+            }
+          ],
+          "reflection": {
+            "status": "insufficient",
+            "reason": "当前有效结果太少，信息覆盖面还不够。",
+            "suggestion": "请补充“为什么 2026 年 AI Agent 会加速落地？ 当前最值得关注的核心问题是什么？”的不同角度材料，比如报告、案例、对比分析或调查。"
+          }
+        },
+        {
+          "round": 2,
+          "query": "为什么 2026 年 AI Agent 会加速落地？ 当前最值得关注的核心问题是什么？ 原因 驱动因素 作用机制 技术机制 需求变化 约束 激励 成本结构 ROI adoption 渗透率 基础设施 政策 案例 对比分析 调查 报告 白皮书 研究",
+          "raw_results": [
+            {
+              "title": "用上这个开源Skill，帮你拉满Agent的联网和浏览器能力！",
+              "snippet": "附：为什么不走AgentReach的路线？2026年AI驱动下，我总结了设计师职业的9大趋势.",
+              "source": "https://www.uisdc.com/skill-2"
+            },
+            {
+              "title": "Sora关停了吗？2026年最值得看的6 个AI视频替代方案 | 博客 | veo 4",
+              "snippet": "6 个最值得关注的Sora 替代方案.如果你喜欢 Sora的一个核心原因，是它让人觉得“更像成片”，那 Google Veo 3.1是目前最值得优先考虑的升级路线之一。",
+              "source": "https://veo4.im/zh/blog/sora-shut-down-best-alternatives"
+            },
+            {
+              "title": "人工智能（AI）令大学教育变好了吗？ - BBC News 中文",
+              "snippet": "2026年3月19日，传媒采访就大埔宏福苑火灾举行独立委员会听证会，一名巿民正进入听证会场地。来自亨利商学院的中田圭一教授（Prof Keiichi Nakata）表示，“就像任何新技术一样”，AI对教育有“正面与负面影响”。",
+              "source": "https://www.bbc.com/zhongwen/articles/cnv19dzz92ro/simp"
+            },
+            {
+              "title": "大模型时代，断言还管用吗？AI...",
+              "snippet": "2026年国内 Codex 安装教程和使用教程：GPT-5.4 完整指南.至高享 7000 万免费 tokens，加速Al 应用落地.",
+              "source": "https://developer.aliyun.com/article/1720630"
+            },
+            {
+              "title": "OPTIMUS 与 FLOW：两大领先流程自动化平台的全面比较",
+              "snippet": "七、常见问题. Q1：OPTIMUS 与 FLOW的核心定位有何区别？为什么ChatGPT现在可能是最好的人工智能？",
+              "source": "https://app.smartappnet.net/zh/crypto-wiki/article/optimus-vs-flow-a-comprehensive-comparison-of-two-leading-workflow-automation-platforms-20260204"
+            }
+          ],
+          "selected_results": [
+            {
+              "title": "AI Agents Trends 2026 - ITTech",
+              "snippet": "AIAgentsTrends2026... This report provides key insights for business leaders to shape theirAIagentstrategy for2026and beyond.",
+              "source": "https://ittech-news.com/ai-agents-trends-2026/"
+            }
+          ],
+          "reflection": {
+            "status": "insufficient",
+            "reason": "当前有效结果太少，信息覆盖面还不够。",
+            "suggestion": "请补充“为什么 2026 年 AI Agent 会加速落地？ 当前最值得关注的核心问题是什么？”的不同角度材料，比如报告、案例、对比分析或调查。"
+          }
+        },
+        {
+          "round": 3,
+          "query": "为什么 2026 年 AI Agent 会加速落地？ 当前最值得关注的核心问题是什么？ 原因 驱动因素 作用机制 技术机制 需求变化 约束 激励 成本结构 ROI adoption 渗透率 基础设施 政策 研究报告 白皮书 survey 机制解释 案例 对比分析 调查 报告 研究",
+          "raw_results": [
+            {
+              "title": "深度解析：2026年AI Agent三大趋势，62%企业已入局，你准备好了吗？",
+              "snippet": "深度解析：2026年AI Agent三大趋势，62%企业已入局，你准备好了吗？ 基于36氪对30个顶级AIAgent产品的深度分析，结合一线实践经验，为你拆解这场正在发生的生产力革命。",
+              "source": "https://zhuanlan.zhihu.com/p/2011247693264076923"
+            },
+            {
+              "title": "2026 年 AI 趋势深度研究报告 - by AnyGen - 腾讯云",
+              "snippet": "2026年AI发展迎来关键拐点，从概念验证迈向规模化落地。代理式AI、物理AI和多智能体协作成为核心趋势，AI正从工具进化为协作伙伴。企业需关注领域特化模型、AI主权治理和算力能源优化，通过流程重构实现业务价值。AI将重塑工作流、组织形态和产业格局，推动科学发现与实体世界智能化。",
+              "source": "https://cloud.tencent.com/developer/article/2619310"
+            },
+            {
+              "title": "硅谷最新调研：2026年，AI Agent到底会走向哪？",
+              "snippet": "2026，智能体的故事也就不再是概念与想象，而是会落到更具体的产业结果上：软件交付周期缩短、客服与运营成本结构改变、数据分析与报表生产方式重写，以及一批围绕安全、合规、集成与治理的新供应链机会加速成形。 2026，AI 或将成为真正的生产力，而智能体，是企业把这种生产力装进生产 ...",
+              "source": "https://m.thepaper.cn/newsDetail_forward_32488689"
+            },
+            {
+              "title": "2026年，AI Agent将走向何方？六大核心趋势深度解析_agent 2026-CSDN博客",
+              "snippet": "本篇正文内容如下： 《2025AIAgent未来发展趋势报告》（CB Insights）显示，自2023年以来全球已诞生 500+AIAgent初创公司，2024年相关融资达 3.8B美元。AIAgent正从2025年的\"带护栏代理\"阶段（依赖结构化工作流与约束，保留部分决策权）向2026年后的\"全自动代理\"演进。 报告提出2026年六大核心预测 ...",
+              "source": "https://blog.csdn.net/2401_85373691/article/details/154684323"
+            },
+            {
+              "title": "2026AI Agent六大趋势，编程热潮后谁是下一个风口？ - 36氪",
+              "snippet": "CB Insights报告：AI Agent爆发，2026年六大趋势 美国风投数据机构CB Insights最近发布了一份69页的重磅报告《AIAgent圣 经：颠覆性智能体终极指南》，全面 ...",
+              "source": "https://www.36kr.com/p/3518938465770373"
+            }
+          ],
+          "selected_results": [
+            {
+              "title": "硅谷最新调研：2026年，AI Agent到底会走向哪？",
+              "snippet": "2026，智能体的故事也就不再是概念与想象，而是会落到更具体的产业结果上：软件交付周期缩短、客服与运营成本结构改变、数据分析与报表生产方式重写，以及一批围绕安全、合规、集成与治理的新供应链机会加速成形。 2026，AI 或将成为真正的生产力，而智能体，是企业把这种生产力装进生产 ...",
+              "source": "https://m.thepaper.cn/newsDetail_forward_32488689"
+            },
+            {
+              "title": "2026AI Agent六大趋势，编程热潮后谁是下一个风口？ - 36氪",
+              "snippet": "CB Insights报告：AI Agent爆发，2026年六大趋势 美国风投数据机构CB Insights最近发布了一份69页的重磅报告《AIAgent圣 经：颠覆性智能体终极指南》，全面 ...",
+              "source": "https://www.36kr.com/p/3518938465770373"
+            },
+            {
+              "title": "2026 年 AI 趋势深度研究报告 - by AnyGen - 腾讯云",
+              "snippet": "2026年AI发展迎来关键拐点，从概念验证迈向规模化落地。代理式AI、物理AI和多智能体协作成为核心趋势，AI正从工具进化为协作伙伴。企业需关注领域特化模型、AI主权治理和算力能源优化，通过流程重构实现业务价值。AI将重塑工作流、组织形态和产业格局，推动科学发现与实体世界智能化。",
+              "source": "https://cloud.tencent.com/developer/article/2619310"
+            }
+          ],
+          "reflection": {
+            "status": "enough",
+            "reason": "当前结果不只是相关，而且已经较明确地回答了这道子问题，可以进入总结阶段。",
+            "suggestion": ""
+          }
+        }
+      ],
+      "final_status": "enough",
+      "final_reason": "当前结果不只是相关，而且已经较明确地回答了这道子问题，可以进入总结阶段。",
+      "final_suggestion": "",
+      "summary": "关于“为什么 2026 年 AI Agent 会加速落地？ 当前最值得关注的核心问题是什么？”，当前更可靠的判断是：为什么 2026 年 AI Agent 会加速落地当前最值得关注的核心问题，主要可以从 2026，智能体的故事也就不再是概念与想象，而是会落到更具体的产业结果上：软件交付周期缩短、客服与运营成本结构改变、数据分析与报表生产方式重写，以及一批围绕安全、合规、集成与治理的新供应链机会加速成形。；CB Insights报告：AI Agent爆发，2026年六大趋势 美国风投数据机构CB Insights最近发布了一份69页的重磅报告《AIAgent圣 经：颠覆性智能体终极指南》，全面 ... 这些方面来把握。\n\n支撑点：\n1. 2026，智能体的故事也就不再是概念与想象，而是会落到更具体的产业结果上：软件交付周期缩短、客服与运营成本结构改变、数据分析与报表生产方式重写，以及一批围绕安全、合规、集成与治理的新供应链机会加速成形。\n2. CB Insights报告：AI Agent爆发，2026年六大趋势 美国风投数据机构CB Insights最近发布了一份69页的重磅报告《AIAgent圣 经：颠覆性智能体终极指南》，全面 ...\n3. 2026年AI发展迎来关键拐点，从概念验证迈向规模化落地。代理式AI、物理AI和多智能体协作成为核心趋势，AI正从工具进化为协作伙伴。企业需关注领域特化模型、AI主权治理和算力能源优化，通过流程重构实。\n\n需要注意的是，当前材料仍有一定媒体转述色彩，结论更适合作为方向性判断，而不是已经完全坐实的定论。"
+    },
+    {
+      "sub_question": "为什么 2026 年 AI Agent 会加速落地？ 背后的主要影响因素或关键变量有哪些？",
+      "focus": "driver",
+      "rounds": [
+        {
+          "round": 1,
+          "query": "为什么 2026 年 AI Agent 会加速落地？ 背后的主要影响因素或关键变量有哪些？",
+          "raw_results": [
+            {
+              "title": "2026 年 AI Agent 发展趋势：从概念到落地的关键突破 - 知乎",
+              "snippet": "结语AIAgent不是昙花一现的概念，而是正在重塑人机交互方式的基础设施。2026年，我们可能看不到通用人工智能的突破，但会看到无数垂直Agent在各自领域创造价值。 关键不是等待完美技术，而是现在就开始探索、实践、迭代。 你准备好迎接Agent时代了吗？",
+              "source": "https://zhuanlan.zhihu.com/p/2014663833994698777"
+            },
+            {
+              "title": "硅谷最新调研：2026年，AI Agent到底会走向哪？ - 36氪",
+              "snippet": "一张\"企业智能体落地地图\" 硅谷最新调研：2026年，AIAgent到底会走向哪？",
+              "source": "https://www.36kr.com/p/3658889094603398"
+            },
+            {
+              "title": "2026，AI元年 2026年Agent应用落地的发展维度：技术成熟度、产品模式、产业影响与伦理挑战 摘要 本文系统综述了2023-202 ...",
+              "snippet": "2026年Agent应用落地的发展维度：技术成熟度、产品模式、产业影响与伦理挑战 摘要 本文系统综述了2023-2026年间AI Agent技术与应用的发展脉络，从宏观趋势、技术路径、产品模式和产业影响四个维度展开分析。研究发现，Agent技术正经历从\"实验性工具\"向\"规模化基础设施\"...",
+              "source": "https://xueqiu.com/8019134326/374304079"
+            },
+            {
+              "title": "2026年，AI Agent将走向何方？六大核心趋势深度解析_agent 2026-CSDN博客",
+              "snippet": "报告提出2026年六大核心预测（语音AI加速、AI并购浪潮、利润率压力蔓延、代理商务基础巩固、\"数据护城河\"重塑企业软件、代理监控工具成刚需）。 一、引言与AIAgent定义",
+              "source": "https://blog.csdn.net/2401_85373691/article/details/154684323"
+            },
+            {
+              "title": "2026AI Agent六大趋势，编程热潮后谁是下一个风口？_腾讯新闻",
+              "snippet": "美国风投数据机构CB Insights最近发布了一份69页的重磅报告《AI Agent圣经：颠覆性智能体终极指南》，全面讲述了AIAgent的生态图景。 这份报告包括了 ...",
+              "source": "https://news.qq.com/rain/a/20251021A07YSI00"
+            }
+          ],
+          "selected_results": [
+            {
+              "title": "2026，AI元年 2026年Agent应用落地的发展维度：技术成熟度、产品模式、产业影响与伦理挑战 摘要 本文系统综述了2023-202 ...",
+              "snippet": "2026年Agent应用落地的发展维度：技术成熟度、产品模式、产业影响与伦理挑战 摘要 本文系统综述了2023-2026年间AI Agent技术与应用的发展脉络，从宏观趋势、技术路径、产品模式和产业影响四个维度展开分析。研究发现，Agent技术正经历从\"实验性工具\"向\"规模化基础设施\"...",
+              "source": "https://xueqiu.com/8019134326/374304079"
+            },
+            {
+              "title": "2026AI Agent六大趋势，编程热潮后谁是下一个风口？_腾讯新闻",
+              "snippet": "美国风投数据机构CB Insights最近发布了一份69页的重磅报告《AI Agent圣经：颠覆性智能体终极指南》，全面讲述了AIAgent的生态图景。 这份报告包括了 ...",
+              "source": "https://news.qq.com/rain/a/20251021A07YSI00"
+            },
+            {
+              "title": "硅谷最新调研：2026年，AI Agent到底会走向哪？ - 36氪",
+              "snippet": "一张\"企业智能体落地地图\" 硅谷最新调研：2026年，AIAgent到底会走向哪？",
+              "source": "https://www.36kr.com/p/3658889094603398"
+            }
+          ],
+          "reflection": {
+            "status": "insufficient",
+            "reason": "当前材料更多是在描述趋势现象，还没有充分解释背后的驱动因素或作用机制。",
+            "suggestion": "请更聚焦地搜索“为什么 2026 年 AI Agent 会加速落地？ 背后的主要影响因素或关键变量有哪些？”背后的原因、推动因素、需求变化或技术机制。"
+          }
+        },
+        {
+          "round": 2,
+          "query": "为什么 2026 年 AI Agent 会加速落地？ 背后的主要影响因素或关键变量有哪些？ 原因 驱动因素 作用机制 技术机制 需求变化 约束 激励 成本结构 ROI adoption 渗透率 基础设施 政策",
+          "raw_results": [
+            {
+              "title": "用上这个开源Skill，帮你拉满Agent的联网和浏览器能力！",
+              "snippet": "附：为什么不走AgentReach的路线？我们可以利用Claude Code 等Agent框架的Sub-agent机制，通过 Skill Prompt设计，鼓励分治.",
+              "source": "https://www.uisdc.com/skill-2"
+            },
+            {
+              "title": "sputniknews.cn/20260325/1070441229.html",
+              "snippet": "全球汽车企业对中国技术的需求日益增长：中国汽车行业领先的背后原因？ 全球汽车企业对中国技术的需求日益增长：中国汽车行业领先的背后原因？ 俄罗斯卫星通讯社. 中国正在改变全球汽车行业的整个格局。",
+              "source": "https://sputniknews.cn/20260325/1070441229.html"
+            },
+            {
+              "title": "【猎灯】酒馆之夜 - Aminos -原神 | Genshin Impact (Video Game)...",
+              "snippet": "Stats: Published:2026-03-27.Aminos. Summary: 雷利尔为了达成目的企图灌醉并构陷菲林斯的故事 菲林斯：你确定要这么做吗 （走肾又走心）. Notes: 最接近原著if线的一回，想起来这也是我最开始喜欢这个ship的原因。",
+              "source": "https://archiveofourown.org/works/81928791"
+            },
+            {
+              "title": "白宫报告：人工智能与大分流-白宫经济顾问委员会",
+              "snippet": "2026年初，生成式AI技术持续迭代，多模态模型、智能体应用加速落地，算力基础设施大规模扩张。我们首先回顾人工智能驱动经济增长的潜力分析（第2节），然后讨论人工智能对国内生产总值（GDP）和劳动力的影响估算。",
+              "source": "https://www.guancha.cn/CouncilofEconomicAdvisers/2026_03_27_811575.shtml"
+            },
+            {
+              "title": "RWAX (APP) 是否值得投资？— —2024...",
+              "snippet": "AI基础设施，Gate MCP、Skills 与 CLI.来 APP需求增长，DeFi 市场利好及更多交易所上线有助于流动性提升。",
+              "source": "https://app.smartappnet.net/zh/crypto-wiki/article/is-rwax-app-a-good-investment-a-comprehensive-analysis-of-features-risks-and-potential-returns-for-2024-20260207"
+            }
+          ],
+          "selected_results": [
+            {
+              "title": "2026，AI元年 2026年Agent应用落地的发展维度：技术成熟度、产品模式、产业影响与伦理挑战 摘要 本文系统综述了2023-202 ...",
+              "snippet": "2026年Agent应用落地的发展维度：技术成熟度、产品模式、产业影响与伦理挑战 摘要 本文系统综述了2023-2026年间AI Agent技术与应用的发展脉络，从宏观趋势、技术路径、产品模式和产业影响四个维度展开分析。研究发现，Agent技术正经历从\"实验性工具\"向\"规模化基础设施\"...",
+              "source": "https://xueqiu.com/8019134326/374304079"
+            },
+            {
+              "title": "用上这个开源Skill，帮你拉满Agent的联网和浏览器能力！",
+              "snippet": "附：为什么不走AgentReach的路线？我们可以利用Claude Code 等Agent框架的Sub-agent机制，通过 Skill Prompt设计，鼓励分治.",
+              "source": "https://www.uisdc.com/skill-2"
+            },
+            {
+              "title": "白宫报告：人工智能与大分流-白宫经济顾问委员会",
+              "snippet": "2026年初，生成式AI技术持续迭代，多模态模型、智能体应用加速落地，算力基础设施大规模扩张。我们首先回顾人工智能驱动经济增长的潜力分析（第2节），然后讨论人工智能对国内生产总值（GDP）和劳动力的影响估算。",
+              "source": "https://www.guancha.cn/CouncilofEconomicAdvisers/2026_03_27_811575.shtml"
+            }
+          ],
+          "reflection": {
+            "status": "enough",
+            "reason": "当前结果不只是相关，而且已经较明确地回答了这道子问题，可以进入总结阶段。",
+            "suggestion": ""
+          }
+        }
+      ],
+      "final_status": "enough",
+      "final_reason": "当前结果不只是相关，而且已经较明确地回答了这道子问题，可以进入总结阶段。",
+      "final_suggestion": "",
+      "summary": "关于“为什么 2026 年 AI Agent 会加速落地？ 背后的主要影响因素或关键变量有哪些？”，当前更可靠的判断是：为什么 2026 年 AI Agent 会加速落地背后的主要原因、驱动因素或关键变量，当前材料主要指向 2026年Agent应用落地的发展维度：技术成熟度、产品模式、产业影响与伦理挑战 摘要 本文系统综述了2023-2026年间AI Agent技术与应用的发展脉络，从宏观趋势、技术路径、产品模式和产业影。；附：为什么不走AgentReach的路线？我们可以利用Claude Code 等Agent框架的Sub-agent机制，通过 Skill Prompt设计，鼓励分治. 这些方面。\n\n支撑点：\n1. 2026年Agent应用落地的发展维度：技术成熟度、产品模式、产业影响与伦理挑战 摘要 本文系统综述了2023-2026年间AI Agent技术与应用的发展脉络，从宏观趋势、技术路径、产品模式和产业影。\n2. 附：为什么不走AgentReach的路线？我们可以利用Claude Code 等Agent框架的Sub-agent机制，通过 Skill Prompt设计，鼓励分治.\n3. 2026年初，生成式AI技术持续迭代，多模态模型、智能体应用加速落地，算力基础设施大规模扩张。我们首先回顾人工智能驱动经济增长的潜力分析（第2节），然后讨论人工智能对国内生产总值（GDP）和劳动力的影。\n\n需要注意的是，当前材料仍有一定媒体转述色彩，结论更适合作为方向性判断，而不是已经完全坐实的定论。"
+    },
+    {
+      "sub_question": "为什么 2026 年 AI Agent 会加速落地？ 当前常见的表现、案例或实际情况有哪些？",
+      "focus": "general",
+      "rounds": [
+        {
+          "round": 1,
+          "query": "为什么 2026 年 AI Agent 会加速落地？ 当前常见的表现、案例或实际情况有哪些？",
+          "raw_results": [
+            {
+              "title": "2026 年 AI Agent 发展趋势：从概念到落地的关键突破 - 知乎",
+              "snippet": "结语AIAgent不是昙花一现的概念，而是正在重塑人机交互方式的基础设施。2026年，我们可能看不到通用人工智能的突破，但会看到无数垂直Agent在各自领域创造价值。 关键不是等待完美技术，而是现在就开始探索、实践、迭代。 你准备好迎接Agent时代了吗？",
+              "source": "https://zhuanlan.zhihu.com/p/2014663833994698777"
+            },
+            {
+              "title": "硅谷最新调研：2026年，AI Agent到底会走向哪？ - 36氪",
+              "snippet": "一张\"企业智能体落地地图\" 硅谷最新调研：2026年，AIAgent到底会走向哪？",
+              "source": "https://www.36kr.com/p/3658889094603398"
+            },
+            {
+              "title": "硅谷最新调研：2026年，AI Agent到底会走向哪？",
+              "snippet": "2026，智能体的故事也就不再是概念与想象，而是会落到更具体的产业结果上：软件交付周期缩短、客服与运营成本结构改变、数据分析与报表生产方式重写，以及一批围绕安全、合规、集成与治理的新供应链机会加速成形。 2026，AI 或将成为真正的生产力，而智能体，是企业把这种生产力装进生产 ...",
+              "source": "https://m.thepaper.cn/newsDetail_forward_32488689"
+            },
+            {
+              "title": "2026年，AI Agent将走向何方？六大核心趋势深度解析_agent 2026-CSDN博客",
+              "snippet": "报告提出2026年六大核心预测（语音AI加速、AI并购浪潮、利润率压力蔓延、代理商务基础巩固、\"数据护城河\"重塑企业软件、代理监控工具成刚需）。 一、引言与AIAgent定义",
+              "source": "https://blog.csdn.net/2401_85373691/article/details/154684323"
+            },
+            {
+              "title": "硅谷最新调研：2026年，AI Agent到底会走向哪？ - jimo.studio",
+              "snippet": "Tue Mar 102026用友王文京：企业级软件AI落地的时机已到 在用友全球生态大会上，董事长兼CEO王文京分享了关于AI如何与企业级软件深度融合的观点，强调AI不会取代软件，而是使软件焕发新生命，为企业创造新的价值形式。 Tue Mar 102026",
+              "source": "https://jimo.studio/blog/where-will-ai-agent-go-in-2026/"
+            }
+          ],
+          "selected_results": [
+            {
+              "title": "硅谷最新调研：2026年，AI Agent到底会走向哪？",
+              "snippet": "2026，智能体的故事也就不再是概念与想象，而是会落到更具体的产业结果上：软件交付周期缩短、客服与运营成本结构改变、数据分析与报表生产方式重写，以及一批围绕安全、合规、集成与治理的新供应链机会加速成形。 2026，AI 或将成为真正的生产力，而智能体，是企业把这种生产力装进生产 ...",
+              "source": "https://m.thepaper.cn/newsDetail_forward_32488689"
+            },
+            {
+              "title": "硅谷最新调研：2026年，AI Agent到底会走向哪？ - jimo.studio",
+              "snippet": "Tue Mar 102026用友王文京：企业级软件AI落地的时机已到 在用友全球生态大会上，董事长兼CEO王文京分享了关于AI如何与企业级软件深度融合的观点，强调AI不会取代软件，而是使软件焕发新生命，为企业创造新的价值形式。 Tue Mar 102026",
+              "source": "https://jimo.studio/blog/where-will-ai-agent-go-in-2026/"
+            },
+            {
+              "title": "硅谷最新调研：2026年，AI Agent到底会走向哪？ - 36氪",
+              "snippet": "一张\"企业智能体落地地图\" 硅谷最新调研：2026年，AIAgent到底会走向哪？",
+              "source": "https://www.36kr.com/p/3658889094603398"
+            }
+          ],
+          "reflection": {
+            "status": "enough",
+            "reason": "当前结果不只是相关，而且已经较明确地回答了这道子问题，可以进入总结阶段。",
+            "suggestion": ""
+          }
+        }
+      ],
+      "final_status": "enough",
+      "final_reason": "当前结果不只是相关，而且已经较明确地回答了这道子问题，可以进入总结阶段。",
+      "final_suggestion": "",
+      "summary": "关于“为什么 2026 年 AI Agent 会加速落地？ 当前常见的表现、案例或实际情况有哪些？”，当前更可靠的判断是：关于 为什么 2026 年 AI Agent 会加速落地，当前材料主要可以从 2026，智能体的故事也就不再是概念与想象，而是会落到更具体的产业结果上：软件交付周期缩短、客服与运营成本结构改变、数据分析与报表生产方式重写，以及一批围绕安全、合规、集成与治理的新供应链机会加速成形。；Tue Mar 102026用友王文京：企业级软件AI落地的时机已到 在用友全球生态大会上，董事长兼CEO王文京分享了关于AI如何与企业级软件深度融合的观点，强调AI不会取代软件，而是使软件焕发新生命。 这些方面来把握。\n\n支撑点：\n1. 2026，智能体的故事也就不再是概念与想象，而是会落到更具体的产业结果上：软件交付周期缩短、客服与运营成本结构改变、数据分析与报表生产方式重写，以及一批围绕安全、合规、集成与治理的新供应链机会加速成形。\n2. Tue Mar 102026用友王文京：企业级软件AI落地的时机已到 在用友全球生态大会上，董事长兼CEO王文京分享了关于AI如何与企业级软件深度融合的观点，强调AI不会取代软件，而是使软件焕发新生命。\n3. 一张\"企业智能体落地地图\" 硅谷最新调研：2026年，AIAgent到底会走向哪？\n\n需要注意的是，当前材料仍有一定媒体转述色彩，结论更适合作为方向性判断，而不是已经完全坐实的定论。"
+    },
+    {
+      "sub_question": "为什么 2026 年 AI Agent 会加速落地？ 还存在哪些争议、限制或值得继续研究的点？",
+      "focus": "risk",
+      "rounds": [
+        {
+          "round": 1,
+          "query": "为什么 2026 年 AI Agent 会加速落地？ 还存在哪些争议、限制或值得继续研究的点？",
+          "raw_results": [
+            {
+              "title": "野球解説AI Agentを開発してみた - 2026/02/27",
+              "snippet": "AIAgentを開発してみた -2026/02/27 LayerX社内LT会資料 ...AIAgentを支える技術の全容（ NotebookLM ...",
+              "source": "https://speakerdeck.com/shinyorke/27-layerxshe-nei-lthui-zi-liao"
+            },
+            {
+              "title": "US AI agents in 2026: what to automate vs keep human - ase/anup",
+              "snippet": "By2026,AIagents— autonomous systems combining large language models, retrieval systems, tool connectors, and business logic — are ...",
+              "source": "https://aseanup.com/us-ai-agents-2026/"
+            },
+            {
+              "title": "AI Agents Trends 2026 - ITTech",
+              "snippet": "AIAgentsTrends2026... This report provides key insights for business leaders to shape theirAIagentstrategy for2026and beyond.",
+              "source": "https://ittech-news.com/ai-agents-trends-2026/"
+            },
+            {
+              "title": "Agentic AI Explained (2026): How Autonomous AI Agents Think,",
+              "snippet": "By2026,AIagentswill evolve from assistants to co-workers — planning, learning, and executing tasks autonomously.” — Sam Altman, CEO, OpenAI ...",
+              "source": "https://swikblog.com/agentic-ai-autonomous-ai-agents-explained-2026/"
+            },
+            {
+              "title": "AI Agent & Copilot Summit 2026 Speakers & Sessions",
+              "snippet": "Cloud Wars and Dynamic Communities announceAIAgent& Copilot Summit keynote, main stage, and masterclass speakers and sessions for the2026...",
+              "source": "https://cloudwars.com/ai/ai-agent-copilot-summit-2026-speakers-sessions-released/"
+            }
+          ],
+          "selected_results": [
+            {
+              "title": "AI Agents Trends 2026 - ITTech",
+              "snippet": "AIAgentsTrends2026... This report provides key insights for business leaders to shape theirAIagentstrategy for2026and beyond.",
+              "source": "https://ittech-news.com/ai-agents-trends-2026/"
+            }
+          ],
+          "reflection": {
+            "status": "insufficient",
+            "reason": "当前有效结果太少，信息覆盖面还不够。",
+            "suggestion": "请补充“为什么 2026 年 AI Agent 会加速落地？ 还存在哪些争议、限制或值得继续研究的点？”的不同角度材料，比如报告、案例、对比分析或调查。"
+          }
+        },
+        {
+          "round": 2,
+          "query": "为什么 2026 年 AI Agent 会加速落地？ 还存在哪些争议、限制或值得继续研究的点？ 原因 驱动因素 作用机制 技术机制 需求变化 约束 激励 成本结构 ROI adoption 渗透率 基础设施 政策 案例 对比分析 调查 报告 白皮书 研究",
+          "raw_results": [
+            {
+              "title": "如何看待 2026 年 AI Agent 六大趋势？",
+              "snippet": "如何看待2026年AIAgent六大趋势？ 美国风投数据机构CB Insights最近发布了一份69页的重磅报告《AIAgent圣 经：颠覆性智能体终极指南》，全面讲述了AIAgent的生态… 显示全部 关注者 50 被浏览",
+              "source": "https://www.zhihu.com/question/1964262739229802729"
+            },
+            {
+              "title": "硅谷最新调研：2026年，AI Agent到底会走向哪？",
+              "snippet": "2026，智能体的故事也就不再是概念与想象，而是会落到更具体的产业结果上：软件交付周期缩短、客服与运营成本结构改变、数据分析与报表生产方式重写，以及一批围绕安全、合规、集成与治理的新供应链机会加速成形。 2026，AI 或将成为真正的生产力，而智能体，是企业把这种生产力装进生产 ...",
+              "source": "https://m.thepaper.cn/newsDetail_forward_32488689"
+            },
+            {
+              "title": "2026AI Agent六大趋势，编程热潮后谁是下一个风口？_腾讯新闻",
+              "snippet": "美国风投数据机构CB Insights最近发布了一份69页的重磅报告《AI Agent圣经：颠覆性智能体终极指南》，全面讲述了AIAgent的生态图景。 这份报告包括了 ...",
+              "source": "https://news.qq.com/rain/a/20251021A07YSI00"
+            },
+            {
+              "title": "2026 年 AI 趋势深度研究报告 - by AnyGen - 腾讯云",
+              "snippet": "2026年AI发展迎来关键拐点，从概念验证迈向规模化落地。代理式AI、物理AI和多智能体协作成为核心趋势，AI正从工具进化为协作伙伴。企业需关注领域特化模型、AI主权治理和算力能源优化，通过流程重构实现业务价值。AI将重塑工作流、组织形态和产业格局，推动科学发现与实体世界智能化。",
+              "source": "https://cloud.tencent.com/developer/article/2619310"
+            },
+            {
+              "title": "2026年，AI Agent将走向何方？六大核心趋势深度解析_agent 2026-CSDN博客",
+              "snippet": "本篇正文内容如下： 《2025AIAgent未来发展趋势报告》（CB Insights）显示，自2023年以来全球已诞生 500+AIAgent初创公司，2024年相关融资达 3.8B美元。AIAgent正从2025年的\"带护栏代理\"阶段（依赖结构化工作流与约束，保留部分决策权）向2026年后的\"全自动代理\"演进。 报告提出2026年六大核心预测 ...",
+              "source": "https://blog.csdn.net/2401_85373691/article/details/154684323"
+            }
+          ],
+          "selected_results": [
+            {
+              "title": "硅谷最新调研：2026年，AI Agent到底会走向哪？",
+              "snippet": "2026，智能体的故事也就不再是概念与想象，而是会落到更具体的产业结果上：软件交付周期缩短、客服与运营成本结构改变、数据分析与报表生产方式重写，以及一批围绕安全、合规、集成与治理的新供应链机会加速成形。 2026，AI 或将成为真正的生产力，而智能体，是企业把这种生产力装进生产 ...",
+              "source": "https://m.thepaper.cn/newsDetail_forward_32488689"
+            },
+            {
+              "title": "2026AI Agent六大趋势，编程热潮后谁是下一个风口？_腾讯新闻",
+              "snippet": "美国风投数据机构CB Insights最近发布了一份69页的重磅报告《AI Agent圣经：颠覆性智能体终极指南》，全面讲述了AIAgent的生态图景。 这份报告包括了 ...",
+              "source": "https://news.qq.com/rain/a/20251021A07YSI00"
+            },
+            {
+              "title": "2026 年 AI 趋势深度研究报告 - by AnyGen - 腾讯云",
+              "snippet": "2026年AI发展迎来关键拐点，从概念验证迈向规模化落地。代理式AI、物理AI和多智能体协作成为核心趋势，AI正从工具进化为协作伙伴。企业需关注领域特化模型、AI主权治理和算力能源优化，通过流程重构实现业务价值。AI将重塑工作流、组织形态和产业格局，推动科学发现与实体世界智能化。",
+              "source": "https://cloud.tencent.com/developer/article/2619310"
+            }
+          ],
+          "reflection": {
+            "status": "enough",
+            "reason": "当前结果不只是相关，而且已经较明确地回答了这道子问题，可以进入总结阶段。",
+            "suggestion": ""
+          }
+        }
+      ],
+      "final_status": "enough",
+      "final_reason": "当前结果不只是相关，而且已经较明确地回答了这道子问题，可以进入总结阶段。",
+      "final_suggestion": "",
+      "summary": "关于“为什么 2026 年 AI Agent 会加速落地？ 还存在哪些争议、限制或值得继续研究的点？”，当前更可靠的判断是：为什么 2026 年 AI Agent 会加速落地当前仍存在的争议、限制或待研究点，主要集中在 2026，智能体的故事也就不再是概念与想象，而是会落到更具体的产业结果上：软件交付周期缩短、客服与运营成本结构改变、数据分析与报表生产方式重写，以及一批围绕安全、合规、集成与治理的新供应链机会加速成形。；美国风投数据机构CB Insights最近发布了一份69页的重磅报告《AI Agent圣经：颠覆性智能体终极指南》，全面讲述了AIAgent的生态图景。 这份报告包括了 ... 这些方面。\n\n支撑点：\n1. 2026，智能体的故事也就不再是概念与想象，而是会落到更具体的产业结果上：软件交付周期缩短、客服与运营成本结构改变、数据分析与报表生产方式重写，以及一批围绕安全、合规、集成与治理的新供应链机会加速成形。\n2. 美国风投数据机构CB Insights最近发布了一份69页的重磅报告《AI Agent圣经：颠覆性智能体终极指南》，全面讲述了AIAgent的生态图景。 这份报告包括了 ...\n3. 2026年AI发展迎来关键拐点，从概念验证迈向规模化落地。代理式AI、物理AI和多智能体协作成为核心趋势，AI正从工具进化为协作伙伴。企业需关注领域特化模型、AI主权治理和算力能源优化，通过流程重构实。"
+    }
+  ],
+  "report": "研究问题：为什么 2026 年 AI Agent 会加速落地？\n\n【子问题状态概览】\n- 子问题总数：4\n- 已形成较稳定结论：4\n- 仍需谨慎看待：0\n- 题型分布：driver=4\n\n【整体结论】\n围绕“为什么 2026 年 AI Agent 会加速落地？”，当前更高层的判断是：这个主题的发展重点已经不只是“有没有”，而是“能不能稳定落地并形成真实价值”，这意味着工程化与可持续应用会比单点能力展示更重要。\n\n具体来看：\n1. 从趋势层面看，当前材料对整体方向的覆盖仍有限，但结构化落地的迹象已经开始出现。\n2. 从驱动与变化层面看，当前材料已经支持一个初步判断：这轮变化并不只是技术热度推动，还与效率需求、业务落地压力和基础设施成熟有关。\n3. 从限制与风险层面看，当前风险信息还不算充分，但治理、可靠性与落地成本已经开始成为不可回避的话题。\n\n【当前最值得保留的主线】\n- 从概念验证走向企业级落地和规模化应用。\n- 治理、安全、合规与可靠性正在从配角变成核心约束。\n\n【需要保留的谨慎点】\n需要注意的是，当前结果更适合作为相对稳定的阶段性研究判断，而不是无需再验证的绝对结论。\n\n【结论性质】\n这份结果当前更适合作为：\n相对稳定的阶段性结论\n而不是：\n不需要继续验证的绝对判断",
+  "failure_tags": [
+    "no_obvious_failure"
+  ]
+}

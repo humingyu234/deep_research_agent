@@ -1,0 +1,328 @@
+{
+  "case": {
+    "id": "selector-noise-english-learning-app",
+    "question": "现在市面上最好的 AI 英语学习软件是哪个？",
+    "type": "high-noise-preference",
+    "difficulty": "hard",
+    "main_target_module": "search-selector-reporter",
+    "intent": "高噪音推荐题，专门用于观察 selector 和 reporter 是否稳定。"
+  },
+  "sub_questions": [
+    {
+      "sub_question": "现在市面上最好的 AI 英语学习软件是哪个？ 当前主流可选项有哪些？",
+      "focus": "general",
+      "rounds": [
+        {
+          "round": 1,
+          "query": "现在市面上最好的 AI 英语学习软件是哪个？ 当前主流可选项有哪些？",
+          "raw_results": [
+            {
+              "title": "2025 AI英语学习软件测评：免费与付费谁更值得？9款热门APP深度对比",
+              "snippet": "Oct 23, 2025 ·传统英语学习的痛点显而易见：缺乏真实对话环境、昂贵的外教费用、无法及时获得针对性反馈。 今天，我将为你揭开AI英语学习软件的神秘面纱，通过对比10款热门产品，帮你找到真正能提升口语能力的神器。 产品对比评测部分",
+              "source": "https://zhuanlan.zhihu.com/p/1944387639710056894"
+            },
+            {
+              "title": "2025年英语学习APP深度评测：10款主流工具对比与Ries.ai创新解析",
+              "snippet": "文章重点介绍了Ries.ai的\"边界拓宽法\"理论基础，展现了其基于克拉申i+1假说的无痛学习创新方案，通过语言图谱技术实现个性化输入，为用户提供零意志力成本的融入式学习体验，与传统工具形成差异化竞争优势。",
+              "source": "https://ries.ai/zh/blog/technology/2025-best-english-learning-apps-comparison-ries-ai-review"
+            },
+            {
+              "title": "2025年免费AI英语学习软件TOP7评测：哪款真能碾压哑巴英语？",
+              "snippet": "Sep 6, 2025 ·今天，我将从真实用户视角，深度测评7款爆火的AI英语学习软件，为你揭晓哪款才是真正能让你从开口跪到侃侃而谈的封神级工具。 综合考虑技术实力、学习效果、用户体验和性价比，我给可栗口语的评分是：400万用户的选…",
+              "source": "https://www.sohu.com/a/932496395_121703433"
+            },
+            {
+              "title": "2025学英语AI应用排名出炉！十大神器颠覆认知，真实口碑全网实测_语言...",
+              "snippet": "May 30, 2025 ·本文为大家呈现了2025学英语AI应用排名中的十大神器。 其中，咕噜口语凭借其接入顶尖技术、丰富多样的功能以及优质的用户体验，在众多应用中脱颖而出。 其他如EF Hello、Voscreen等应用也各有千秋，在课程设置、学习模式等方面为用户提供了不同的英语学习 ...",
+              "source": "https://post.smzdm.com/p/ak3zow4e/"
+            },
+            {
+              "title": "2025年度英语横评5款AI口语APP，我们做了一个'好用榜'给你参考|外教|...",
+              "snippet": "Pimsleur的学习材料生动有趣,能够激发学习者的学习兴趣,让他们在轻松愉快的氛围中学习英语。 通过以上对比可以看出,咕噜口语在功能、智能化程度、学习效果、适用人群和性价比等方面都具有明显的优势。",
+              "source": "https://www.163.com/dy/article/K9GSCSRB0511VD5C.html"
+            }
+          ],
+          "selected_results": [
+            {
+              "title": "2025学英语AI应用排名出炉！十大神器颠覆认知，真实口碑全网实测_语言...",
+              "snippet": "May 30, 2025 ·本文为大家呈现了2025学英语AI应用排名中的十大神器。 其中，咕噜口语凭借其接入顶尖技术、丰富多样的功能以及优质的用户体验，在众多应用中脱颖而出。 其他如EF Hello、Voscreen等应用也各有千秋，在课程设置、学习模式等方面为用户提供了不同的英语学习 ...",
+              "source": "https://post.smzdm.com/p/ak3zow4e/"
+            },
+            {
+              "title": "2025 AI英语学习软件测评：免费与付费谁更值得？9款热门APP深度对比",
+              "snippet": "Oct 23, 2025 ·传统英语学习的痛点显而易见：缺乏真实对话环境、昂贵的外教费用、无法及时获得针对性反馈。 今天，我将为你揭开AI英语学习软件的神秘面纱，通过对比10款热门产品，帮你找到真正能提升口语能力的神器。 产品对比评测部分",
+              "source": "https://zhuanlan.zhihu.com/p/1944387639710056894"
+            },
+            {
+              "title": "2025年度英语横评5款AI口语APP，我们做了一个'好用榜'给你参考|外教|...",
+              "snippet": "Pimsleur的学习材料生动有趣,能够激发学习者的学习兴趣,让他们在轻松愉快的氛围中学习英语。 通过以上对比可以看出,咕噜口语在功能、智能化程度、学习效果、适用人群和性价比等方面都具有明显的优势。",
+              "source": "https://www.163.com/dy/article/K9GSCSRB0511VD5C.html"
+            }
+          ],
+          "reflection": {
+            "status": "enough",
+            "reason": "当前结果不只是相关，而且已经较明确地回答了这道子问题，可以进入总结阶段。",
+            "suggestion": ""
+          }
+        }
+      ],
+      "final_status": "enough",
+      "final_reason": "当前结果不只是相关，而且已经较明确地回答了这道子问题，可以进入总结阶段。",
+      "final_suggestion": "",
+      "summary": "关于“现在市面上最好的 AI 英语学习软件是哪个？ 当前主流可选项有哪些？”，当前更可靠的判断是：现在市面上最好的 AI 英语学习软件是哪个当前更值得关注的选项和判断依据，主要可以从 May 30, 2025 ·本文为大家呈现了2025学英语AI应用排名中的十大神器。 其中，咕噜口语凭借其接入顶尖技术、丰富多样的功能以及优质的用户体验，在众多应用中脱颖而出。 其他如EF Hello。；Oct 23, 2025 ·传统英语学习的痛点显而易见：缺乏真实对话环境、昂贵的外教费用、无法及时获得针对性反馈。 今天，我将为你揭开AI英语学习软件的神秘面纱，通过对比10款热门产品，帮你找到真正能。 这些线索来把握。\n\n支撑点：\n1. May 30, 2025 ·本文为大家呈现了2025学英语AI应用排名中的十大神器。 其中，咕噜口语凭借其接入顶尖技术、丰富多样的功能以及优质的用户体验，在众多应用中脱颖而出。 其他如EF Hello。\n2. Oct 23, 2025 ·传统英语学习的痛点显而易见：缺乏真实对话环境、昂贵的外教费用、无法及时获得针对性反馈。 今天，我将为你揭开AI英语学习软件的神秘面纱，通过对比10款热门产品，帮你找到真正能。\n3. Pimsleur的学习材料生动有趣,能够激发学习者的学习兴趣,让他们在轻松愉快的氛围中学习英语。 通过以上对比可以看出,咕噜口语在功能、智能化程度、学习效果、适用人群和性价比等方面都具有明显的优势\n\n需要注意的是，当前材料仍有一定媒体转述色彩，结论更适合作为方向性判断，而不是已经完全坐实的定论。"
+    },
+    {
+      "sub_question": "现在市面上最好的 AI 英语学习软件是哪个？ 最值得参考的评价维度或选择标准是什么？",
+      "focus": "definition",
+      "rounds": [
+        {
+          "round": 1,
+          "query": "现在市面上最好的 AI 英语学习软件是哪个？ 最值得参考的评价维度或选择标准是什么？",
+          "raw_results": [
+            {
+              "title": "AI Reddits Daily | inAI",
+              "snippet": "Title:AIAgents Flop Hard on Real-World Desk Jobs in Latest Carnegie Mellon Study Description: A new benchmark from Carnegie Mellon shows that even ...",
+              "source": "https://site.server489.com/category/ai-reddits-daily/"
+            },
+            {
+              "title": "AI News Daily | inAI",
+              "snippet": "AINews Summary Title: GlobalAIShake-Up: OpenAI shutters Sora, Apple taps Gemini for Siri, EU targets deepfakes as security risks and enterprise ...",
+              "source": "https://site.server489.com/category/ai-news-daily/"
+            },
+            {
+              "title": "Vertex AI Platform | Google Cloud",
+              "snippet": "Enterprise ready, fully-managed, unifiedAIdevelopment platform. Access and utilize VertexAIStudio, Agent Builder, and 200+ foundation models.",
+              "source": "https://cloud.google.com/vertex-ai"
+            },
+            {
+              "title": "AI and Machine Learning Products and Services | Google Cloud",
+              "snippet": "Easy-to-use scalableAIofferings including VertexAIwith Gemini API, video and image analysis, speech recognition, and multi-language processing.",
+              "source": "https://cloud.google.com/products/ai"
+            },
+            {
+              "title": "Piloting the AI Leaders Micro-Credential – WordPress News",
+              "snippet": "Beginning in March 2026,AILeaders launches its first cohort of 80 students from Illinois and Louisiana, with University of Illinois Chicago (UIC ...",
+              "source": "https://wordpress.org/news/2026/02/ai-leaders-credential/"
+            }
+          ],
+          "selected_results": [
+            {
+              "title": "AI Reddits Daily | inAI",
+              "snippet": "Title:AIAgents Flop Hard on Real-World Desk Jobs in Latest Carnegie Mellon Study Description: A new benchmark from Carnegie Mellon shows that even ...",
+              "source": "https://site.server489.com/category/ai-reddits-daily/"
+            },
+            {
+              "title": "Piloting the AI Leaders Micro-Credential – WordPress News",
+              "snippet": "Beginning in March 2026,AILeaders launches its first cohort of 80 students from Illinois and Louisiana, with University of Illinois Chicago (UIC ...",
+              "source": "https://wordpress.org/news/2026/02/ai-leaders-credential/"
+            },
+            {
+              "title": "AI and Machine Learning Products and Services | Google Cloud",
+              "snippet": "Easy-to-use scalableAIofferings including VertexAIwith Gemini API, video and image analysis, speech recognition, and multi-language processing.",
+              "source": "https://cloud.google.com/products/ai"
+            }
+          ],
+          "reflection": {
+            "status": "enough",
+            "reason": "当前结果不只是相关，而且已经较明确地回答了这道子问题，可以进入总结阶段。",
+            "suggestion": ""
+          }
+        }
+      ],
+      "final_status": "enough",
+      "final_reason": "当前结果不只是相关，而且已经较明确地回答了这道子问题，可以进入总结阶段。",
+      "final_suggestion": "",
+      "summary": "关于“现在市面上最好的 AI 英语学习软件是哪个？ 最值得参考的评价维度或选择标准是什么？”，当前更可靠的判断是：现在市面上最好的 AI 英语学习软件是哪个最值得参考的评价维度或选择标准，主要可以从 Title:AIAgents Flop Hard on Real-World Desk Jobs in Latest Carnegie Mellon Study Description: A new。；Beginning in March 2026,AILeaders launches its first cohort of 80 students from Illinois and Louisia。 这些方面来展开。\n\n支撑点：\n1. Title:AIAgents Flop Hard on Real-World Desk Jobs in Latest Carnegie Mellon Study Description: A new。\n2. Beginning in March 2026,AILeaders launches its first cohort of 80 students from Illinois and Louisia。\n3. Easy-to-use scalableAIofferings including VertexAIwith Gemini API, video and image analysis, speech。"
+    },
+    {
+      "sub_question": "现在市面上最好的 AI 英语学习软件是哪个？ 各主要选项的优缺点、适用人群或使用场景分别是什么？",
+      "focus": "definition",
+      "rounds": [
+        {
+          "round": 1,
+          "query": "现在市面上最好的 AI 英语学习软件是哪个？ 各主要选项的优缺点、适用人群或使用场景分别是什么？",
+          "raw_results": [
+            {
+              "title": "人工智能（AI）令大学教育变好了吗？ - BBC News 中文",
+              "snippet": "人工智能（AI）令大学教育变好了吗？ ChatGPT应用程式出现在iPhone的主画面上.另一些学生曾向BBC表示，他们在学习中使用AI作弊，其中一人说她“非常后悔”这么做。",
+              "source": "https://www.bbc.com/zhongwen/articles/cnv19dzz92ro/simp"
+            },
+            {
+              "title": "百度翻译-英语学习必备 App - App Store",
+              "snippet": "Download 百度翻译-英语学习必备 by Beijing Baidu Netcom Science & Technology Co.,Ltd on the App Store. See screenshots, ratings and reviews, user tips, and more apps like…",
+              "source": "https://apps.apple.com/us/app/百度翻译-英语学习必备/id605670941"
+            },
+            {
+              "title": "Google Gemini",
+              "snippet": "Meet Gemini, Google’sAIassistant. Get help with writing, planning, brainstorming, and more.",
+              "source": "https://gemini.google.com/app"
+            },
+            {
+              "title": "xAI",
+              "snippet": "xAI builds Grok, anAIchatbot with voice chat, image and video generation, real-time search, and advanced reasoning. Try Grok at grok.com.",
+              "source": "https://x.ai/"
+            },
+            {
+              "title": "Google NotebookLM |AIResearch Tool & Thinking Partner",
+              "snippet": "Meet NotebookLM, theAIresearch tool and thinking partner that can analyze your sources, turn complexity into clarity and transform your content.",
+              "source": "https://notebooklm.google/"
+            }
+          ],
+          "selected_results": [
+            {
+              "title": "人工智能（AI）令大学教育变好了吗？ - BBC News 中文",
+              "snippet": "人工智能（AI）令大学教育变好了吗？ ChatGPT应用程式出现在iPhone的主画面上.另一些学生曾向BBC表示，他们在学习中使用AI作弊，其中一人说她“非常后悔”这么做。",
+              "source": "https://www.bbc.com/zhongwen/articles/cnv19dzz92ro/simp"
+            },
+            {
+              "title": "Google NotebookLM |AIResearch Tool & Thinking Partner",
+              "snippet": "Meet NotebookLM, theAIresearch tool and thinking partner that can analyze your sources, turn complexity into clarity and transform your content.",
+              "source": "https://notebooklm.google/"
+            }
+          ],
+          "reflection": {
+            "status": "enough",
+            "reason": "当前结果不只是相关，而且已经较明确地回答了这道子问题，可以进入总结阶段。",
+            "suggestion": ""
+          }
+        }
+      ],
+      "final_status": "enough",
+      "final_reason": "当前结果不只是相关，而且已经较明确地回答了这道子问题，可以进入总结阶段。",
+      "final_suggestion": "",
+      "summary": "关于“现在市面上最好的 AI 英语学习软件是哪个？ 各主要选项的优缺点、适用人群或使用场景分别是什么？”，当前更可靠的判断是：现在市面上最好的 AI 英语学习软件是哪个各主要选项的优缺点、适用人群和使用场景，主要可以从 人工智能（AI）令大学教育变好了吗？ ChatGPT应用程式出现在iPhone的主画面上.另一些学生曾向BBC表示，他们在学习中使用AI作弊，其中一人说她“非常后悔”这么做；Meet NotebookLM, theAIresearch tool and thinking partner that can analyze your sources, turn complex。 这些方面来归纳。\n\n支撑点：\n1. 人工智能（AI）令大学教育变好了吗？ ChatGPT应用程式出现在iPhone的主画面上.另一些学生曾向BBC表示，他们在学习中使用AI作弊，其中一人说她“非常后悔”这么做\n2. Meet NotebookLM, theAIresearch tool and thinking partner that can analyze your sources, turn complex。"
+    },
+    {
+      "sub_question": "现在市面上最好的 AI 英语学习软件是哪个？ 在不同目标、预算或约束下，综合建议应该怎么给？",
+      "focus": "general",
+      "rounds": [
+        {
+          "round": 1,
+          "query": "现在市面上最好的 AI 英语学习软件是哪个？ 在不同目标、预算或约束下，综合建议应该怎么给？",
+          "raw_results": [
+            {
+              "title": "人工智能（AI）令大学教育变好了吗？ - BBC News 中文",
+              "snippet": "人工智能（AI）令大学教育变好了吗？ ChatGPT应用程式出现在iPhone的主画面上.撰写过AI与教育相关文章的查尔斯·辛普森博士（Dr Charlie Simpson）表示，如今“几乎找不到一点不受AI影响的高等教育领域”。",
+              "source": "https://www.bbc.com/zhongwen/articles/cnv19dzz92ro/simp"
+            },
+            {
+              "title": "xAI",
+              "snippet": "xAI builds Grok, anAIchatbot with voice chat, image and video generation, real-time search, and advanced reasoning. Try Grok at grok.com.",
+              "source": "https://x.ai/"
+            },
+            {
+              "title": "百度翻译-英语学习必备 App - App Store",
+              "snippet": "Download 百度翻译-英语学习必备 by Beijing Baidu Netcom Science & Technology Co.,Ltd on the App Store. See screenshots, ratings and reviews, user tips, and more apps like…",
+              "source": "https://apps.apple.com/us/app/百度翻译-英语学习必备/id605670941"
+            },
+            {
+              "title": "wiki.dsoxofwy.cc/archives/204725.html",
+              "snippet": "我的钱包 我的勋章 我的AI个人中心 退出.建议使用Chrome/yandex/Safari等适合自己的浏览器.",
+              "source": "https://wiki.dsoxofwy.cc/archives/204725.html"
+            },
+            {
+              "title": "Midjourney",
+              "snippet": "lab of 60 people known for building the most beautifulAImodels in the world.",
+              "source": "https://www.midjourney.com/"
+            }
+          ],
+          "selected_results": [],
+          "reflection": {
+            "status": "insufficient",
+            "reason": "当前没有可用结果，无法支撑回答。",
+            "suggestion": "请补充搜索与“现在市面上最好的 AI 英语学习软件是哪个？ 在不同目标、预算或约束下，综合建议应该怎么给？”直接相关的基础资料、案例或调研内容。"
+          }
+        },
+        {
+          "round": 2,
+          "query": "现在市面上最好的 AI 英语学习软件是哪个？ 在不同目标、预算或约束下，综合建议应该怎么给？ 原因 驱动因素 作用机制 技术机制 需求变化 约束 激励 成本结构 ROI adoption 渗透率 基础设施 政策 案例 对比分析 调查",
+          "raw_results": [
+            {
+              "title": "百度翻译-英语学习必备 App - App Store",
+              "snippet": "Download 百度翻译-英语学习必备 by Beijing Baidu Netcom Science & Technology Co.,Ltd on the App Store. See screenshots, ratings and reviews, user tips, and more apps like…",
+              "source": "https://apps.apple.com/us/app/百度翻译-英语学习必备/id605670941"
+            },
+            {
+              "title": "wiki.dsoxofwy.cc/archives/204725.html",
+              "snippet": "建议使用Chrome/yandex/Safari等适合自己的浏览器. 又是羡慕富二代的一天！ 这位身材爆炸的极品大学妹，长相清纯甜美，五官精致皮肤白嫩，身高腿长却前凸后翘，巨乳饱满挺拔、细腰翘臀比例逆天，简直是无数男生梦中情人。",
+              "source": "https://wiki.dsoxofwy.cc/archives/204725.html"
+            },
+            {
+              "title": "Google",
+              "snippet": "Поиск информации в интернете: веб страницы, картинки, видео и многое другое.",
+              "source": "https://www.google.com/"
+            },
+            {
+              "title": "xAI",
+              "snippet": "xAI builds Grok, anAIchatbot with voice chat, image and video generation, real-time search, and advanced reasoning. Try Grok at grok.com.",
+              "source": "https://x.ai/"
+            },
+            {
+              "title": "做播客半年后我还在用的9 款工具（诚意推荐更新版） - by Ruby Wang...",
+              "snippet": "AI识别停顿、口癖、重复词和语气词，批量删除。 即使精剪本身有合作的剪辑师，由于现在市面上的剪辑都按照素材时长收费，提前将音频导入声剪辑预处理，花 5-10 分钟快速删除上面说到的这些内容.",
+              "source": "https://www.web3brand.io/p/9-podcast-tools"
+            }
+          ],
+          "selected_results": [],
+          "reflection": {
+            "status": "insufficient",
+            "reason": "当前没有可用结果，无法支撑回答。",
+            "suggestion": "请补充搜索与“现在市面上最好的 AI 英语学习软件是哪个？ 在不同目标、预算或约束下，综合建议应该怎么给？”直接相关的基础资料、案例或调研内容。"
+          }
+        },
+        {
+          "round": 3,
+          "query": "现在市面上最好的 AI 英语学习软件是哪个？ 在不同目标、预算或约束下，综合建议应该怎么给？ 原因 驱动因素 作用机制 技术机制 需求变化 约束 激励 成本结构 ROI adoption 渗透率 基础设施 政策 研究报告 白皮书 survey 机制解释 案例 对比分析 调查",
+          "raw_results": [
+            {
+              "title": "【北京 投资合伙人】-招聘求职信息-拉勾招聘",
+              "snippet": "责组织董事会和股东大会等投资者活动； 5. 拓展并维护市场中活跃的资源和稳定的项目渠道； 6. 敏锐捕捉市场需求变化，掌握动态投资策略，完成针对性. 练掌握Microsoft Excel和其他分析工具。 渴望学习和适应不断变化的行业格局。 真正有兴趣为早期初创公司的成功做出贡献。",
+              "source": "https://www.lagou.com/s/list_ae09a04a4ee18638ad9d31ef4ee96dee151ce06e03214700bb775b5881f5bfc4"
+            },
+            {
+              "title": "英文窍门：帮你提高英文写作能力的几大绝招 - BBC News 中文",
+              "snippet": "英语学习. 图像来源，Getty Images.母语为英语的人应该重新学习英语. 抛弃母语改用英语的跨国公司. 快速学习外语的秘诀.",
+              "source": "https://www.bbc.com/zhongwen/simp/world-49205521"
+            },
+            {
+              "title": "大模型时代，断言还管用吗？AI...",
+              "snippet": "AI系统测试为什么是一个新问题 当前企业系统越来越多接入： 大模型能力 RAG 知识检索 Agent 决策逻辑 MCP 工具调用测试对象已经不再是单一规则系统。",
+              "source": "https://developer.aliyun.com/article/1720630"
+            },
+            {
+              "title": "联想语音助手打不开_联想语音-联想社区",
+              "snippet": "AI终端.下载APP.联想可能因系统更新维护、业务调整变化等原因随时变更、暂停或终止部分或全部网络服务（包括收费网络服务），联想将在条件允许的情况下，尽可能事先.",
+              "source": "https://club.lenovo.com.cn/thread-7863859-1-1.html"
+            },
+            {
+              "title": "血、酒、雨/Blood, wine, rain - Wj59160153 - Unstable Universe...",
+              "snippet": "Spoke不在乎名声，也不在乎所谓“可持续发展”，以Zam的视角来看，他就像那种捞了短期利益就跑的人。他不怎么抽烟，此刻却有强烈的、将什么东西咬在嘴里的冲动。 只能放任他吸家族的血吗？",
+              "source": "https://archive.transformativeworks.org/works/81957136"
+            }
+          ],
+          "selected_results": [
+            {
+              "title": "【北京 投资合伙人】-招聘求职信息-拉勾招聘",
+              "snippet": "责组织董事会和股东大会等投资者活动； 5. 拓展并维护市场中活跃的资源和稳定的项目渠道； 6. 敏锐捕捉市场需求变化，掌握动态投资策略，完成针对性. 练掌握Microsoft Excel和其他分析工具。 渴望学习和适应不断变化的行业格局。 真正有兴趣为早期初创公司的成功做出贡献。",
+              "source": "https://www.lagou.com/s/list_ae09a04a4ee18638ad9d31ef4ee96dee151ce06e03214700bb775b5881f5bfc4"
+            }
+          ],
+          "reflection": {
+            "status": "insufficient",
+            "reason": "当前有效结果太少，信息覆盖面还不够。",
+            "suggestion": "请补充“现在市面上最好的 AI 英语学习软件是哪个？ 在不同目标、预算或约束下，综合建议应该怎么给？”的不同角度材料，比如报告、案例、对比分析或调查。"
+          }
+        }
+      ],
+      "final_status": "insufficient",
+      "final_reason": "当前有效结果太少，信息覆盖面还不够。",
+      "final_suggestion": "请补充“现在市面上最好的 AI 英语学习软件是哪个？ 在不同目标、预算或约束下，综合建议应该怎么给？”的不同角度材料，比如报告、案例、对比分析或调查。",
+      "summary": "关于“现在市面上最好的 AI 英语学习软件是哪个？ 在不同目标、预算或约束下，综合建议应该怎么给？”，当前结论仍然只能视为初步判断，证据还不够扎实。\n\n目前不足主要在于：\n当前有效结果太少，信息覆盖面还不够。\n\n在现有材料下，可以暂时保留的方向性判断是：\n现有材料暂时提示：现在市面上最好的 AI 英语学习软件是哪个在不同目标、预算或约束下的综合建议，主要可以结合 责组织董事会和股东大会等投资者活动； 5. 拓展并维护市场中活跃的资源和稳定的项目渠道； 6. 敏锐捕捉市场需求变化，掌握动态投资策略，完成针对性. 练掌握Microsoft Excel和其他分析工具。 这些线索来给出。\n\n支撑点：\n1. 责组织董事会和股东大会等投资者活动； 5. 拓展并维护市场中活跃的资源和稳定的项目渠道； 6. 敏锐捕捉市场需求变化，掌握动态投资策略，完成针对性. 练掌握Microsoft Excel和其他分析工具。\n\n需要注意的是：当前结果更适合作为方向性信号，而不是已经完全坐实的结论。 如果继续迭代，应该优先补充：请补充“现在市面上最好的 AI 英语学习软件是哪个？ 在不同目标、预算或约束下，综合建议应该怎么给？”的不同角度材料，比如报告、案例、对比分析或调查。"
+    }
+  ],
+  "report": "研究问题：现在市面上最好的 AI 英语学习软件是哪个？\n\n【子问题状态概览】\n- 子问题总数：4\n- 已形成较稳定结论：3\n- 仍需谨慎看待：1\n- 题型分布：definition=2, general=1\n\n【整体结论】\n围绕“现在市面上最好的 AI 英语学习软件是哪个？”，当前更高层的判断是：现有材料已经能支持一个方向性的研究结论，即 驱动因素或机制解释层面的证据仍偏弱，需要继续补充一手研究材料。；但在驱动因素或机制解释等层面，证据仍然偏弱，因此这份报告更适合作为阶段性判断，而不是已经完全坐实的定论。\n\n具体来看：\n1. 从趋势层面看，研究对象正在从概念热度走向更可落地的结构变化，这说明它的发展重点已经不只是“有没有”，而是“能不能稳定落地”。\n2. 从驱动与变化层面看，当前更像是现象层描述，真正的因果解释和机制链条还需要继续补强。\n3. 从限制与风险层面看，当前风险信息还不算充分，但治理、可靠性与落地成本已经开始成为不可回避的话题。\n\n【当前最值得保留的主线】\n- 驱动因素或机制解释层面的证据仍偏弱，需要继续补充一手研究材料。\n\n【需要保留的谨慎点】\n需要注意的是，部分子问题当前证据仍然偏弱，尤其是驱动因素、机制解释或未来演进层面的结论，还需要结合更具体的案例和一手研究材料继续验证。\n\n【结论性质】\n这份结果当前更适合作为：\n方向性研究判断\n而不是：\n已经完全坐实的最终结论",
+  "failure_tags": [
+    "insufficient_but_sounds_final",
+    "reflect_false_insufficient"
+  ]
+}

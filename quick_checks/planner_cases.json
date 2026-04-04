@@ -1,0 +1,38 @@
+[
+  {
+    "id": "definition-transformer",
+    "query": "什么是大语言模型的 Transformer 架构？",
+    "expected_type": "definition",
+    "expected_keywords": ["定义", "工作原理", "区别", "应用"]
+  },
+  {
+    "id": "timeline-solid-state-battery",
+    "query": "过去五年固态电池的技术突破时间线是什么？",
+    "expected_type": "timeline",
+    "expected_keywords": ["时间节点", "里程碑", "阶段", "演进"]
+  },
+  {
+    "id": "recommendation-english-app",
+    "query": "现在市面上最好的 AI 英语学习软件是哪个？",
+    "expected_type": "preference",
+    "expected_keywords": ["主流可选项", "评价维度", "优缺点", "综合建议"]
+  },
+  {
+    "id": "comparison-ai-agent-employment",
+    "query": "AI Agent 普及对 2026 年中美两国的初级程序员就业分别有什么影响，有哪些应对策略？",
+    "expected_type": "comparison",
+    "expected_keywords": ["比较对象", "差异", "原因", "策略"]
+  },
+  {
+    "id": "trend-ai-agent-2026",
+    "query": "ai agent在2026年的发展趋势是什么？",
+    "expected_type": "trend",
+    "expected_keywords": ["发展趋势", "驱动因素", "变化", "风险"]
+  },
+  {
+    "id": "howto-research-agent",
+    "query": "怎么从零搭一个可用的 research agent 原型？",
+    "expected_type": "howto",
+    "expected_keywords": ["具体步骤", "前提条件", "常见的问题", "案例"]
+  }
+]
